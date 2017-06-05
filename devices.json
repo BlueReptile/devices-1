@@ -55,7 +55,7 @@
       "maintainer_name":"Jonathan Bruno (JBCDroid)",
       "xda_thread":"https://forum.xda-developers.com/2015-moto-g/development/rom-viperos-v1-0-moto-g-2015-t3613218"
    },
-      {
+   {
       "name":"Moto G4 Plus",
       "brand":"Motorola",
       "codename":"athene",
@@ -112,12 +112,12 @@
       "xda_thread":"https://forum.xda-developers.com/oneplus-2/development/rom-viperos-v1-1-t3613707"
    },
    {
-      "name": "OnePlus 3/3T",
-      "brand": "OnePlus",
-      "codename": "oneplus3",
-      "afh_folder": "https://www.androidfilehost.com/?w=files&flid=179037",
-      "maintainer_name": "Marchetto96 / Gustavo Campos (BIRDMan)",
-      "xda_thread": "https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/rom-viperos-v1-1-t3613708"
+      "name":"OnePlus 3/3T",
+      "brand":"OnePlus",
+      "codename":"oneplus3",
+      "afh_folder":"https://www.androidfilehost.com/?w=files&flid=179037",
+      "maintainer_name":"Marchetto96 / Gustavo Campos (BIRDMan)",
+      "xda_thread":"https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/rom-viperos-v1-1-t3613708"
    },
    {
       "name":"LG G3 Int",
@@ -184,14 +184,19 @@
       "xda_thread":"https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-viperos-t3616238"
    },
    {
-      "name":"Lenovo K4 Note",
+      "name":"Vibe K4 Note",
       "brand":"Lenovo",
       "codename":"A7010a48",
       "afh_folder":"https://www.androidfilehost.com/?w=files&flid=186892",
       "maintainer_name":"Vijay Chandra (Vijay chandra)",
       "xda_thread":"https://forum.xda-developers.com/k4-note/development/unofficial-viper-os-t3614925"
+   },
+   {
+      "name":"Zenfone 2 Laser",
+      "brand":"Asus",
+      "codename":"Z00L",
+      "afh_folder":"https://www.androidfilehost.com/?w=files&flid=187392",
+      "maintainer_name":"Samuel (samucadroid)",
+      "xda_thread":""
    }
 ]
-
-
-
