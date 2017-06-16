@@ -198,5 +198,13 @@
       "afh_folder":"https://www.androidfilehost.com/?w=files&flid=187527",
       "maintainer_name":"jsbeyond (KAOKAO)",
       "xda_thread":"https://forum.xda-developers.com/honor-5x/development/official-huawei-honor-5x-t3617241"
+   },
+   {
+      "name":"Moto E 2015 LTE",
+      "brand":"Motorola",
+      "codename":"surnia",
+      "afh_folder":"https://www.androidfilehost.com/?w=files&flid=191259",
+      "maintainer_name":"Hernán Figueroa (El Dainosor)",
+      "xda_thread":""
    }
 ]
