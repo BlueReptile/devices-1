@@ -1,0 +1,1604 @@
+====================
+     06-15-2017
+====================
+
+
+   * build/
+be002e9 GoogleAudio: set new pixel sounds as defaults [2/2]
+
+   * device/samsung/j5-common/
+8e96d35 j5-common: Nuke audio effects
+f52c733 j5-common: Clean up
+8772faf power: Add missing comma in struct
+
+   * frameworks/base/
+68b9c15 LocationTile: Behave like other tiles
+e6aea5c Fix Double tap to wake on doze
+
+   * hardware/qcom/fm/
+91cab5b fix fm
+
+   * manifest/
+57f931a Re-order system/media
+b99adea Track VLauncher
+
+   * packages/apps/Settings/
+9398dfc Daynight: Fix ring icon color
+36f6866 Volume can not be updated in Sound&notification
+db101e9 AllowBindAppWidgetActivity: Fix crash when the activity is closing
+
+   * packages/apps/VLauncher/
+d0fc813 Theme changes
+
+   * packages/apps/Venom/
+1f40289 More changes * Add new tab * Move power button camera double tab to Gestures * Remove useless prefs in power menu * More summaries * Fix navigation bar not showing by default * Fix FC
+
+   * packages/services/Telecomm/
+ff8ec92 work around incall issue
+
+   * vendor/viper/
+37877ca Changelog: Two weeks
+92f6f1f Remove PixelLauncher and use VLauncher
+770582b overlay: add contacts icon
+6a1643c Rename prebuilt apps
+eb733fc This is viper, not cm.
+3d78705 New wallpaper for V2.0
+f0c210c Fix derps and add new google apps * Fix WITH_CM_CHARGER flag * Move PixelLauncher, Turbo and WallpaperPicker to correct folder * Add Google DeskClock * Update Pixel Launcher
+d65c169 Remove sounds props from here
+
+   * vendor/xiaomi/
+f69a1ac msm8996-common: Unset libqminvapi as make target
+
+====================
+     06-14-2017
+====================
+
+
+   * frameworks/base/
+b83fefd Remove HWKeys tile for now
+8f5b147 Update PT-BR translations
+e8abaf8 Try to fix navigation bar not showing by default In devices without hwkeys
+2b29598 HWKeysTile: Adapt for Viper
+2f3e435 Update PT-BR translations
+
+   * manifest/
+6e1e5f7 Drop DeskClock
+
+   * packages/apps/Settings/
+1f0fc93 Camera: Move option to disable vibration on double tap
+
+   * packages/apps/VLauncher/
+4928664 VLauncher
+81818f0 Fixed memoryleak, removed log and unnecessary import
+b78e6bc Small changes for app suggestion update calls
+a73de69 Update overlay request version to O Pixel Launcher equivalent
+e669dbe Remove three wrongly deobfuscated double while loops to prevent a freeze
+d5a7ac2 Continue work on showing predictions, add a toggle for it
+8dfb5c4 Change colours to the Pixel ones everywhere
+d10c7b9 First attempt at pulling in the reflection library for app suggestions
+
+   * packages/apps/Venom/
+e18522f devices: add peregrine
+ae7b942 Fix derps
+d33f548 Fix ButtonBacklight behavior when switching hwkeys
+f03f40e fix derp
+c6afc73 Change more things * New summaries * New icons * Update translation
+32f383e Fix derps and translations
+
+   * vendor/viper/
+9c21ea0 Fix repo url and branch in README
+cc72e12 Get devices from repository
+c797bd7 Materialize telephony icons [1/2]
+48a5ad4 Materialize telephony icons [2/2]
+57febc6 Update Turbo from June security release
+7f46a1a Added ability to choose between AudioFX and AOSP MusicFX
+
+====================
+     06-13-2017
+====================
+
+
+   * device/samsung/j5-common/
+2ba3a1e Revert "fm: Update fm patch"
+36f362e J5-common: Bt updates
+
+   * frameworks/base/
+17d4b11 Use correct color for system_primary_color
+dfb9565 Option to Display Data Disabled Indicator Icon [1/2]
+ddb3d8d Ability to disable Do not Disturb mode when calling [1/3]
+14faf44 KernelCpuSpeedReader: Account for missing sysfs nodes
+2323f26 Make roaming indicator optional [1/2]
+9e84e32 statusbar ticker: Update tickercolorhelper
+178dd61 Ticker: Set default color to White [1/2]
+15e170c Statusbar ticker: use a gentle smooth fade animation
+4b56821 Ticker: allow to show music track info on new track being played [1/2]
+9d220fa Statusbar ticker: apply statusbar tint when set to white
+64f46d6 Add Status Bar Ticker [1/2]
+fa28d49 Check for spurious wake ups
+6c54b00 SystemUI: animate icon when locking a task
+2d09dbb Revert "Fix gap issue with keyguard clock/carrier label"
+51e261a Header: More padding
+80f9d10 Fix SystemUI FC
+25e8cf1 Fix build
+251c078 base: Add bool to enable/disable doze by default
+f383cb1 base: [MicroG] Allow location providers also outside of /system
+4eb2d7b Keyguard: Forward port lockscreen quick unlock (1/2)
+3b644dc Remove dashboard tile summaries [2/2]
+f7e0c5f Frameworks: add ability to disable bar color in battery saver mode (1/2)
+
+   * kernel/oneplus/msm8996/
+62f803c update defconfig
+b87bfbe Merge remote-tracking branch 'lineageos/cm-14.1' into ElementalX-3.00-los
+
+   * packages/apps/MusicFX/
+ced9643 Update PT-BR translations
+4854303 Let's translate remaining effects
+fcd5be7 Update PT-BR translations
+d206570 Dark theme
+
+   * packages/apps/Settings/
+94b4542 Update translations and cleanup
+37165f9 Restore stock ambient display behavior
+13ec2a9 Fix derps
+8cf6ef8 Move advanced reboot to Venom
+323a23b Settings: Remove duplicate permissions
+2b1b0b4 Keyguard: Forward port lockscreen quick unlock (2/2)
+e39ea20 Add option to enable or disable fullscreen keyboard [2/2]
+8f5147b Sync qs invert color with color inversion in Settings
+0d18650 Move heads up settings to Venom [1/2]
+0fa784c Rework dashboard settings [1/2]
+a4a35a8 Dashboard summaries double lines toggle [2/2]
+def0e69 Dashboard tile layout config [1/2]
+de54c55 Disable dashboard conditions [2/2]
+c4108cd Improvements to dashboard suggestions
+7ce871a Remove dashboard tile summaries [1/2]
+246a69a Disable dashboard suggestions [1/2]
+69fc8c7 Ambient display: Battery status (2/2)
+8d30964 Add missing strings
+13ab5a1 Custom ambient display settings (2/2) [neo: This is revival of old code.]
+adad131 Dark theme: Update colors
+c1a9c0b Move few preferences to venom
+82933fc Settings : Rebuild app list after reset
+2eb816c Settings:Rewrite Restart SystemUI
+4074b49 Allow sorting applications by size
+2004337 Add QS pulldown with one swipe on fp sensor [2/2]
+a1d48ad Settings: enable fast scroll for all app list views
+0f5be6c Automatic translation import
+85112a6 Settings: Make string untranslatable
+e966a2d Reset battery stats [2/2]
+c830ee6 Remove Double tap to sleep
+
+   * packages/apps/Snap/
+bd1d6ea Snap: Sign with platform key
+
+   * packages/apps/VLauncher/
+7a043e5 Fix multi-user permissions for Samsung's Secure Folder
+
+   * packages/apps/Venom/
+64a1c67 Move battery save mode color to Venom
+242b000 More icons and add category in the power menu option
+7b8d0e4 Option to Display Data Disabled indicator Icons [2/2]
+74f607d Ability to disable Do not Disturb mode when calling [3/3]
+4fd3b19 Make roaming indicator optional [2/2]
+fa9c57e Ticker: Set default color to White [2/2]
+e8942be Ticker: allow to show music track info on new track being played [2/2]
+46c172d Add Status Bar Ticker [2/2]
+1c0a54a Rework
+0a28df2 Add icons for new functions
+ade6a68 Fix build
+
+   * packages/services/OmniJaws/
+8bc4719 LockClock: Import lock screen translations from LOS
+e35e9bf Automatic translation import
+f884e72 OmniJaws: update README.md to include OWM API key usage info
+213c6d7 OmniJaws: update README.md
+0f92f31 Automatic translation import
+2140bb6 Change api key
+9d0c3c8 Update PT-BR translations
+fe3fb92 OmniJaws: add pinWheel directions for wind
+9441638 WindSpeed: allow to translate
+574de8a Add strings for lock screen weather
+
+   * packages/services/Telecomm/
+276a269 Ability to disable Do not Disturb mode when calling [2/3]
+
+   * system/bt/
+331fc1e bt: Disable AVRCP 1.6
+
+   * vendor/cmsdk/
+a0a234b [3/3] cmsdk: Screenshot for hardware keys
+
+====================
+     06-12-2017
+====================
+
+
+   * build/
+120740e Eye candy for device/lunch menu
+1382d42 core: minimize dumpvar
+c5fe8f2 Changes in lunch menu
+0b550e2 envsetup: stop jack server once build completed
+
+   * kernel/samsung/j5lte/
+83d5023 sched: report loads greater than 100% only during load alert notifications
+1cc103d sched: Implement lockless wake-queues
+32d1a91 sched: Provide a wake up API without sending freq notifications
+
+   * packages/apps/Snap/
+d7247ff Add orientation correction for landscape devices
+
+   * packages/apps/VLauncher/
+fdbb347 Rename permissions for compatibility
+3ee7b96 Pixelify 3 - Accent colour, widget scrolling
+2b32fb8 Pixelify 2 - Wallpapers, icons, app list
+
+   * packages/services/Telephony/
+bcabddf Merge remote-tracking branch 'los/cm-14.1' into nougat
+a40c8ca Fix Phone Service crash on MSIM devices as Guest user
+
+   * vendor/xiaomi/
+ee1a964 capricorn: Update blobs from latest 7.0 release
+
+====================
+     06-11-2017
+====================
+
+
+   * frameworks/base/
+59135c0 Fix batterySendBroadcast not synchronized issue.
+89b8e9f bless python versions newer than 2.6
+99d0696 Handle ActivityNotFoundException for contacts activity
+036bafe extend PreferenceActivity for title text on a single pane mode
+925105d Override onRestoreInstanceState() in MultiSelectListPreference
+4128e2f Fragment animations are not being saved across configuration changes
+4ee875b Fix to NullPointerException when activity is relaunched
+2f4791d Fix right mLastTimeUsed when aggregate UsageStats
+ed25bd3 Fix ListView is not scrolled properly with arrows
+49709c4 Synchronize access of mSubscriptions
+6a1bf6f Fix deadlock b/w ActivityManagerService and MediaSessionService
+08ffcef Provide synchronization to setview to avoid NPE
+8c6e3719 AsyncTask: Fix to remove canceled tasks from executor's queue.
+80acad1 frameworks/base: Fix to avoid crash when the tab is not set from app
+b926a56 IInputMethodWrapper to recycle SomeArgs in all cases.
+d75a9e4 Catch corruptexception during Transaction operation
+9e75d25 better notification speed change
+298290a Adjusted animation timing
+9c65880 Fix TaskRecord wrong dump element firstActiveTime
+389b5a3 Fix force idle issue
+2c1efa5 [1/2] base: Screenshot for hardware keys
+f8c264a policy: refact navigation bar configs
+a36ae7e Notification panel fingerprint gesture: fix axis on landscape [1/2]
+6d9ae70 OmniStyle: Try to fix custom header shadow observer
+480fcaf BatteryMeterView: Extend pulsating animation to solid batter style
+779581d Fix external QS title color
+10d67b5 Remove FastJNI optimization on AssetManager to avoid dead lock.
+efb0f40 Double tap to sleep on navigation bar [1/2]
+532b0ba Double tap power button for camera - vibration toggle [1/2] added a toggle to disable double tap vibration when launching camera from the power button
+e825feb Fix a use-of-uninitialized-value warning
+ec15050 dont panic if immersive mode is set by the user
+2c57805 Optimised hwui rounded corners shader
+1d4f5db Reduce hwui CPU time by using glDrawRangeElements
+25e26ae FPS: prevent NPE if FP hal doesnt handle performancestats
+f03bd48 CaptivePortalLoginActivity correctly gets UserAgent
+092e416 Prettify the captive portal sign-in activity
+8800239 Add QS pulldown with one swipe on fp sensor [1/2]
+6237f1d Add Sound tile to QS [1/2]
+f70da5d Add padding on header
+fe9a616 Fix Potential NPE on Msim
+4c9dfa6 core: Add support for fake signatures, enabled per app by dynamic permission
+3b89ddf Fix gap issue with keyguard clock/carrier label
+17b701b Set network traffic meter font to sans serif condensed
+527ec68 FW_BASE: Rewrite restart SystemUI method
+21fb2ba Fix build error
+c489b83 base: SystemUI: remove force weather update bits force updates have been removed from service API
+936ccce base: SystemUI: use new OmniJaws error broadcasts
+9b84d02 KeyguardWeather: Update weather after switching options
+abe0206 Keyguard Weather : Refactor for new API[1/2] --Use Omnijaws API thanks to omni rom and Max Winger --Fix Weather on Lockscreen not updating --Goodbye Cclock (AT LAST)
+4017aac Extend OmniJaws Client to Keyguard Signed-off-by: Varun Date <date.varun123@gmail.com>
+0134ffe Fix weather items npe - When casting and you turn off the screen (who does that), all hell breaks loose
+2798925 Remove OmniJaws check on longpress
+9f4caf5 Play nice when OmniJaws is not installed
+e6c3b7c SystemUI: add xxxhdpi visualizer config
+98d81c8 Statusbar: correctly align status bar icons
+bd9549a Unlock keystore with fingerprint after reboot (1/2)
+61fab47 Dashboard layout settings [2/2]
+35b65b8 Remove dashboard tile summaries [1/3]
+16ee67c Disable dashboard suggestions [2/2]
+fe5c0db Disable dashboard conditions [1/2]
+1daab5c Fix HWKeys tile pref name
+8845998 Header Date+Time positions [1/2]
+e3b2c68 QS Header Icon settings [1/2]
+498d181 MusicTile: use icons from CrDroid
+ec4da41 Reboot/Recovery QS Tile: Use vectorized icons
+e72971c Update membar a bit more often Using the FAB clear-all was not updating the membar at all and thus giving us false readings. At one point on the OP3T it said I had less than 1GB of ram with no open apps. This fixes that issue.
+e4cb497 Fingerprints: Increase MAX_FAILED_ATTEMPTS to 10
+55ecd11 SystemUI: Fix NPE 12-11 17:56:37.756   686   686 E AndroidRuntime: FATAL EXCEPTION: main 12-11 17:56:37.756   686   686 E AndroidRuntime: Process: com.android.systemui, PID: 686 12-11 17:56:37.756   686   686 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.getLocationOnScreen(int[])' on a null object reference 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.isInArea(StatusBarIconController.java:531) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.applyIconTint(StatusBarIconController.java:550) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.setIconsDarkArea(StatusBarIconController.java:443) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.LightStatusBarController.update(LightStatusBarController.java:124) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.LightStatusBarController.onSystemUiVisibilityChanged(LightStatusBarController.java:74) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.setSystemUiVisibility(PhoneStatusBar.java:3417) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:452) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6176) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:888) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:778) 12-11 17:56:37.762   573   773 W ActivityManager:   Force finishing activity com.android.systemui/.recents.RecentsActivity
+abfd297 SystemUI: Add tile for enable/disable HW keys
+0aad4c3 Language toggle QS
+0235d5c GlobalScreenShot:Fix Unused Calls
+553609e Fix playing screenshot's sound when camera's sounds off
+6bd49ac FWB: Disable/Enable screenshot sound [1/2]
+00e45f4 Add option to enable or disable fullscreen keyboard [1/2]
+74aac96 Reboot/Recovery QS Tile: Use vectorized icons
+08a7c36 Advanced Bluetooth, Data, Wifi Toggles [1/2]
+9bfc75d incall vibration options [2/3]
+74337da ImmersiveRecents: improvements/cleanup
+7742237 Immersive Recents [1/2]
+55ec68e Add vpn and data saver to statusbar icon blacklist *fixed vpn toggle it is now instant
+7d1d93d QS: Expanded Desktop Tile Reloaded
+0c67252 Add Expanded Desktop QS Tile
+3e68388 Live Volume Steps [1/2]
+6de5be3 Show icons of only background apps in Toasts
+2c92de7 Toast icon switch [1/2]
+d319c9e base: SystemUI: Hide status bar on lock screen [1/2]
+35ab45f base: Improve secure lockscreen access with disabled QS
+bdfbdc0 base: allow disabling quick settings on secure lockscreen [1/2]
+7c1f2de Fix for wallpaper flicker on bootup on some targets
+6a46e37 Make Heads Up snooze toast more informative *tell the user which app is snoozing *also center the toast to account for big app names Example: Peeking notifications from SystemUI are snoozing for 1 minute.
+c4509c5 Little derp
+33a1860 Base: HeadsUp snooze function [1/2] 5.1 introduced a snooze feature which activates when swiping up. Default snooze time is 1 minute. Let's make it configurable!
+e575246 HeadsUp: add timeout option (1/2)
+640ee1b Reboot/Recovery QS Tile
+ff08dc7 Add Brightness QS Tile
+c0478a2 Add Screenshot QS Tile
+6719a1f Add Music QS Tile
+78874fa Add three-fingers-swipe to screenshot [2/2]
+7187764 Fingerprint authentication vibration [1/2]
+1b667f1 Add option to hide lockscreen clock, date & alarm text [1/2]
+9e09903 Add Haptic Feedback to QS tiles [1/2]
+a7bf058 Bluetooth: Change disconnected icon to be 40% transparent
+26a7c0c Added a toast to screenshot delete, why not right?
+78d0dc3 Hide arrows in network traffic indicators [1/2]
+44b56cf Smooth Spinners: Makes the loading "spinner" animation smoother in non-holo apps
+8799497 allow installation of non market apps by default
+db15b1a [1/2] Base: Hide power menu on secure lockscreen Adds an option to enable/disable power menu on secure lockscreen.
+0fa8922 voLTE icon: fix spaces
+e24cf64 replace new volte icon
+c650553 Add VOLTE icon Extracted from CAF and adapted to AOSP by @xyyx Added switch to statusbar icon blacklist by @xyyx
+d5d5e95 [1/2] Frameworks_base: Double tap to wake on doze
+b3f5849 Ambient display: Battery status (1/2)
+47a3cdb Custom ambient display settings (1/2)
+6de57cf Fix RTL layout with membar 'free ram' text
+3047945 Make Recents "Free Ram" text translatable
+10dec4c Core: Fix setupwizard FC
+23d1ea3 BatteryService: add dash charging support *and make it work along with lockscreen charging info commit
+0564089 Fix possible SysUI fc when playing lowbattery sound
+03d92fd Wired headset: make ringtone audio focus customizable [1/3]
+67157e7 audiofx: added missing @hide to BassBoost enhancements
+91b553d base: audiofx: harden against offload effects
+b9f19c5 [3/3] AudioFX: Add center frequency param to bassboost
+fd307ec [3/3] AudioEffect: Add a stereo widener effect
+24207e3 Revert "Base: API to restart SystemUI without root"
+55c8d7f Revert "Add INTENT_RESTART_SYSTEMUI action"
+3798f18 Revert "Improve scrolling cache"
+25f9590 Revert "base: Screen pinning improvements"
+7c9c90e Revert "Fix screenpinning from showing up unless enabled"
+2fccbf5 Revert "Fix wrong peek height of the notification panel"
+5a405bc Revert "Revert "Battery tile bolt/text should not be clear""
+45acca0 Revert "Allow WiFi & Bluetooth tile details to scroll"
+8f95453 Revert "QSTiles: set disconnect callback in bluetooth details list adapter"
+11a696b Revert "QS BluetoothTile proiritizes connected device"
+c2bc2f0 Revert "Bluetoothtile: Rectify and fix compilation"
+755320e Revert "Lockscreen PIN quick unlock [1/2]"
+
+   * kernel/motorola/msm8226/
+6d7c49e prima: Use heap memory for station_info instead of stack
+8795ace ping: implement proper locking
+9d16270 ext4: fix fencepost in s_first_meta_bg validation
+dc00714 ext4: fix condition of validate s_first_meta_bg
+
+   * packages/apps/VLauncher/
+b186607 Pixelify
+b819416 Remove checks for correct swipe up position, enables swipe up everywhere like Pixel Launcher
+
+   * packages/apps/Venom/
+42a5c47 Settings: Refactor Keyguard Weather [2/2] Nitrogen:
+90a67ba Add maintainer for k4
+b30f8a6 Add String For Maintainer Of A6000.
+166d587 Add Lenovo A6000 Maintainer.
+574a830 No longer officially supported
+9ea8c15 Double tap to sleep on navigation bar [2/2]
+a2bc39e Double tap power button for camera - vibration toggle [2/2] added a toggle to disable double tap vibration when launching camera from the power button
+f24da33 Add unlock keystore with fp and rework some things * Use SwitchPreference * Check if FP is present
+
+   * packages/services/Telecomm/
+06549e0 Fix missing import
+
+====================
+     06-10-2017
+====================
+
+
+   * device/motorola/msm8226-common/
+4a6fe4e Merge pull request #3 from RenanQueiroz/patch-3
+0207890 Use cyanogen-dsp audio_effects.conf
+
+   * device/oneplus/oneplus3/
+bf37003 op3: Update ril header for 7.1.2
+
+   * device/samsung/j5-common/
+3dff5f1 j5-common: Update dependencies
+d91c073 j5-common: Clean up
+
+   * device/samsung/j5ltexx/
+e40cb6e j5ltexx: Update deps to j5-dev org
+
+   * kernel/motorola/msm8916/
+5acbbb6 Revert "Linux Kernel 3.10.51"
+32b1813 Revert "Linux Kernel 3.10.52"
+7cbfccd Revert "compilation fix"
+9214858 compilation fix
+ec7d635 Linux Kernel 3.10.52
+cf0abc4 Linux Kernel 3.10.51
+244d3d0 Update Linux kernel 3.10.50
+d614ff6 msm8916: gpu: Add UC/OC frequencies
+a946e8a usb: add usb fast charge
+b43782a Network speed tweak
+890f45f Msm8916: Initial oc to 1.4
+164774e harpia-osprey: Noop Should be disabled (merlin is not set too)
+45561ee merlin-harpia: Add Bluactive governor
+6447cc0 Add Bluactive governor
+8a34f3f merlin-harpia: Add Lionfish governor
+
+   * kernel/motorola/msm8953/
+240e187 Merge remote-tracking branch 'lineage/cm-14.1' into cm-14.1
+
+   * packages/apps/Venom/
+edcae26  Header Date+Time positions [2/2]
+f347531 QS Header Icon settings [2/2]
+05f31b0 Disable/Enable screenshot sound [2/2]
+9a055da Advanced Bluetooth, Data, Wifi Toggles [2/2]
+c753189 incall vibration options [3/3]
+3aea7d3 Immersive Recents [2/2]
+24e7168 Toast icon switch [2/2]
+e6f252e Hide status bar on lock screen [2/2]
+0fa58e4 allow disabling quick settings on secure lockscreen [2/2]
+8902ca6 Settings: HeadsUp snooze function [2/2]
+fd2d0ea HeadsUp: add timeout option [2/2]
+04c0722 Move heads up settings to Venom [2/2]
+6a86e71 Add three-fingers-swipe to screenshot [1/2]
+5ba391d Fingerprint authentication vibration [2/2]
+186e524 Add option to hide lockscreen clock, date & alarm text [2/2]
+268ab83 Add Haptic Feedback to QS tiles [2/2]
+8897e7f Hide arrows in network traffic indicators [2/2]
+cdba4a9 [2/2] Base: Hide power menu on secure lockscreen
+8fa2b35 [SQUASHED] Dashboard settings
+cb11b88 Live Volume Steps [2/2] -Volume steps changes are instant, no need to reboot!
+a11f06a Wired headset: make ringtone audio focus customizable [2/3]
+e739277 MiscSettings: Create category
+8237b07 Remove unused preference and cleanup
+b4c2b5b [2/2] Venom: Screenshot for hardware keys
+
+   * packages/services/Telecomm/
+1aa1eb4 incall vibration options [1/3] *allow setting vibration when call is connected *allow setting vibration when call is disconnected *allow setting vibration for call waiting *this works with google and aosp dialer :)
+3af1807 Wired headset: make ringtone audio focus customizable [3/3]
+
+   * vendor/xiaomi/
+05b7755 capricorn: Update blobs from latest 7.0 release
+
+====================
+     06-09-2017
+====================
+
+
+   * build/
+8792e0f Fix ninja not being found
+e2c3879 Ccache: Print verbose version of the binary
+5a62646 Fix an uninitialized value warning.
+6e75ea6 Fix a nullness warning.
+db469c5 Re add Browser2
+7ff7099 Allow device tree to override audio_effects.conf
+61b811a Remove MusicFX from here
+5058db9 Makefile: Add the missing dependency on FUTILITY.
+833889d Build FUTILITY tool from futility-host.
+
+   * device/motorola/msm8226-common/
+deb6f8b Merge pull request #2 from RenanQueiroz/patch-2
+
+   * device/samsung/j5ltexx/
+85868a8 j5ltexx: Remove PURE_POISON useless
+
+   * kernel/motorola/msm8916/
+9c68850 Add Lionfish governor
+414b506 Introducing this kernel for ViperOS-v1.0
+fc49f6a Add merlin dt2w
+f26f1ab Support DT2W kernel osprey full screen
+
+   * kernel/motorola/potter/
+c291e9e ipv6: fix out of bound writes in __ip6_append_data()
+2e786c8 ipv6/dccp: do not inherit ipv6_mc_list from parent
+40c194f sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
+8af887d ipv6: Prevent overrun when parsing v6 header options
+be281d0 msm: sensor: validating the flash initialization parameters
+8d0c459 qseecom: add mutex around qseecom_set_client_mem_param
+aee1706 msm: camera: cpp: Fixing Heap overflow in output buffer
+9f9744d bpf: don't let ldimm64 leak map addresses on unprivileged
+823e8d2 ext4: fix data exposure after a crash
+
+   * kernel/oneplus/msm8996/
+34ac328 drivers: video: Add bounds checking in fb_cmap_to_user
+e88a34a net: ping: check minimum size on ICMP header length
+f296382 ipv4: Don't do expensive useless work during inetdev destroy.
+02d704e pipe: limit the per-user amount of pages allocated in pipes
+3db1bb7 net: add length argument to skb_copy_and_csum_datagram_iovec
+aba166a sysctl: Drop reference added by grab_header in proc_sys_readdir
+655532d ipv6: fix out of bound writes in __ip6_append_data()
+ee8ec7f ipv6/dccp: do not inherit ipv6_mc_list from parent
+2b82ad6 sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
+b10e13e ipv6: Prevent overrun when parsing v6 header options
+44f8c37 ext4: fix deadlock during page writeback
+20f7253 ext4: fix data exposure after a crash
+276fdcc bpf: don't let ldimm64 leak map addresses on unprivileged
+
+   * manifest/
+e35de9e Use Gallery2 from lineage To fix possible errors
+71bb26b Track system/media
+32a28aa Track MusicFX and DSPlibs
+5604af9 Drop LockClock
+
+   * packages/apps/CMParts/
+deff93d Set android:configChanges for .PartsActivity
+59769bf Automatic translation import
+
+   * packages/apps/Contacts/
+ac5a54e Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/ContactsCommon/
+1292985 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/Dialer/
+6cacf58 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/ExactCalculator/
+2f00156 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/FMRadio/
+422ba79 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/Messaging/
+89c9217 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/MusicFX/
+b69adbc French Translations
+efde812 Hungarian translation
+2e2f39c Hungarian translation
+2b25311 Improve the overall layout of MusicFX
+742c87d Modify the MusicFX landscape layout
+cf69776 Recentralize spinners and change layout
+
+   * packages/apps/PackageInstaller/
+cecd840 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/PhoneCommon/
+760f149 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/Venom/
+190dd97 Add missing preferences and move some
+aaf19b6 Restart SystemUI: Use new method
+28c313c Revert "Restart SystemUI on toggle navigation bar visibility"
+
+   * packages/apps/ViperOTA/
+39cdbd5 Automatic translation import
+
+   * packages/services/Telecomm/
+b478213 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/services/Telephony/
+278f81e Pixel-fy dual sim card (see image)
+94ec603 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * system/core/
+1f76999 [SQUASHED] Add custom hosts file to block some s#it by default List created with Adaway v3.1.2 http://forum.xda-developers.com/showthread.php?t=2190753
+
+   * system/media/
+9e297c7 [1/3] AudioEffects: Add center frequency param to bassboost
+1cb018f [2/3] audio_effects: Add a stereo widening effect
+
+   * system/sepolicy/
+ea2d5ce Allow recovery to alter / on userdebug/eng builds
+
+   * vendor/cmsdk/
+464d94a cmsdk: fix twilight state not updating in live display auto mode
+
+   * vendor/viper/
+ff35710 Update one handed drawables to pixel blue to match system
+c3b3699 Add needed dsp parts  - Don't want it, don't use it (TARGET_NO_DSPMANAGER := true)
+66fabf8 Set config_wallpaperCropperPackage
+c0b653e prebuilt: Add O emojis
+9907baf prebuilt: Add camera effects for device without vendor partition
+97f6f1c prebuilt: Add latinime blob for to enable ime gestures
+67b1e94 Revert "Add substratum" This reverts commit 6509b8b2.
+94e90ac Viper: Change default search engine and homepage
+e00ba34 Add Jelly back
+8624a69 Revert "Add ViaBrowser"
+f926ff1 Drop LockClock
+dd7c336 Add sensitive numbers for Israel.
+af40107 sensitive_pn: Add sensitive phone numbers for Czech Republic
+b08a50b sensitive_pn: Add Canadian sensitive numbers
+3ac9fad sensitive_pn: Add more numbers from the Netherlands
+b072cad fix check_blacklist function to work on wiped /system partition
+4108e3d sensitive_pn: Add sensitive numbers for Serbia
+407d82f sensitive_pn: Add sensitive phone numbers for India
+af60947 sensitive_pn: Add more numbers for Germany
+ec90c60 sensitive_pn: Add sensitive phone numbers for Norway
+e7c288a sensitive_pn: Add additional US numbers
+894599f sensitive_pn: add sensitive number for Indonesia
+a63fbe7 sensitive_pn: Add sensitive phone number for Romania
+8ab1043 sensitive_pn: Added sensitive number for the Netherlands
+1eff938 sensitive_pn: add sensitive numbers for Turkey
+f9cc039 sensitive_pn: Add sensitive phone number for Bangladesh
+8295180 sensitive_pn: Add US number
+7e91a7d Add sensitive phone numbers for Brazil
+0b672ef sensitive_pn: reorder by MCC code
+4fc9c93 sensitive_pn: Add Australian sensitive phone number.
+db0df2f sensitive_pn: Add New Zealand sensitive numbers.
+604865e (2/2) Make sensitive phone numbers not to be shown in call log history.
+ea43cab Remove PhotoTable
+
+====================
+     06-08-2017
+====================
+
+
+   * device/motorola/potter/
+1dbbfcc Revert "potter: build libjni_livedisplay"
+5e7aeef Revert "potter: copy qdcm configs"
+
+   * device/samsung/j5-common/
+d926785 Enforce vendor tree presence
+6c15c26 fm: Update fm patch
+
+   * device/samsung/j5ltexx/
+f60bb87 Enforce vendor tree presence
+976ccd4 j5ltexx: update dependencies
+
+   * device/xiaomi/ido/
+3c9e67d ido: disable mobile data on first boot
+0c9a0aa ido: Remove PURE_POISON useless
+
+   * kernel/motorola/msm8226/
+3f8c79c sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
+d6bb4ef ipv6: Check ip6_find_1stfragopt() return value properly.
+8f01ac1 ipv6: Prevent overrun when parsing v6 header options
+f75065c msm: mdss: Fix invalid dma attachment during fb shutdown
+d4aa677 input: synaptics_dsx: valid bounds of intr_reg_num
+9188dae unix: correctly track in-flight fds in sending process user_struct
+52ae8b2 unix: properly account for FDs passed over unix sockets
+09be64a msm: mdss: Add sanity check for Gamut LUT size
+a3a72b1 qseecom: add mutex around qseecom_set_client_mem_param
+6b09b17 msm: IPA: add the check on intf query
+2fed1a0 USB: cypress_m8: add endpoint sanity check
+
+   * kernel/oneplus/msm8996/
+0b420df ANDROID: sdcardfs: d_splice_alias can return error values
+4b16c37 UPSTREAM: merge d_materialise_unique() into d_splice_alias()
+e3f2f3d ANDROID: mnt: Fix next_descendent
+533c69f ANDROID: sdcardfs: Check for NULL in revalidate
+7dac750 ANDROID: sdcardfs: Add linux/kref.h include
+15c629c ANDROID: sdcardfs: Move top to its own struct
+f0ec7a5 ANDROID: sdcardfs: fix sdcardfs_destroy_inode for the inode RCU approach
+91a333a ANDROID: sdcardfs: Don't iput if we didn't igrab
+4deaf39 ANDROID: sdcardfs: Call lower fs's revalidate
+12607ee ANDROID: sdcardfs: Avoid setting GIDs outside of valid ranges
+4986494 ANDROID: sdcardfs: Copy meta-data from lower inode
+f7c5642 Revert "Revert "Android: sdcardfs: Don't do d_add for lower fs""
+c38b737 ANDROID: sdcardfs: Use filesystem specific hash
+fdf54d7 Revert "Android: sdcardfs: Don't do d_add for lower fs"
+3226254 Android: sdcardfs: Don't complain in fixup_lower_ownership
+f77dbb3 Android: sdcardfs: Don't do d_add for lower fs
+0662909 ANDROID: sdcardfs: ->iget fixes
+7700132 Android: sdcardfs: Change cache GID value
+363b82c ANDROID: sdcardfs: Directly pass lower file for mmap
+f6ebef33 ANDROID: sdcardfs: update module info
+9adbfbf ANDROID: sdcardfs: use d_splice_alias
+5b215e2 ANDROID: sdcardfs: add read_iter/write_iter opeations
+f5db540 ANDROID: sdcardfs: fix ->llseek to update upper and lower offset
+47900b0 ANDROID: sdcardfs: copy lower inode attributes in ->ioctl
+049d4ca ANDROID: sdcardfs: remove unnecessary call to do_munmap
+1914f7a ANDROID: fs: Export vfs_rmdir2
+57ddfbe ANDROID: fs: Export free_fs_struct and set_fs_pwd
+b00bac8 ANDROID: sdcardfs: Fix style issues in macros
+3438db4 ANDROID: sdcardfs: Use seq_puts over seq_printf
+4aba92c ANDROID: sdcardfs: Use to kstrout
+d291433 ANDROID: sdcardfs: Use pr_[...] instead of printk
+3f28eb9 ANDROID: sdcardfs: remove unneeded null check
+e70ce6f ANDROID: sdcardfs: Fix style issues with comments
+449e09d ANDROID: sdcardfs: Fix formatting
+3e8115b ANDROID: sdcardfs: correct order of descriptors
+d996275 ANDROID: sdcardfs: Fix gid issue
+7702a7b ANDROID: sdcardfs: Use tabs instead of spaces in multiuser.h
+40af9e9 ANDROID: sdcardfs: Remove uninformative prints
+e97b560 ANDROID: sdcardfs: move path_put outside of spinlock
+cb3180a ANDROID: sdcardfs: Use case insensitive hash function
+ab7a0a1 ANDROID: sdcardfs: declare MODULE_ALIAS_FS
+3f4633e ANDROID: sdcardfs: Get the blocksize from the lower fs
+43f589b ANDROID: sdcardfs: Use d_invalidate instead of drop_recurisve
+51a670b ANDROID: sdcardfs: Switch to internal case insensitive compare
+dc227f3 ANDROID: sdcardfs: Use spin_lock_nested
+fcf76cf ANDROID: sdcardfs: Replace get/put with d_lock
+d6603ca ANDROID: sdcardfs: rate limit warning print
+89d2432 ANDROID: sdcardfs: Fix case insensitive lookup
+a5b64bb mm: Export do_munmap
+
+   * kernel/samsung/j5lte/
+0975771 mm: compaction: fix the page state calculation in too_many_isolated
+dc456e0 KEYS: Fix ASN.1 indefinite length object parsing
+3e8e9b2 ASN.1: Fix non-match detection failure on data overrun
+cb21f42 ASN.1: Fix actions on CHOICE elements with IMPLICIT tags
+d7e56b5 lib/asn1_decoder.c: kernel-doc warning fix
+dfd569f debugobjects: use kmemleak_not_leak for obj_cache
+d99992f debugobjects: use kmemleak_not_leak for debug object memory
+45ed9cc irq: Allow multiple clients to register for irq affinity notification
+8c81d4c nf: IDLETIMER: Adds the uid field in the msg
+
+   * packages/apps/Email/
+ea4eb75 Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4
+
+   * packages/apps/Jelly/
+22cb565 Implement history management through a ContentProvider.
+
+   * vendor/motorola/
+0af25d2 athene: rename HAL for camera wrapper
+
+   * vendor/viper/
+118acab Jump to version 2.0 Python
+
+   * vendor/xiaomi/
+eff4197 capricorn: Update blobs from latest 7.0 release
+
+====================
+     06-07-2017
+====================
+
+
+   * device/motorola/msm8226-common/
+9257cd0 Set noop as default I/O Scheduler
+
+   * device/motorola/potter/
+53fbc94 Revert "potter: enable some AF debug properties"
+afb69c2 potter: provide ASensor_getHandle for libmdmcutback
+
+   * device/oneplus/oneplus3/
+78aa1a0 op3: Update from OxygenOS 4.1.5
+
+   * device/samsung/j5-common/
+d8138a6 dependencies: Update kernel branch
+
+   * external/chromium-webview/
+2909904 Update webviews
+
+   * frameworks/base/
+356e60d QS: Remove listeners only if added
+abcfb9d Handle Illegal Argument Exception
+eefc1d0 Reduce MTU Size
+232f04e Update font size of date and time on QS panel
+1f5bd2b Fix code-style around notification ranker service in AndroidManifest.xml
+0208ee3 Fix issue
+8f715b4 set the resultTo to null started by a finishing activity
+8cf154d Fix SystemUI FC due to Google Assistant
+
+   * hardware/ti/omap4/
+1738329 omap4: Correct disabling of dirty regions invalidation
+
+   * kernel/oneplus/msm8996/
+1cf91dc power: Synchronize with OxygenOS 4.1.5
+
+   * kernel/samsung/j5lte/
+5c2af8e config: Let's use NOOP at boot and after boot switch to BFQ
+c2c0c2d regenarate defconfig
+
+   * manifest/
+9d41024 manifest: android-7.1.2_r8 -> android-7.1.2_r17
+
+   * packages/apps/CarrierConfig/
+6aa9fb6 CarrierConfig: allow 3 ITA roaming
+
+   * packages/apps/Gallery2/
+93bcb4c Gallery2: support GIF animation
+
+   * packages/apps/Snap/
+78666b5 Snap: Simulate back button press when menu back button is pressed
+
+   * packages/apps/Terminal/
+5856a60 Terminal: Fix keyboard Ctrl- and ALT-key input.
+
+   * packages/apps/Venom/
+2f4b177 Add huawei honor5x maintainer
+
+   * system/sepolicy/
+a09ba0e Add policy to fix interfacer derp on boot
+
+   * vendor/oneplus/
+1c4faaa op3: Update to OxygenOS 4.1.5 blobs
+
+   * vendor/viper/
+cf717c1 Viper v1.2
+
+====================
+     06-06-2017
+====================
+
+
+   * build/
+50f2b99 Merge commit 'd00494552546e8565f4019ff3a884dbcfd552823' into nougat
+1f7de0b Banner update
+d004945 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+   * frameworks/base/
+6438b36 Merge commit '77163a27041b2c6726e362cc84d96c3fd6c01c7b' into HEAD
+bfb25c2 RecentsView: Add color customization for mem bar [1/2]
+77163a2 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+   * frameworks/native/
+7328374 Merge commit '1eed0779cf78ad9ad1efc87fda198d548b5a0179' into HEAD
+1eed077 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+   * kernel/motorola/msm8916/
+9fc2b0c ipv6: Prevent overrun when parsing v6 header options
+61956b1 ipv6/dccp: do not inherit ipv6_mc_list from parent
+63182a7 sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
+868e618 ipv6: fix out of bound writes in __ip6_append_data()
+de2e1ab7 msm-core: debug: Update the number of supported pstates
+e091f99 msm-core: debug: Fix the number of arguments for sysfs nodes
+4deb7fb ASoC: msm: initialize the params array before using it
+3fff168 msm: sensor: validating the flash initialization parameters
+
+   * kernel/motorola/msm8953/
+c4252f3 ipv6: fix out of bound writes in __ip6_append_data()
+1220893 ipv6/dccp: do not inherit ipv6_mc_list from parent
+3f6aa80 sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
+3022973 ipv6: Prevent overrun when parsing v6 header options
+ddde925 msm: sensor: validating the flash initialization parameters
+68d7e4b qseecom: add mutex around qseecom_set_client_mem_param
+3ea849e msm: ipa3: Validate IPA and GSI firmwares before loading
+ca58b43 msm: IPA: add the check on intf query
+01918c7 msm: camera: cpp: Fixing Heap overflow in output buffer
+919e7ed msm: mdss: Fix invalid dma attachment during fb shutdown
+26cf3b9 msm: ba: Fix race conditions in debug writes
+219f5b0 msm: mdss: Add lock to avoid release of active session in rotator
+5b93800 ASoC: Add backend user count checking
+6ab3f3f ASoC: msm: acquire lock in ioctl
+97605d1 input: touchscreen: remove msg21xx mstar touch driver
+f3d236b msm: mdss: Add sanity check for Gamut LUT size
+fd6d62f msm: kgsl: Make sure USE_CPU_MAP + MAP_USER_MEM work together
+6e8b1d1 msm: kgsl: Fix pagetable member of struct kgsl_memdesc
+3bf8b00 bluetooth: Fix free data pointer routine
+
+   * kernel/oneplus/msm8996/
+6175d8c UPSTREAM: fscrypt: avoid collisions when presenting long encrypted filenames
+e9a661b UPSTREAM: fscrypt: fix context consistency check when key(s) unavailable
+732fe6b UPSTREAM: ext4 crypto: fix some error handling
+335cdd9 UPSTREAM: ext4 crypto: don't let data integrity writebacks fail with ENOMEM
+819d012 UPSTREAM: ext4/fscrypto: avoid RCU lookup in d_revalidate
+96b090a UPSTREAM: ext4 crypto: use dget_parent() in ext4_d_revalidate()
+32bcc36 UPSTREAM: ext4 crypto: revalidate dentry after adding or removing the key
+83b055b UPSTREAM: fscrypt: remove broken support for detecting keyring key revocation
+a4fa0b4 UPSTREAM: fscrypto: lock inode while setting encryption policy
+f1d0af5 UPSTREAM: fscrypt: fix renaming and linking special files
+269e201 UPSTREAM: fscrypto: require write access to mount to set encryption policy
+df71fe9 UPSTREAM: fscrypto: add authorization check for setting encryption policy
+9887519 UPSTREAM: ext4: enforce online defrag restriction for encrypted files
+38e501d UPSTREAM: ext4 crypto: add missing locking for keyring_key access
+1bf55e9 update defconfig
+8a207d0 Merge remote-tracking branch 'lineageos/cm-14.1' into ElementalX-3.00-los
+
+   * kernel/samsung/j5lte/
+6378626 drivers: Fix build error
+8f0aaf0 drivers: Fix some build errors
+ac7d2c7 config: Optimize for N
+7f89d47 config: Regen defconfig
+66bf244 config: Add old config
+7e66e6e config: :((
+1dfea23 radio-iris: check argument values before copying the data
+cffd281 radio: iris: Fix timeout value in schedule_timeout
+4aa94c4 radio: iris: Fix the possibility of NULL pointer access
+260ecc6 radio: iris: change the FM module from modular to built in
+8e11619 radio-iris: check for NULL before dereferencing
+ca042ab config: Update prima config
+9c9100b mm: Remove shrink_page
+c86f2eb mm: make shrink_page_list with pages work from multiple zones
+3ce1cb9 mm: Per process reclaim
+d2a7172 mm: prevent to write out dirty page in CMA by may_writepage
+7e788cf disable software CRC
+4c2530a drivers/misc/sec_param: Update path to param partition - Fixes Reboot and Reboot to Recovery Issues
+89df581 Patch our charger to use 1A include earlier cherry-pick for the charging driver we are using actually lol xD
+87ee3ec qcom: subsystem_restart: Ignore SSR requests during system reboot/shutdown
+4ae016f wcnss: Expose dump stack functionality
+4a81f8f wcnss: Add wrapper functions for work queue functionalities
+684a292 wcnss: Avoid crash during shutdown in SSR
+e70bb7c Revert "wlan: Display IRIS HW name"
+220e0c0 Revert "wcnss: Update wcnss_reset_fiq api for safe registers dump"
+a5eab3c nl80211: Fix backport of struct wiphy_vendor_command
+3931c14 staging: prima: Update to LA.BR.1.2.6_rb1.6
+c675960 Revert "Wifi is not turning on"
+cc21b5b prima: update makefiles
+d9f6a6c Wifi is not turning on
+06760c3 prima: remove custom-added ifdefs for tdls
+913268d prima: allow enabling tdls
+7137864 wlan: Address buffer overflow due to invalid length
+9f5f403 msm: Fix high load average from uninterruptible waits (2)
+cc7fea5 msm: Fix high load average from uninterruptible waits
+760e5d4 msm mdss: bulk update kcal
+649f9e1 block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.10.8+
+bbee9cc block: introduce the BFQ-v7r8 I/O sched for 3.10.8+
+0276efa block: cgroups, kconfig, build bits for BFQ-v7r8-3.10.8+
+3c91a79 video: mdss: Color temperature interface using PCC
+02a47a7 msm: mdss: KCAL: Read values from MDP registers wherever possible
+07fa023 msm: mdss: KCAL: Apply default values on boot
+898d61a msm: mdss: KCAL: Support CM's upstream MDSS changes
+3f9cfd8 msm: mdss: KCAL: Queue changes when panel is powered off
+4993e16 msm: mdss: KCAL: Remove MODULE_DESCRIPTION
+61a5be2 msm: mdss: Import KCAL post-processing driver
+5af4930 tspdrv: add vibration intensity control (thx cyanogenmod)
+dbbc96d scripts: Allow not to specify variant defconfig
+3340f0f prima: Fix in-kernel build
+8d0f004 msm8916_sec_deconfig: Enable WLAN Driver
+5185501 staging: Import WLAN Driver from CAF
+2a67580 f2fs: fix overflow due to condition check order
+a8b81e2 f2fs: use file pointer for fscrypt_notsupp_process_policy
+28fbe83 f2fs: fix a missing size change in f2fs_setattr
+b359740 fs/super.c: fix race between freeze_super() and thaw_super()
+6ce485a scripts/tags.sh: catch 4.9-rc6
+0985707 f2fs: fix to access nullified flush_cmd_control pointer
+df6aae9 f2fs: free meta pages if sanity check for ckpt is failed
+617f295 f2fs: detect wrong layout
+4247043 f2fs: call sync_fs when f2fs is idle
+fbd4fcf f2fs: return AOP_WRITEPAGE_ACTIVATE for writepage
+052045e f2fs: do not activate auto_recovery for fallocated i_size
+7231e27 f2fs: fix to determine start_cp_addr by sbi->cur_cp_pack
+82ef0b4 f2fs: fix 32-bit build
+8833665 f2fs: set ->owner for debugfs status file's file_operations
+59ceeba f2fs: fix incorrect free inode count in ->statfs
+6893629 f2fs: drop duplicate header timer.h
+f0e143d f2fs: fix wrong AUTO_RECOVER condition
+19a13d81 f2fs: do not recover i_size if it's valid
+1968575 f2fs: fix fdatasync
+a30f79b f2fs: fix to account total free nid correctly
+8736339 f2fs: fix an infinite loop when flush nodes in cp
+5b20b0b f2fs: don't wait writeback for datas during checkpoint
+10cbd0e f2fs: fix wrong written_valid_blocks counting
+b02ad68 f2fs: avoid BG_GC in f2fs_balance_fs
+62071c6 f2fs: fix redundant block allocation
+b8c509f f2fs: use err for f2fs_preallocate_blocks
+4700108 f2fs: support multiple devices
+3b1c438 f2fs: allow dio read for LFS mode
+c28a52a f2fs: revert segment allocation for direct IO
+92a4010 f2fs: return directly if block has been removed from the victim
+07fdcf8 Revert "f2fs: do not recover from previous remained wrong dnodes"
+1f7e9c7 f2fs: remove checkpoint in f2fs_freeze
+e73530a f2fs: assign segments correctly for direct_io
+2a0bbc6 f2fs: fix wrong i_atime recovery
+27cfb00 f2fs: record inode updating status correctly
+29a8721 f2fs: Trace reset zone events
+210d556 f2fs: Reset sequential zones on zoned block devices
+c848dec f2fs: Cache zoned block devices zone type
+98860ad f2fs: Do not allow adaptive mode for host-managed zoned block devices
+6c81303 f2fs: Always enable discard for zoned blocks devices
+2a0ae3c f2fs: Suppress discard warning message for zoned block devices
+6cb4ea4 f2fs: Check zoned block feature for host-managed zoned block devices
+b4068cd f2fs: Use generic zoned block device terminology
+92cb8765 f2fs: Add missing break in switch-case
+c85db7b f2fs: avoid infinite loop in the EIO case on recover_orphan_inodes
+e31dd40 f2fs: report error of f2fs_fill_dentries
+838747e fs/crypto: catch up 4.9-rc2
+a4370b0 f2fs: hide a maybe-uninitialized warning
+63e0de6 f2fs: remove percpu_count due to performance regression
+3cc7abc f2fs: make clean inodes when flushing inode page
+34ba7b6 f2fs: keep dirty inodes selectively for checkpoint
+1cbc144 f2fs: Replace CURRENT_TIME_SEC with current_time() for inode timestamps
+c5de127 f2fs: use BIO_MAX_PAGES for bio allocation
+f5d38b3 f2fs: declare static function for __build_free_nids
+bf50fa7 f2fs: call f2fs_balance_fs for setattr
+50a1aba f2fs: count dirty inodes to flush node pages during checkpoint
+e33c341 f2fs: avoid casted negative value as shrink count
+173d00e f2fs: don't interrupt free nids building during nid allocation
+8f61f93 f2fs: clean up free nid list operations
+15295d7 f2fs: split free nid list
+4b9e4ac f2fs: clear nlink if fail to add_link
+072cc58 f2fs: fix sparse warnings
+28db74c f2fs: fix error handling in fsync_node_pages
+5fc9b87 f2fs: fix to update largest extent under lock
+b0afe80 f2fs: be aware of extent beyond EOF in fiemap
+59f5602 f2fs: don't miss any f2fs_balance_fs cases
+9995b98 f2fs: add missing f2fs_balance_fs in f2fs_zero_range
+e74f044 f2fs: give a chance to detach from dirty list
+f4837e3 f2fs: fix to release discard entries during checkpoint
+cb1298f f2fs: exclude free nids building and allocation
+ba22213 f2fs: fix wrong sum_page pointer in f2fs_gc
+29bc571 f2fs: introduce update_ckpt_flags to clean up
+8bce9fb f2fs: don't submit irrelevant page
+c913685 f2fs: fix to commit bio cache after flushing node pages
+7125c09 f2fs: introduce get_checkpoint_version for cleanup
+b992085 f2fs: remove dead variable
+2302f10 f2fs: remove redundant io plug
+765b072 f2fs: support checkpoint error injection
+ae19b006 f2fs: fix to recover old fault injection config in ->remount_fs
+a86c090 f2fs: do fault injection initialization in default_options
+7c7d48e f2fs: remove redundant value definition
+bb28600 f2fs: support configuring fault injection per superblock
+9c3808a f2fs: adjust display format of segment bit
+fc279db f2fs: remove dirty inode pages in error path
+f1c7a98 f2fs: do not unnecessarily null-terminate encrypted symlink data
+f9d99bb f2fs: handle errors during recover_orphan_inodes
+54ef93e f2fs: avoid gc in cp_error case
+9271cc9 f2fs: should put_page for summary page
+9fedf02 f2fs: assign return value in f2fs_gc
+9c029ee f2fs: introduce cp_lock to protect updating of ckpt_flags
+4402e1a f2fs: fix to avoid race condition when updating sbi flag
+7143136 f2fs: put directory inodes before checkpoint in roll-forward recovery
+9dba2b2 f2fs: use crc and cp version to determine roll-forward recovery
+42e97a2 f2fs: preallocate blocks for encrypted file
+845e4e4 f2fs: show dirty inode number
+8efc0a0 f2fs: support IO error injection
+777bc91 f2fs: fix to return error number of read_all_xattrs correctly
+bdcc4b3 f2fs: make f2fs_filetype_table static
+1c321cb f2fs: handle error in recover_orphan_inode
+3165806 f2fs: remove dead code f2fs_check_acl
+1c2c81b f2fs: exclude special cases for f2fs_move_file_range
+c85d6da f2fs: fix to set PageUptodate in f2fs_write_end correctly
+b59e968 f2fs: fix parameters of __exchange_data_block
+9f52ce3 f2fs: avoid ENOMEM during roll-forward recovery
+cfc4be3 f2fs: add common iget in add_fsync_inode
+260bdbf f2fs: check free_sections for defragmentation
+1a39eb4 f2fs: forbid to do fstrim if fs has some error
+b4a809e f2fs: avoid page allocation for truncating partial inline_data
+5fa515e f2fs: no need to make zeros beyond i_size
+7e1799a f2fs: fix to detect temporary name of multimedia file
+3b71126 f2fs: set dentry bits on random location in memory
+1c35181 f2fs: fix to set superblock dirty correctly
+074ebb9 f2fs: add roll-forward recovery process for encrypted dentry
+ee66795 f2fs: fix lost xattrs of directories
+1135a30 f2fs: set encryption name flag in add inline entry path
+0014678 f2fs crypto: avoid unneeded memory allocation in ->readdir
+30f38fd f2fs: fix to do security initialization of encrypted inode with original filename
+53884a4 f2fs: do in batch synchronously readahead during GC
+519438a f2fs: schedule in between two continous batch discards
+7a25df2 f2fs: enable inline_dentry by default and add noinline_dentry option
+c389b74 f2fs: fix a bug when using namehash to locate dentry bucket
+2bae660 f2fs: fix to preallocate block only aligned to 4K
+d4843be f2fs: fix non static symbol warning
+f213c0c f2fs: remove unnecessary initialization
+0a3fe70 f2fs: remove redundant judgement condition in available_free_memory
+1badc36 f2fs: check return value of write_checkpoint during fstrim
+19db698 f2fs: fix to do f2fs_balance_fs in f2fs_map_blocks correctly
+0bef4f2 f2fs: avoid unneeded loop in build_sit_entries
+c2949b0 f2fs: clean up foreground GC flow
+12ef4a0 f2fs: set dirty state for filesystem only when updating meta data
+d80e16b f2fs: skip new checkpoint when doing fstrim without fs change
+38125a1 f2fs: add discard info to sys entry of f2fs status
+e6f1213 f2fs: reduce batch size of fstrim
+9ae6bac f2fs: do not use discard_map for hard disks
+e58980f f2fs: not allow to write illegal blkaddr
+0cd4de0 Revert "f2fs: move i_size_write in f2fs_write_end"
+963f87f f2fs: fix build for v3.10
+13d21cc f2fs: adjust other changes
+115229d f2fs: get victim segment again after new cp
+1df08bd f2fs: handle error case with f2fs_bug_on
+ac283d8 f2fs: avoid data race when deciding checkpoin in f2fs_sync_file
+4765c38 f2fs: support an ioctl to move a range of data blocks
+46264e7 f2fs: fix to report error number of f2fs_find_entry
+3f29017 f2fs: avoid memory allocation failure due to a long length
+93716e0 f2fs: reset default idle interval value
+a2d30b8 f2fs: use blk_plug in all the possible paths
+a7d8175 f2fs: fix to avoid data update racing between GC and DIO
+b26bf78 f2fs: add maximum prefree segments
+5b8402c f2fs: disable extent_cache for fcollapse/finsert inodes
+c292cde f2fs: refactor __exchange_data_block for speed up
+26a07ad f2fs: fix ERR_PTR returned by bio
+6320fe4 f2fs: avoid mark_inode_dirty
+a708ed6 f2fs: move i_size_write in f2fs_write_end
+42d02fc f2fs: fix to avoid redundant discard during fstrim
+a3fef21 f2fs: avoid mismatching block range for discard
+c4e2e85 f2fs: fix incorrect f_bfree calculation in ->statfs
+8844466 f2fs: skip to check the block address of node page
+4a82f49 f2fs: shrink critical region in spin_lock
+4d5dbd3 f2fs: call SetPageUptodate if needed
+c09f9e6 f2fs: introduce f2fs_set_page_dirty_nobuffer
+f4f52a6 f2fs: remove unnecessary goto statement
+6b1d449 f2fs: add nodiscard mount option
+ea0e543 f2fs: fix to redirty page if fail to gc data page
+00ccd53 f2fs: fix to detect truncation prior rather than EIO during read
+a9b2628 f2fs: fix to avoid reading out encrypted data in page cache
+e3bdfd6 f2fs: avoid latency-critical readahead of node pages
+aa4cd37 f2fs: avoid writing node/metapages during writes
+af7d217 f2fs: produce more nids and reduce readahead nats
+a45dbb8 f2fs: detect host-managed SMR by feature flag
+5f1a3a6 f2fs: call update_inode_page for orphan inodes
+7259ae6 f2fs: report error for f2fs_parent_dir
+50600c0 f2fs: find parent dentry correctly
+b6106ae f2fs: fix deadlock in add_link failure
+a21b506 f2fs: introduce mode=lfs mount option
+62e843b f2fs: skip clean segment for gc
+0015c8b f2fs: drop any block plugging
+76ff333 f2fs: avoid reverse IO order for NODE and DATA
+0daee56 f2fs: set mapping error for EIO
+515ee30 f2fs: control not to exceed # of cached nat entries
+a8e3dd1 f2fs: fix wrong percentage
+722b2fb f2fs: avoid data race between FI_DIRTY_INODE flag and update_inode
+fa4ddbf f2fs: remove obsolete parameter in f2fs_truncate
+40005a5 f2fs: avoid wrong count on dirty inodes
+37afbd8 f2fs: remove deprecated parameter
+4e214c3 f2fs: handle writepage correctly
+5d8ea1a f2fs: return error of f2fs_lookup
+c1d9780 f2fs: return the errno to the caller to avoid using a wrong page
+6ff07b2 f2fs: remove two steps to flush dirty data pages
+9905f0e f2fs: do not skip writing data pages
+ea66d1e f2fs: inject to produce some orphan inodes
+3924a6c f2fs: propagate error given by f2fs_find_entry
+7df466a f2fs: remove writepages lock
+c9c3a5b f2fs: set flush_merge by default
+08a6fe5 f2fs: detect congestion of flush command issues
+9ce9075 f2fs: avoid unnecessary updating inode during fsync
+b8397f1 f2fs: remove syncing inode page in all the cases
+94caf27 f2fs: flush inode metadata when checkpoint is doing
+a17ad50 f2fs: call mark_inode_dirty_sync for i_field changes
+2cab791 f2fs: introduce f2fs_i_links_write with mark_inode_dirty_sync
+0527662 f2fs: introduce f2fs_i_blocks_write with mark_inode_dirty_sync
+9ef8c44 f2fs: introduce f2fs_i_size_write with mark_inode_dirty_sync
+1fe6dd1 f2fs: use inode pointer for {set, clear}_inode_flag
+cabe080 Revert "f2fs: no need inc dirty pages under inode lock"
+fe2b3ad fs: Import f2fs & crypto
+3889bfa fs: Remove f2fs
+fb11535 ANDROID: sdcardfs: Check for NULL in revalidate
+24e087f ANDROID: sdcardfs: Add linux/kref.h include
+7aeeb27 ANDROID: sdcardfs: Move top to its own struct
+c1a834a kernel: Fix potential refcount leak in su check
+46916d9 kernel: Only expose su when daemon is running
+83fa5c2 ANDROID: sdcardfs: fix sdcardfs_destroy_inode for the inode RCU approach
+5a640e9 ANDROID: sdcardfs: Don't iput if we didn't igrab
+1cb93ed ANDROID: sdcardfs: Call lower fs's revalidate
+a583103 ANDROID: sdcardfs: Avoid setting GIDs outside of valid ranges
+08eeaf5 Revert "Revert "Android: sdcardfs: Don't do d_add for lower fs""
+fb8b6b4 ANDROID: sdcardfs: Use filesystem specific hash
+321dd46 Revert "Android: sdcardfs: Don't do d_add for lower fs"
+4abcece Android: sdcardfs: Don't complain in fixup_lower_ownership
+1e6656b Android: sdcardfs: Don't do d_add for lower fs
+a71afa6 ANDROID: sdcardfs: ->iget fixes
+af7bbc6 Android: sdcardfs: Change cache GID value
+ee99673 ANDROID: sdcardfs: Directly pass lower file for mmap
+b5fcae4 ANDROID: sdcardfs: update module info
+3b6eb1e ANDROID: sdcardfs: use d_splice_alias
+120628b ANDROID: sdcardfs: fix ->llseek to update upper and lower offset
+8ee1790 ANDROID: sdcardfs: copy lower inode attributes in ->ioctl
+1504fab ANDROID: sdcardfs: remove unnecessary call to do_munmap
+ba917f7 ANDROID: sdcardfs: Fix style issues in macros
+ec6077e ANDROID: sdcardfs: Use seq_puts over seq_printf
+ceae060 ANDROID: sdcardfs: Use to kstrout
+2993fc6 ANDROID: sdcardfs: Use pr_[...] instead of printk
+2fb8a23 ANDROID: sdcardfs: remove unneeded null check
+62ee4f0 ANDROID: sdcardfs: Fix style issues with comments
+156091e ANDROID: sdcardfs: Fix formatting
+bd833ae ANDROID: sdcardfs: correct order of descriptors
+71e58c1 ANDROID: sdcardfs: Fix gid issue
+e8594f7 ANDROID: sdcardfs: Use tabs instead of spaces in multiuser.h
+a1ba488 ANDROID: sdcardfs: Remove uninformative prints
+33622f0 ANDROID: sdcardfs: move path_put outside of spinlock
+d82ed6a ANDROID: sdcardfs: Use case insensitive hash function
+9426e39 ANDROID: sdcardfs: declare MODULE_ALIAS_FS
+ff09518 ANDROID: sdcardfs: Get the blocksize from the lower fs
+310dab2 ANDROID: sdcardfs: Use d_invalidate instead of drop_recurisve
+c4f57be ANDROID: sdcardfs: Switch to internal case insensitive compare
+51cff19 ANDROID: sdcardfs: Use spin_lock_nested
+1de7114 ANDROID: sdcardfs: Replace get/put with d_lock
+05cd0dc ANDROID: sdcardfs: rate limit warning print
+ed8f29f ANDROID: sdcardfs: Fix case insensitive lookup
+3653b9c ANDROID: sdcardfs: support direct-IO (DIO) operations
+a2019e4 ANDROID: sdcardfs: implement vm_ops->page_mkwrite
+7173ee0 ANDROID: sdcardfs: Don't bother deleting freelist
+2d83dc4 ANDROID: sdcardfs: Add missing path_put
+efbd9e7 ANDROID: sdcardfs: Fix incorrect hash
+f53574f ANDROID: sdcardfs: Switch strcasecmp for internal call
+a5fb21f ANDROID: sdcardfs: switch to full_name_hash and qstr
+c4f7c64 ANDROID: sdcardfs: Add GID Derivation to sdcardfs
+40f09ee ANDROID: sdcardfs: Remove redundant operation
+db5562b ANDROID: sdcardfs: add support for user permission isolation
+8536da0 ANDROID: sdcardfs: Refactor configfs interface
+ed9f919 ANDROID: sdcardfs: Allow non-owners to touch
+b06c397 ANDROID: mnt: remount should propagate to slaves of slaves
+a99011b ANDROID: sdcardfs: Fix locking issue with permision fix up
+fed3793 ANDROID: vfs: Missed updating truncate to truncate2
+b85760c BACKPORT: smarter propagate_mnt()
+77feca8 BACKPORT: don't bother with propagate_mnt() unless the target is shared
+88454a5 sdcardfs: Change magic value
+8dddf38 sdcardfs: Use per mount permissions
+a2c25a7 sdcardfs: Add gid and mask to private mount data
+d300e32 sdcardfs: User new permission2 functions
+6ad7847 vfs: Add setattr2 for filesystems with per mount permissions
+7ecd8a5 vfs: Allow filesystems to access their private mount data
+dff7efd mnt: Add filesystem private data to mount points
+f09dc0e sdcardfs: Move directory unlock before touch
+b11ebb9 sdcardfs: fix external storage exporting incorrect uid
+1690ef6 sdcardfs: Added top to sdcardfs_inode_info
+923bb37 sdcardfs: Switch package list to RCU
+f9bd7ed sdcardfs: Fix locking for permission fix up
+5a45926 sdcardfs: Check for other cases on path lookup
+02d53c8 sdcardfs: override umask on mkdir and create
+375be47 ANDROID: sdcardfs: fix itnull.cocci warnings
+075b192 sdcardfs: Truncate packages_gid.list on overflow
+1cab743 fuse: Add support for d_canonical_path
+5d18f97 vfs: change d_canonical_path to take two paths
+c4a9ac6 sdcardfs: remove unneeded __init and __exit
+f0384b2 sdcardfs: Remove unused code
+e0a7f04 sdcardfs: remove effectless config option
+a715e32 sdcardfs: Add support for d_canonicalize
+40b5040 inotify: Fix erroneous update of bit count
+b7ef305 vfs: add d_canonical_path for stacked filesystem support
+ffd1016 sdcardfs: Bring up to date with Android M permissions:
+23d395f sdcardfs: Changed type-cast in packagelist management
+7be64df sdcardfs: port to 3.10
+5c99e9a Initial port of sdcardfs
+95458c9 introduce ->iterate(), ctx->pos, dir_emit()
+6ebed59 introduce iterate_dir() and dir_context
+49582b97 fs: Remove sdcardfs
+15ad2b3 pagemap: do not leak physical addresses to non-privileged userspace
+68a532d mm: reorder can_do_mlock to fix audit denial
+9a01e2f msm: perf: Protect buffer overflow due to malicious user
+d2ee87e vfs: Add permission2 for filesystems with per mount permissions
+b754cbd ipc/shm: Fix shmat mmap nil-page protection
+b1d491f ALSA: timer: Fix leak in events via snd_timer_user_tinterrupt
+ae6a2a2 ASoC: msm: initialize the params array before using it
+0c1bbeb ASoC: utils: initialize dummy_codec before use
+8ac0cc1 ALSA: timer: Fix leak in SNDRV_TIMER_IOCTL_PARAMS
+96a2656 ASoC: msm: set pointers to NULL after kfree
+6839534 ASoC: msm: qdsp6v2: Fix memory allocation issues in audio_cal_utils
+edaedf0 ASoC: msm: qdsp6v2: add support for any number of ASM buffers
+7a2a7fb ASoC: msm: qdsp6v2: send right stream ID to DSP for FLAC
+f48d4df ASoC: Add backend user count checking
+ec4c1cd ALSA: pcm : Call kill_fasync() in stream lock
+15236a6 msm: Fix compiling kernel in place
+627f9dd kernel: Restrict permissions of /proc/iomem.
+d56bc0d __ptrace_may_access() should not deny sub-threads
+4ba9902 kthread: Fix the race condition when kthread is parked
+bd744c3 module: remove mod arg from module_free, rename module_memfree().
+ef0813d hrtimer: Prevent all reprogramming if hang detected
+8ceda78 syscall_get_arch: remove useless function arguments
+bbb155a seccomp: Replace BUG(!spin_is_locked()) with assert_spin_lock
+2d876d3 seccomp: implement SECCOMP_FILTER_FLAG_TSYNC
+2713f2f seccomp: allow mode setting across threads
+3e2fc7d seccomp: introduce writer locking
+f361746 seccomp: split filter prep from check and apply
+5da0b2a sched: move no_new_privs into new atomic flags.
+0c1f2bc seccomp: add "seccomp" syscall
+ee46024 seccomp: split mode setting routines
+e082f3d seccomp: extract check/assign mode helpers
+7900d2a seccomp: create internal mode-setting function
+353b1ac exit: Add PANIC_ON_RECURSIVE_FAULT Kconfig option
+988ce6e introduce for_each_thread() to replace the buggy while_each_thread()
+5518fd0 kernel: Add allow_attach hook for cpusets on android.
+86e9e96 kernel: cpuset: Make cpusets restore on hotplug
+9b62832 timer: reduce cache bouncing of deferral timer wheel
+2d8fb17 workqueue: fix hang involving racing cancel[_delayed]_work_sync()'s for PREEMPT_NONE
+392a07f msm: qpnp-rev-id: add revision-id details for PM8909
+c18af00 hwmon: qpnp-adc-voltage: Add temperature compensation for PM8909
+c40a5fd hwmon: qpnp-adc: Add thermal sysfs interface to VADC
+d2667a1 hwmon: qpnp-adc: add battery thermistor mapping table for 8929 SKUL
+920be18 hwmon: qpnp-adc: add battery thermistor mapping table for 8909 skue
+5a22df7 hwmon: qpnp-adc: add battery thermistor mapping table for 8909 skuc
+6039525 hwmon: qpnp-adc-voltage: Add temperature compensation for PM8909
+e796300 thermal: tsens: Update TSENS fuse map for 8939 3.0
+9fb5904 thermal: tsens: Add fuse-based correction factors
+500aba5 thermal: qpnp-adc-tm: add new scale function for skue battery thermistor
+abb93b3 msm: thermal: Add range checking for cluster_id
+4cf523c msm: limits: Fix error handling to free up memory
+d9fe5de msm: limits: Check user buffer size before copying to local buffer
+1454f41 msm: limits: Clean up SUPPLY_LM driver
+b8c433f msm: limits: Remove devices init and de-init from probe of supply lm
+a65fff4 msm: thermal: Revert devm_kzalloc to kzalloc in sensor manager APIs
+b56a655 msm: thermal: Fix potential memory leak in sensor manager API in KTM
+c57b481 msm: limits: Add S1 supply current limiting driver for MSM8909
+300a46e msm: thermal: Update cluster info only if sync cluster DT is defined
+42781bb msm: thermal: Add support for device manager in KTM
+b6e4035 msm: thermal: Add support for sensor manager in KTM
+eb83280 lpm-workarounds: Prevent to enable clock_gating more than once
+a906551 drivers: lpm-workarounds: Enable L1/L2 clock gating WA
+e210166 msm: lpm-levels: Initialize last level for cluster at probe
+4694e31 lpm: Free the allocated resource to avoid memory leak
+943f439 msm: spm: Add new API to set only SPM start address
+e0adb3f cpuidle: lpm-workarounds: Skip L2 spm programming in HLOS
+985bf65 cpufreq: interactive:call __cpufreq_driver_target() for cur frequency
+2f5af06 cpufreq: interactive: Make window alignment optional
+99b0dc5 cpufreq: interactive: enable use_sched_load early
+ff602a0 cpufreq: interactive: Report CPU loads through govinfo notifier
+ed0c4b2 qcom-cpufreq: Remove save/restore of scheduling policy
+cb7de2d cpufreq: Check current frequency in device driver
+987ef06 UPSTREAM: kernel.h: define u8, s8, u32, etc. limits
+20cf48c net: diag: Add the ability to destroy a socket.
+744aaa3 qseecom: remove entry from qseecom_registered_app_list
+b407f4f qseecom: fix incomplete error handling for several functions
+5d3870c qseecom: improve error checks in qseecom_probe()
+82d481d qseecom: check buffer size when loading firmware images
+754adae qseecom: check error return value of ion_map_kernel
+7d5227c qseecom: validate the inputs of __qseecom_send_modfd_resp
+3513d34 qseecom: Change format specifier %p to %pK
+240dbdd qseecom: Add application access mutex locks
+2b97a70 qseecom: Get qppsbl qseecom load status from bootargs
+7146ed5 qseecom: Update key id strings for full disk encryption
+bad341c qseecom: Propagate qseecom_load_external_elf failure to userspace
+1991d47 qseecom: Remove core affinity requirement when loading external elf files
+9d0f7aa qseecom: Register the existing app if it is loaded by appsbl
+352d02f qseecom: Change to work with appsbl qseecom
+004e9da qseecom: Fix: qseecom_send_service_cmd failing secure world busy
+886b1f2 qseecom: avoid buffer over-write when copying app_name
+272fbe6 qseecom: Fix NULL pointer dereference
+3809fc3 cpufreq: Correct the data reported in all_time_in_state
+aede857 uid_cputime: Iterates over all the threads instead of processes.
+9585c4e uid_cputime: fix cputime overflow
+f61b6d6 uid_cputime: Avoids double accounting of process stime, utime and cpu_power in task exit.
+930786f uid_cputime: Extends the cputime functionality to report power per uid
+bfb2025 proc: uid_cputime: fix show_uid_stat permission
+5526fe5 proc: uid_cputime: create uids from kuids
+f1c531e proc: uid: Adds accounting for the cputimes per uid
+b3e362e sched: cpufreq: Adds a field cpu_power in the task_struct
+3e3977a cpufreq_stats: Adds the fucntionality to load current values for each frequency for all the cores.
+9d8b6e5 cpufreq: Avoid using global variable total_cpus
+84f3e69 cpufreq: fix sleeping in atomic context when realloc freq_table for all_time_in_state
+6953a65 cpufreq: Persist cpufreq time in state data across hotplug
+1ac8e1b netfilter: x_tables: check for size overflow
+9085761 netfilter: xt_HARDIDLETIMER: Fix use after free condition
+55b2c86 net: tcp: deal with listen sockets properly in tcp_abort.
+de2de63 net: diag: Support destroying TCP sockets.
+1173b18 net: fix iterating over hashtable in tcp_nuke_addr()
+5666842 mm: vmpressure: account allocstalls only on higher pressures
+d48fac6 mm: vmpressure: scale pressure based on reclaim context
+cde0f2d mm: vmstat: make vmstat_work cpu bound during requeue
+5382fc3 mm: remove gup_flags FOLL_WRITE games from __get_user_pages()
+3fb7bca mm: kmemleak: allow safe memory scanning during kmemleak disabling
+e54f7ac kmemleak: change some global variables to int
+75104a0 kmemleak: allow freeing internal objects after kmemleak was disabled
+833765e kmemleak: free internal objects only if there're no leaks to be reported
+aa7395d mm: kmemleak: avoid false negatives on vmalloc'ed objects
+3bee7cd rmnet_data : Changes to support Scatter Gather and GSO.
+d16793c net: msm_rmnet: Add an IOCTL definition to deregister a net device
+f9ae096 net: msm_rmnet: Add an extended ioctl definition to pass xlat device info
+553c722 mm: swap: fix value of SWP_FAST
+906378e Makefile: Enable ld fix for cortex-a53 errata 843419
+ccf7f86 msm: vidc: Set constrained intra refresh property
+bb11f1e msm: vidc: Add control to set csc coefficients to firmware.
+739d206 msm: vidc: Add support for color space information.
+71fd523 msm: vidc: Add SEI extradata
+db24789 msm: mdss: Add support to select max MDP bandwidth
+fabfacf net: add validation for the socket syscall protocol argument
+69ab695 net: tcp: check for SOCK_DEAD again in tcp_nuke_addr
+8d637f6 Fix NULL pointer dereference in tcp_nuke_addr.
+38b0a99 msm: vidc: Update minimum decoder output buffer count
+6286f14 msm: vidc: Handle max clients error properly
+2178dc0 msm: vidc: add driver support to enable operating rate
+3d8fb73 msm: vidc: Enable session priority support.
+16f9ef8 msm: vidc: Set default properties for venus 3.x
+fc58f9a msm: vidc: Load hfi packetization based on Venus version
+a60b954 msm: mdss: hdmi: updated extended mode macro
+56055f9 Enable setting security contexts on rootfs inodes.
+20b223e selinux: enable genfscon labeling for sysfs and pstore files
+e0d0e74 selinux: enable per-file labeling for debugfs files.
+52c2a68 selinux: Android kernel compatibility with M userspace
+cf2a958 selinux: extended permissions for ioctls
+3b24096 security: add ioctl specific auditing to lsm_audit
+57daf19 selinux: remove unnecessary pointer reassignment
+6c5b5c7 SELinux: Update policy version to support constraints info
+89c227c selinux: add SOCK_DIAG_BY_FAMILY to the list of netlink message types
+46e7e08 selinux/nlmsg: add XFRM_MSG_MIGRATE
+3cb90db selinux/nlmsg: add XFRM_MSG_REPORT
+0606a9a selinux/nlmsg: add XFRM_MSG_[NEW|GET]SADINFO
+f690b3a selinux/nlmsg: add XFRM_MSG_GETSPDINFO
+bbae357 selinux/nlmsg: add XFRM_MSG_NEWSPDINFO
+4e78ee4 net: rmnet_data: Add support for MAPv4 data format
+beb2a67 Compilation issue fix.
+61c8aa7 net: rmnet_data: add support for UL MAP based checksum offload
+16d23a1 net: rmnet_data: Checksum offload handle IPv4 UDP frames with 0 checksum
+55f5967 net: rmnet_data: Fix deaggregation to work with DL checksum offload
+cd43b15 ASoC: msm: Add support to enable PBE in DSP
+3c3f1df ASoC: msm: qdsp6v2: add support for ALAC/APE/VORBIS
+168f822 ALSA: compress: Add support to send codec specific data
+595251a USB: gadget: midi: Fix deadlock unbinding driver while it is in use
+
+   * libcore/
+b162f5e Merge tag 'android-7.1.2_r17' into cm-14.1
+
+   * packages/apps/Bluetooth/
+9d274ac BluetoothOppTransferActivity: fix after ad46f6a52d7240ed1e2127c4263a5cbcf454df09
+9efb588 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+   * packages/apps/TvSettings/
+3ddceec Settings: Implement ADB over network
+bf8bc80 Settings: Add intent to launch LineageOS platlogo upon multiple taps
+0165eb8 settings: Add advanced reboot switch
+e1c67c5 Settings: Set root access options appropriately
+253b262 settings: Add developer setting for root access
+f4e82a3 Use more descriptive strings for add accessory page
+3733c2b About: Add LineageOS Updates
+0fe2e3b Add build date (ro.build.date from build.prop) to About screen.
+18c18a9 One does not simply become a Developer
+34001b8 Add LineageOS version to the About screen
+
+   * packages/apps/VLauncher/
+83e2750 LauncherClient: make sure service is connected before trying to unbind
+bfed53c Remove useless 4dp padding from XML
+19a1b7f Properly animate opening the Google Now panel
+
+   * packages/apps/Venom/
+ee673b8 Venom: Add lockscreen features [3/3] Double tap to sleep anywhere on the lock screen [2/3] Disable Lockscreen Media Art [2/3]
+a3636e3 Viper: Add color customization for mem bar [2/2]
+b106522 Viper: add membar to recents options [2/2]
+
+   * system/bt/
+aa31852 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+   * system/core/
+34000b9 libcutils: fix schedboost after 31f78ddf4ea2ab7963d873cb16db98e976346468
+1402675 Merge commit '14bdeb8c61f1d480ab41a07e53bbfec8c05724c9' into HEAD
+14bdeb8 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+   * vendor/cmsdk/
+272c266 Automatic translation import
+aabb329 Double tap to sleep anywhere on lock screen [3/3]
+d8939d5 cmsdk: Disable Lockscreen Media Art [3/3]
+
+   * vendor/motorola/
+29a6b26 shamu: update blobs from N6F27E factory image
+
+====================
+     06-05-2017
+====================
+
+
+   * device/samsung/j5-common/
+46aa804 j5-common: Add FlipFlap
+
+   * external/stagefright-plugins/
+05bf4e7 ffmpeg-extractor: StageFright supports Opus files
+11bc5a2 Revert "FFmpegExtractor: Don't use our extractor when we agree with StageFright"
+
+   * frameworks/base/
+03b76d1 RecentsView: Make it more robust again
+3633131 Add membar to recents options [1/2]
+4f07a6b SystemUI: Remove trailing whitespace on high_accuracy_description
+
+   * kernel/motorola/msm8916/
+1737f86 qseecom: add mutex around qseecom_set_client_mem_param
+77eeb15 msm: mdss: Fix invalid dma attachment during fb shutdown
+eda6122 ASoC: Add backend user count checking
+332ddcd input: touchscreen: remove msg21xx mstar touch driver
+
+   * kernel/motorola/msm8953/
+0102e48 Merge remote-tracking branch 'lineage/cm-14.1' into cm-14.1
+
+   * kernel/motorola/potter/
+c777802 arm/dt: Add channel ID for Retail Morocco
+b178c0b mbhc: remove report of headset btn_5
+e7bf11b arm/dt: Create new Channel IDs for CMCC CT CU.
+e485589 nfc: pn544-mot: make device wake capable
+399a76e wil6210: Block write ioctl to the card by default
+de1d99a msm: camera: Fix kernel panic in I2C read
+97ec9c3 arm/dt: potter: disable hw strobe for s5k2l7 sensor
+161b9f3 drivers:leds: add hw strobe disable flag
+8258bff arm/dt: Add channel ID for TIM italy
+6f54796 arm/dt: camera: S5K2L7-SA sensor bringup
+2933a12 msm: camera: Change mount angle on Potter/Albus
+6db9a90 msm: camera: Add sensor model id
+e7d5ee5 arm/dt: camera: Albus S5K2L7 sensor bringup
+f3c4347 arm/dt: camera: Potter S5K2L7 sensor bringup
+39859bd arm/dts:cedric: Add wakelock_time item in fpc
+ef1cdd8 input: fps: Add more time to wake lock
+3b46302 charger: TurboCharger output 12V in charger only mode
+7917688 input: misc: fix security vulnerability
+a4a175b msm8953: kernel: config: Select FT TP IC for Sanders
+fd62e2a Revert "arm: dts: update portter camera sensors"
+
+   * manifest/
+2a80533 Derp
+ff608fb Update README.mkdn
+ff9d607 Switch to gitlab
+
+   * packages/apps/Gallery2/
+95cb32b Increase the size of the tiles when decoding images
+
+   * packages/apps/Jelly/
+e28fd6c Jelly: Add HTTP auth login support
+
+   * packages/apps/Venom/
+a62948b Venom: Optional lock to task icon in recents task view header [2/2]
+
+   * vendor/xiaomi/
+e7a8fbb natrium: Update blobs from latest 7.0 release
+94e098a scorpio: Update to MIUI 7.6.5 dev blobs
+6004bda gemini: Move OIS lib from common to device
+9ab5369 msm8996-common / gemini: Update to MIUI 7.6.5 dev blobs
+f5aef73 lithium: Update to MIUI 7.6.5 dev blobs
+ab0844e capricorn: Update blobs from latest 7.0 release
+
+====================
+     06-04-2017
+====================
+
+
+   * device/motorola/addison/
+071ce85 addison: fstab: Add zramstreams
+
+   * frameworks/base/
+d76df0a Recents:improve task locking code & mechanism
+4289e21 Recents: Ensure Lock icon animates only when Dismiss icon is visible
+059b951 Recents:Optional lock to task icon in recents task view header [1/2]
+0fa958a6 Base:Add Lock task action to recents
+c9e4d80 StorageManager: Improve exception handling
+2b7fd52 Add support for page theme color to WebView and WebChromeClient.
+a8f652b Allow using grid style aosp recents [1/2]
+01ad7ba Reset battery stats [1/2]
+
+   * hardware/qcom/display-caf/msm8996/
+92fa2ea Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into HEAD
+
+   * packages/apps/AudioFX/
+6850778 AudioFX: Sign with platform key
+
+   * packages/apps/Jelly/
+7ac5399 Add support for WebViews that provide the site's theme color.
+
+   * packages/apps/Venom/
+8d66cf4 Allow using grid style aosp recents [2/2]
+95f8268 Venom: Make current tab color the accent I think this is a bit more aesthetically pleasing and it is now possible with the seperation of the inactive and active text color.
+6ab86dc Venom: Expose inactive tab color Currently, the inactive tab color is the same as the regular text color. For most themers, this isn't an issue but some would like to highlight the currently selected tab with an accent and that accent carries throughout the rest of the text colors.
+ed4f355 Expose Tab text and background color for themes AOSIP/platform_packages_apps_OwlsNest@8e43787
+862bc16 [SQUASH] Viper Statusbar Logo (2/2) - Center, Right, Left - Color
+
+   * packages/services/Telephony/
+6ba71dd VoicemailSettingsActivity: Fix some NPEs
+
+   * vendor/xiaomi/
+ebcbdbb capricorn: Update QFingerprintService app
+ec5bcc4 capricorn: Update QFingerprintService app
+
+====================
+     06-03-2017
+====================
+
+
+   * device/samsung/j5-common/
+9246f8e j5-common: Never allow is shit
+b3699e0 Revert "j5-common: Fix a denial"
+6ad5ec8 j5-common: Fork u
+
+   * frameworks/base/
+0e5f6b8 [SQUASH] FWB: Viper Logo on Status Bar (1/2)
+a8c89f5 SystemUI: Enable show battery info on lockscreen by default [1/2]
+f72738f Lockscreen charging info: real time values [2/2]
+ef9e2b6 base: show battery info on lockscreen when charging [1/2]
+8a13912 Automatic translation import
+
+   * hardware/samsung/
+ab9abf6 liblights: Fix variable button brightness code
+
+   * packages/apps/OmniStyle/
+c69c9c0 Set color acent for Viper header
+
+   * packages/apps/Venom/
+ef13765 Viper: Enable show battery info on lockscreen by default [2/2]
+5f1aa9a Viper: show battery info on lockscreen when charging [2/2]
+
+   * vendor/xiaomi/
+61c45f6 capricorn: Update QFingerprintService app
+076f482 libra: remove unnecessary blobs
+
+====================
+     06-02-2017
+====================
+
+
+   * device/motorola/msm8226-common/
+21cb4aa Merge pull request #1 from RenanQueiroz/patch-1
+
+   * device/samsung/j5-common/
+2b2f7a0 j5-common: Fix a denial
+aecbd45 added malloc implementation * This has to be enabled on low memory devices and this could be   the possible fix for memory getting clogged
+
+   * frameworks/base/
+3a315ac Double tap to sleep anywhere on the lock screen [1/3]
+ef847f7 base: Disable Lockscreen Media Art [1/3]
+a1b706d fw: Don't consume home key press when KEY_ACTION_SLEEP is used
+
+   * hardware/qcom/audio-caf/msm8916/
+ef3989b Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
+40d378a Revert "audio HAL: fix thread starvation"
+
+   * hardware/qcom/media-caf/msm8916/
+d781d8f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
+
