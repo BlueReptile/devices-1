@@ -1,19 +1,72 @@
 ====================
-     06-15-2017
+     06-18-2017
+====================
+
+
+   * device/motorola/athene/
+24d8102 Revert "athene: drop custom dtbTool"
+f73ea28 Fix problem: no mobile data when turning off wifi
+77678a4 prebuilt: fix name folder prebuilt
+c918346 prebuilt: Add libs vendor stock camera for improvements
+1a40ac3 prebuilt: Use stock camera instead of Snap
+ee7b69d Fix problem: no mobile data when turning off wifi
+d115c87 ViperOS
+
+   * device/qcom/common/
+5985a61 power: Use the correct opcode for STOR_CLK_SCALE_DIS
+
+   * manifest/
+f33b7d6 Switch to gitlab
+0a763fd Organize things
+
+   * packages/apps/MusicFX/
+33f63b1 Automatic translation import
+
+   * packages/apps/Settings/
+f5f5208 Organize few strings
+8fcebeb Fix derp
+
+   * packages/apps/Venom/
+8548e81 Screenshot actions: Add missing var
+a59e3c2 More changes * Add new tab * Move power button camera double tab to Gestures * Remove useless prefs in power menu * More summaries * Fix navigation bar not showing by default * Fix FC * Fix missing translations
+
+   * vendor/viper/
+6b1370c Right dimensions for wallpaper
+c225ef6 roomservice: Update remote name
+
+====================
+     06-17-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8996/
+074ff06 Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+   * hardware/ril/
+5758b0e ril: fix a memory leak.
+
+   * hardware/ril-caf/
+588e49d ril: fix a memory leak.
+
+   * packages/apps/WallpaperPicker/
+5b27292 Fix bad wallpaper preview image format
+
+====================
+     06-16-2017
 ====================
 
 
    * build/
 be002e9 GoogleAudio: set new pixel sounds as defaults [2/2]
 
-   * frameworks/base/
-68b9c15 LocationTile: Behave like other tiles
-e6aea5c Fix Double tap to wake on doze
-
    * manifest/
-6dda3e5 Rename this
-57f931a Re-order system/media
-b99adea Track VLauncher
+e0baffe Track VLauncher
+48e5d73 Drop DeskClock
+b8ca6be Use Gallery2 from lineage To fix possible errors
+58d73ef Track system/media
+92a6e48 Track MusicFX and DSPlibs
+3678fa6 Drop LockClock
+40c1886 manifest: android-7.1.2_r8 -> android-7.1.2_r17
 
    * packages/apps/CarrierConfig/
 1249ef5 Remove TIM from non-roaming networks list of H3G IT
@@ -21,14 +74,8 @@ b99adea Track VLauncher
    * packages/apps/ContactsCommon/
 0a12813 Change icons
 
-   * packages/apps/Settings/
-5b5c7c1 Sound Settings: Fix ring icon
-
    * packages/apps/VLauncher/
 906f3ac Rename and update icon
-
-   * packages/apps/Venom/
-1f40289 More changes * Add new tab * Move power button camera double tab to Gestures * Remove useless prefs in power menu * More summaries * Fix navigation bar not showing by default * Fix FC
 
    * vendor/viper/
 13febe2 Changelog: Two weeks
@@ -40,14 +87,15 @@ f0c210c Fix derps and add new google apps * Fix WITH_CM_CHARGER flag * Move Pixe
 d65c169 Remove sounds props from here
 
 ====================
-     06-14-2017
+     06-15-2017
 ====================
 
 
    * frameworks/base/
+68b9c15 LocationTile: Behave like other tiles
+e6aea5c Fix Double tap to wake on doze
 b83fefd Remove HWKeys tile for now
 8f5b147 Update PT-BR translations
-e8abaf8 Try to fix navigation bar not showing by default In devices without hwkeys
 
    * packages/apps/Settings/
 36f6866 Volume can not be updated in Sound&notification
@@ -65,16 +113,13 @@ d5a7ac2 Continue work on showing predictions, add a toggle for it
 8dfb5c4 Change colours to the Pixel ones everywhere
 d10c7b9 First attempt at pulling in the reflection library for app suggestions
 
-   * packages/apps/Venom/
-e18522f devices: add peregrine
-ae7b942 Fix derps
-
 ====================
-     06-13-2017
+     06-14-2017
 ====================
 
 
    * frameworks/base/
+e8abaf8 Try to fix navigation bar not showing by default In devices without hwkeys
 2b29598 HWKeysTile: Adapt for Viper
 2f3e435 Update PT-BR translations
 17d4b11 Use correct color for system_primary_color
@@ -100,13 +145,13 @@ f383cb1 base: [MicroG] Allow location providers also outside of /system
 3b644dc Remove dashboard tile summaries [2/2]
 f7e0c5f Frameworks: add ability to disable bar color in battery saver mode (1/2)
 
-   * manifest/
-6e1e5f7 Drop DeskClock
-
    * packages/apps/MusicFX/
 ced9643 Update PT-BR translations
 4854303 Let's translate remaining effects
 fcd5be7 Update PT-BR translations
+
+   * packages/apps/Nfc/
+182c26e NfcNci: make T3T/Nfc-F HCE optional
 
    * packages/apps/Settings/
 94b4542 Update translations and cleanup
@@ -144,6 +189,8 @@ c830ee6 Remove Double tap to sleep
 7a043e5 Fix multi-user permissions for Samsung's Secure Folder
 
    * packages/apps/Venom/
+e18522f devices: add peregrine
+ae7b942 Fix derps
 d33f548 Fix ButtonBacklight behavior when switching hwkeys
 f03f40e fix derp
 c6afc73 Change more things * New summaries * New icons * Update translation
@@ -160,9 +207,6 @@ e8942be Ticker: allow to show music track info on new track being played [2/2]
 0a28df2 Add icons for new functions
 ade6a68 Fix build
 
-   * packages/services/OmniJaws/
-8bc4719 LockClock: Import lock screen translations from LOS
-
    * system/bt/
 331fc1e bt: Disable AVRCP 1.6
 
@@ -178,7 +222,7 @@ c797bd7 Materialize telephony icons [1/2]
 7f46a1a Added ability to choose between AudioFX and AOSP MusicFX
 
 ====================
-     06-12-2017
+     06-13-2017
 ====================
 
 
@@ -189,6 +233,24 @@ c797bd7 Materialize telephony icons [1/2]
 d206570 Dark theme
 
    * packages/apps/Snap/
+0f83363 SnapdragonCamera: Fix ghosting when non-zsl in VGA/QVGA size
+202f50a SnapdragonCamera: Fix live shot image stretch when recording is 4K
+fffbe39 SnapdragonCamera: Fix photo reversed when enable selfie Mirror
+dd1b09c SnapdragonCamera: Fix photo reversed when enable selfie Mirror
+b37ea18 SnapdragonCamera: Fix preview in wrong size
+708af54 SnapdragonCamera: Fix front camera preview flipped
+9d21c69 SnapdragonCamera: Fix preview is flipped on 8996
+cc08b44 SnapdragonCamera: Camera1 Selfie Mirror orientation check
+c188ffe SnapdragonCamera: Fix Camera1 force close when refocusing the picture.
+d24a8ed SnapdragonCamera: Change video snapshot picture size logic
+bdb5068 SnapdragonCamera: Avoid cancel AF shortly after trigger
+3de435d SnapdragonCamera: Fix crash during UI stress test
+f870393 SnapdragonCamera: Fix OutOfBoundsException in monkey test
+367758c SnapdragonCamera: Fix FC for NullPointerException
+c8a45a3 SnapdragonCamera: Reset zoom value when resuming
+a5054be SnapdragonCamera: Fix capture with flash will get black image.
+975aeca SnapdragonCamera: Fix FC cause by Null pointer
+922c4b3 SnapdragonCamera: Make copy of location before altering timestamp
 bd1d6ea Snap: Sign with platform key
 d7247ff Add orientation correction for landscape devices
 
@@ -198,6 +260,7 @@ fdbb347 Rename permissions for compatibility
 2b32fb8 Pixelify 2 - Wallpapers, icons, app list
 
    * packages/services/OmniJaws/
+8bc4719 LockClock: Import lock screen translations from LOS
 e35e9bf Automatic translation import
 f884e72 OmniJaws: update README.md to include OWM API key usage info
 213c6d7 OmniJaws: update README.md
@@ -216,7 +279,7 @@ bcabddf Merge remote-tracking branch 'los/cm-14.1' into nougat
 a40c8ca Fix Phone Service crash on MSIM devices as Guest user
 
 ====================
-     06-11-2017
+     06-12-2017
 ====================
 
 
@@ -363,6 +426,9 @@ fd307ec [3/3] AudioEffect: Add a stereo widener effect
 c2bc2f0 Revert "Bluetoothtile: Rectify and fix compilation"
 755320e Revert "Lockscreen PIN quick unlock [1/2]"
 
+   * hardware/qcom/audio-caf/msm8996/
+3b4fef6 Merge d40705f1fcd333f8e8115dd69555f9e9facfa78c on remote branch
+
    * packages/apps/VLauncher/
 b186607 Pixelify
 b819416 Remove checks for correct swipe up position, enables swipe up everywhere like Pixel Launcher
@@ -371,7 +437,7 @@ b819416 Remove checks for correct swipe up position, enables swipe up everywhere
 06549e0 Fix missing import
 
 ====================
-     06-10-2017
+     06-11-2017
 ====================
 
 
@@ -407,14 +473,13 @@ cb11b88 Live Volume Steps [2/2] -Volume steps changes are instant, no need to re
 a11f06a Wired headset: make ringtone audio focus customizable [2/3]
 e739277 MiscSettings: Create category
 8237b07 Remove unused preference and cleanup
-b4c2b5b [2/2] Venom: Screenshot for hardware keys
 
    * packages/services/Telecomm/
 1aa1eb4 incall vibration options [1/3] *allow setting vibration when call is connected *allow setting vibration when call is disconnected *allow setting vibration for call waiting *this works with google and aosp dialer :)
 3af1807 Wired headset: make ringtone audio focus customizable [3/3]
 
 ====================
-     06-09-2017
+     06-10-2017
 ====================
 
 
@@ -428,12 +493,6 @@ db469c5 Re add Browser2
 61b811a Remove MusicFX from here
 5058db9 Makefile: Add the missing dependency on FUTILITY.
 833889d Build FUTILITY tool from futility-host.
-
-   * manifest/
-e35de9e Use Gallery2 from lineage To fix possible errors
-71bb26b Track system/media
-32a28aa Track MusicFX and DSPlibs
-5604af9 Drop LockClock
 
    * packages/apps/CMParts/
 deff93d Set android:configChanges for .PartsActivity
@@ -472,6 +531,7 @@ cecd840 Merge remote-tracking branch 'los/cm-14.1' into HEAD
 760f149 Merge remote-tracking branch 'los/cm-14.1' into HEAD
 
    * packages/apps/Venom/
+b4c2b5b [2/2] Venom: Screenshot for hardware keys
 190dd97 Add missing preferences and move some
 aaf19b6 Restart SystemUI: Use new method
 28c313c Revert "Restart SystemUI on toggle navigation bar visibility"
@@ -535,21 +595,21 @@ db0df2f sensitive_pn: Add New Zealand sensitive numbers.
 ea43cab Remove PhotoTable
 
 ====================
-     06-08-2017
+     06-09-2017
 ====================
 
 
    * packages/apps/Email/
 ea4eb75 Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4
 
-   * packages/apps/Jelly/
-22cb565 Implement history management through a ContentProvider.
+   * vendor/motorola/
+62cefd2 athene: rename HAL for camera wrapper
 
    * vendor/viper/
 118acab Jump to version 2.0 Python
 
 ====================
-     06-07-2017
+     06-08-2017
 ====================
 
 
@@ -575,6 +635,9 @@ eefc1d0 Reduce MTU Size
    * packages/apps/Gallery2/
 93bcb4c Gallery2: support GIF animation
 
+   * packages/apps/Jelly/
+22cb565 Implement history management through a ContentProvider.
+
    * packages/apps/Snap/
 78666b5 Snap: Simulate back button press when menu back button is pressed
 
@@ -588,7 +651,7 @@ eefc1d0 Reduce MTU Size
 a09ba0e Add policy to fix interfacer derp on boot
 
 ====================
-     06-06-2017
+     06-07-2017
 ====================
 
 
@@ -596,14 +659,25 @@ a09ba0e Add policy to fix interfacer derp on boot
 50f2b99 Merge commit 'd00494552546e8565f4019ff3a884dbcfd552823' into nougat
 1f7de0b Banner update
 
+   * device/motorola/athene/
+3a10bd4 athene: drop custom dtbTool
+e81e772 athene: drop net_raw from per_mgr service
+0ae3f86 athene: Add NET_BIND_SERVICE for cnss-daemon
+df42811 athene: Add fs_config support for custom binary
+224d038 athene: Change the GLES version string to 3.2
+2fdb82c athene: Add AEP support config file
+99c971b athene: Set LED trigger only for charger mode
+ffe17d4 athene: cleanup camera.hal1.packagelist prop
+febf697 athene: add and build camera wrapper
+3e919b8 athene: disable HAL3
+c845563 athene: update qcom parser value
+e69937c athene: disable qcom aac encoder
+
    * frameworks/base/
 6438b36 Merge commit '77163a27041b2c6726e362cc84d96c3fd6c01c7b' into HEAD
 
    * frameworks/native/
 7328374 Merge commit '1eed0779cf78ad9ad1efc87fda198d548b5a0179' into HEAD
-
-   * manifest/
-9d41024 manifest: android-7.1.2_r8 -> android-7.1.2_r17
 
    * packages/apps/TvSettings/
 3ddceec Settings: Implement ADB over network
@@ -638,7 +712,7 @@ d8939d5 cmsdk: Disable Lockscreen Media Art [3/3]
 cf717c1 Viper v1.2
 
 ====================
-     06-05-2017
+     06-06-2017
 ====================
 
 
@@ -662,11 +736,6 @@ bfb25c2 RecentsView: Add color customization for mem bar [1/2]
    * libcore/
 b162f5e Merge tag 'android-7.1.2_r17' into cm-14.1
 
-   * manifest/
-2a80533 Derp
-ff608fb Update README.mkdn
-ff9d607 Switch to gitlab
-
    * packages/apps/Bluetooth/
 9d274ac BluetoothOppTransferActivity: fix after ad46f6a52d7240ed1e2127c4263a5cbcf454df09
 9efb588 Merge tag 'android-7.1.2_r17' into cm-14.1
@@ -680,7 +749,6 @@ e28fd6c Jelly: Add HTTP auth login support
    * packages/apps/Venom/
 a3636e3 Viper: Add color customization for mem bar [2/2]
 b106522 Viper: add membar to recents options [2/2]
-a62948b Venom: Optional lock to task icon in recents task view header [2/2]
 
    * system/bt/
 aa31852 Merge tag 'android-7.1.2_r17' into cm-14.1
@@ -688,8 +756,11 @@ aa31852 Merge tag 'android-7.1.2_r17' into cm-14.1
    * system/core/
 14bdeb8 Merge tag 'android-7.1.2_r17' into cm-14.1
 
+   * vendor/motorola/
+29a6b26 shamu: update blobs from N6F27E factory image
+
 ====================
-     06-04-2017
+     06-05-2017
 ====================
 
 
@@ -700,8 +771,6 @@ d76df0a Recents:improve task locking code & mechanism
 0fa958a6 Base:Add Lock task action to recents
 c9e4d80 StorageManager: Improve exception handling
 2b7fd52 Add support for page theme color to WebView and WebChromeClient.
-a8f652b Allow using grid style aosp recents [1/2]
-01ad7ba Reset battery stats [1/2]
 
    * hardware/qcom/display-caf/msm8996/
 92fa2ea Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into HEAD
@@ -713,48 +782,8 @@ a8f652b Allow using grid style aosp recents [1/2]
 7ac5399 Add support for WebViews that provide the site's theme color.
 
    * packages/apps/Venom/
+a62948b Venom: Optional lock to task icon in recents task view header [2/2]
 8d66cf4 Allow using grid style aosp recents [2/2]
 
    * packages/services/Telephony/
 6ba71dd VoicemailSettingsActivity: Fix some NPEs
-
-====================
-     06-03-2017
-====================
-
-
-   * frameworks/base/
-0e5f6b8 [SQUASH] FWB: Viper Logo on Status Bar (1/2)
-a8c89f5 SystemUI: Enable show battery info on lockscreen by default [1/2]
-f72738f Lockscreen charging info: real time values [2/2]
-ef9e2b6 base: show battery info on lockscreen when charging [1/2]
-8a13912 Automatic translation import
-
-   * packages/apps/OmniStyle/
-c69c9c0 Set color acent for Viper header
-
-   * packages/apps/Venom/
-95f8268 Venom: Make current tab color the accent I think this is a bit more aesthetically pleasing and it is now possible with the seperation of the inactive and active text color.
-6ab86dc Venom: Expose inactive tab color Currently, the inactive tab color is the same as the regular text color. For most themers, this isn't an issue but some would like to highlight the currently selected tab with an accent and that accent carries throughout the rest of the text colors.
-ed4f355 Expose Tab text and background color for themes AOSIP/platform_packages_apps_OwlsNest@8e43787
-862bc16 [SQUASH] Viper Statusbar Logo (2/2) - Center, Right, Left - Color
-ef13765 Viper: Enable show battery info on lockscreen by default [2/2]
-5f1aa9a Viper: show battery info on lockscreen when charging [2/2]
-
-====================
-     06-02-2017
-====================
-
-
-   * frameworks/base/
-3a315ac Double tap to sleep anywhere on the lock screen [1/3]
-ef847f7 base: Disable Lockscreen Media Art [1/3]
-a1b706d fw: Don't consume home key press when KEY_ACTION_SLEEP is used
-
-   * hardware/qcom/audio-caf/msm8916/
-ef3989b Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
-40d378a Revert "audio HAL: fix thread starvation"
-
-   * hardware/qcom/media-caf/msm8916/
-d781d8f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
-
