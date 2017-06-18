@@ -96,6 +96,14 @@
       "xda_thread":"https://forum.xda-developers.com/moto-z-play/development/rom-viperos-v1-0-moto-z-play-t3610097"
    },
    {
+      "name":"Nexus 5X",
+      "brand":"Lge",
+      "codename":"bullhead",
+      "afh_folder":"https://www.androidfilehost.com/?w=files&flid=191782",
+      "maintainer_name":"Gyuu August",
+      "xda_thread":"https://forum.xda-developers.com/nexus-5x/development/rom-viperos-v2-0-t3623578"
+   },
+   {
       "name":"OnePlus 2",
       "brand":"OnePlus",
       "codename":"oneplus2",
