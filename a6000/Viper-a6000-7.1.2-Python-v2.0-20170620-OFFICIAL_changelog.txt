@@ -1,0 +1,1391 @@
+====================
+     06-20-2017
+====================
+
+
+   * device/lenovo/a6000/
+84b4fab ViperOS!
+a6bac3b Revert "a6000: increase haptic feedback performance"
+
+   * hardware/qcom/display/
+f3072db hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/apq8084/
+38e457c hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8916/
+6700612 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8974/
+24176c9 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8994/
+023758b hwcomposer: Fix regression in hwc_sync
+
+   * kernel/lenovo/a6000/
+aecb017 Revert "irq_work: Split raised and lazy lists"
+498be4b arm64: lib: memory utilities optimization
+ffcc6ee arm64: lib: improve copy_page to deal with 128 bytes at a time
+c9adeb3 mm, vmalloc: use well-defined find_last_bit() func
+b09d9c2 irq_work: Split raised and lazy lists
+269533d sched: fair: reduce preemption latency
+c5f50de mm/zswap.c: change params from hidden to ro
+0d2cfd2 mm/zswap: refactor the get/put routines
+b498c54 mm/zswap: bugfix: memory leak when invalidate and reclaim occur concurrently
+419288d mm/zswap: avoid unnecessary page scanning
+91ee844 mm/zswap: bugfix: memory leak when re-swapon
+60e3aca mm/zswap: use postorder iteration when destroying rbtree
+081cb71 mm/zswap.c: get swapper address_space by using macro
+aef8da2 cpufreq: interactive: add back arm monopoly and seprate time calculation bits on basis of arch
+931ff53 cpufreq: interactive governor drops bits in time calculation
+44436fe UPSTREAM: block: disable entropy contributions for nonrot devices
+076dc7a lz4: break seprate for arm/arm64 to keep overheads in control
+fe536b7 UPSTREAM: lz4: fix wrong compress buffer size for 64-bits
+865ead7 UPSTREAM: zram/zcomp: do not zero out zcomp private pages
+afe8079 UPSTREAM: zram: pass gfp from zcomp frontend to backend
+0b8ca62 UPSTREAM: zram: try vmalloc() after kmalloc()
+97f75a1 UPSTREAM: zram/zcomp: use GFP_NOIO to allocate streams
+7faaf12 kernel/net: Fix declarations for both arm64 & arm declarations
+c665089 Bluetooth: Fix user channel for 32bit userspace on 64bit kernel
+fe3e646 arm64: uaccess: ensure extension of access_ok() addr
+4b73659 arm64/uaccess: fix sparse errors
+afaf808 metag/uaccess: Fix access_ok()
+9d09c05 metag/uaccess: Check access_ok in strncpy_from_user
+d5ea2d2 stackprotector: Increase the per-task stack canary's random range from 32 bits to 64 bits on 64-bit platforms
+0f0e9c5 UPSTREAM: arm: perf: Fix callchain parse error with kernel tracepoint events
+4ba90f1 UPSTREAM: ARM: 8170/1: Add global named register current_stack_pointer for ARM
+dd8792f CHROMIUM: mm: lower oom dump burst limit to 1
+b47890a CHROMIUM: add vmstat counts for different page fault types
+86a3f2f mm: update ksm
+30772df mmc: host: Fix spinbug in performance sysfs nodes
+46a936c mmc: core: use asynchronous runtime suspend pm core api
+b97918f qos: wake up cores based on the qos updated cpu mask
+495da3a qos: Register irq notify after adding the qos request
+cdfa138 UPSTREAM: arm64: perf: Fix callchain parse error with kernel tracepoint events
+807b21e UPSTREAM: arm64: LLVMLinux: Add current_stack_pointer() for arm64
+ec6fe3c mmc: sdhci: Set pm_qos to performance mode if clock scaling is disabled
+
+====================
+     06-19-2017
+====================
+
+
+   * hardware/qcom/bt-caf/
+6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+   * kernel/lenovo/a6000/
+d051e76 fs-writeback: unplug before cond_resched in writeback_sb_inodes
+8244768 mmc: core: Remove flag MMC_PM_WAKE_SDIO_IRQ in mmc_resume_host
+57ed040 PM / devfreq: Add proper locking around list_del()
+a772498 PM / devfreq: Restart previous governor if new governor fails to start
+8237f5c Merge branch 'LA.BR.1.2.9_rb1.22' of git://codeaurora.org/kernel/msm-3.10 into cm-14.1
+03599a9 Revert "HID: hiddev: validate num_values for HIDIOCGUSAGES, HIDIOCSUSAGES commands"
+
+====================
+     06-18-2017
+====================
+
+
+   * device/qcom/common/
+5985a61 power: Use the correct opcode for STOR_CLK_SCALE_DIS
+
+   * kernel/lenovo/a6000/
+483cc5a soc: qcom: nuke msm_performance & core_ctl driver
+bf6af4bb power: msm-core: Fix mutex not getting unlocked in error path
+cbd4a36 net: ipc_router: Fix memory leaks when releasing a remote port
+4731d4d soc: qcom: watchdog_v2: Fix memory leaks when memory_dump_v2 isn't built
+fd65a67 PM / devfreq: Correct out boost devices for msm8916
+59e6f5e PM / devfreq: Fix typo that caused an infinite loop
+c9fdbf9 PM / devfreq: Remove null termination in boost_devices
+de291f7 PM / devfreq: Add an interface to boost devices when the screen is woken
+
+====================
+     06-17-2017
+====================
+
+
+   * hardware/ril/
+5758b0e ril: fix a memory leak.
+
+   * hardware/ril-caf/
+588e49d ril: fix a memory leak.
+
+   * kernel/lenovo/a6000/
+9984185 tick: don't update idle time if cpu offline
+89c5d90 msm: Fix high load average from uninterruptible waits
+39942c0 arch: arm/arm64: configs: enable CONFIG_WQ_POWER_EFFICIENT_DEFAULT
+f73af3c touchscreen: gt9xx(jalebi/yureka): Elevate workqueues to high-priority
+0417fa1 block: Disabled I/O stats by default
+69f97a0 mmc: core: Disabled software CRC check by default
+e9ceb7f mmc: core: Expose software CRC check option to userspace
+f7e98ee extcon: adc-jack: Use power efficient workqueue
+b790427 extcon: gpio: Use power efficient workqueue for debounce
+4f7df3f fbcon: queue work on power efficient wq
+ce4eca1 Enable arch power
+152cbc9 sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire
+e4c29ff NET: IPv4: Lock the initial TCP window size to 64K
+e657e78 qcom-cpufreq: Prevent false check
+ee826b0 arm64: Kill logspam
+6cf7a27 power: smb1360-fg: queue work on system_power_efficient_wq
+e15c932 arm64: fix userspace build halt
+2282cce power: yl_fan5405/yl_bq24157: queue work on system_power_efficient_wq
+b164e59 power: qpnp-charger-hq: queue work on system_power_efficient_wq
+dd5f331 gpio: stop dumping the stack every time a gpio isn't valid
+29f7fb8 qpnp-linear-charger: queue work on system_power_efficient_wq
+909308c mm: compaction: Handle corner cases of FB_EVENT_BLANK
+79a7fda tcp_cubic: refine Hystart delay threshold
+cb36f93 tcp_cubic: add SNMP counters to track how effective is Hystart
+fe9b9a1 msm: kgsl: Allow draw context to perform only replay on recovery
+563a17c cpuidle: kick all cpu after idle handler installed
+12bda7b PM: devfreq: Fix simple_ondemand crashing on startup
+6ed4dd0 cpufreq: governor: remove copy_prev_load from 'struct cpu_dbs_common_info'
+06ef53b cpufreq: governor: Be friendly towards latency-sensitive bursty workloads
+b7d57cd cpufreq: remove race while accessing cur_policy
+b03c18d cpufreq: Fix timer/workqueue corruption by protecting reading governor_enabled
+81d27f1 cpufreq: Introduce new relation for freq selection
+d979cb0 cpufreq: Break out early when frequency equals target_freq
+da3ce86 msm: kgsl: Prevent deadlock in cmdbatch timer
+6b620c0 exfat: improve dentry finding speed
+5084ce8 exfat: unlock pages under readonly status
+a7461ac exfat: link superblock for all the buffer head
+ed8f61a exfat: implement errors=remount-ro
+ec23211 exfat: don't lookup dos name entries for exfat
+fed2dd5 fs: add exFAT driver
+6d71a5e arm: dts: msm8916: fair vibrations
+1451972 thermal-core: Fix invalid sensor data being accepted
+7e7fe9a mm: compaction: Add automatic compaction mechanism
+eba426b workqueue: Implement delayed_work_busy()
+cbec5cf a6000/jalebi/tomato/lettuce: arm/arm64/configs: Set CONFIG_HZ to 300
+2047167 arm: Allow configuration of CONFIG_HZ
+b9cd0a1 Use IRQ tree instead of linear to fix slowpath warning.
+a2940c0 ipv4, ipv6: ensure raw socket message is big enough to hold an IP header
+
+   * manifest/
+0a763fd Organize things
+
+   * packages/apps/Settings/
+f5f5208 Organize few strings
+8fcebeb Fix derp
+
+   * packages/apps/Venom/
+8548e81 Screenshot actions: Add missing var
+a59e3c2 More changes * Add new tab * Move power button camera double tab to Gestures * Remove useless prefs in power menu * More summaries * Fix navigation bar not showing by default * Fix FC * Fix missing translations
+
+   * packages/apps/WallpaperPicker/
+5b27292 Fix bad wallpaper preview image format
+
+   * vendor/viper/
+c225ef6 roomservice: Update remote name
+
+====================
+     06-16-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8996/
+074ff06 Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+   * kernel/lenovo/a6000/
+3b6dd1c IKQCOMSD1-2616 msm: thermal: Quiet the threshold logs
+dd8733c fsync: disabled by default
+d410449 Added fsync on/off support.
+5092350 msm: kgsl: Fix direct references to HZ
+dd0328c msm: thermal: Add sysfs nodes to control parameters
+f2a21c2 power: battery_current_limit: Remove hotplug control
+a37a53b power:process: decrease time to enter sleep
+a6fc5c6 msm_hsic_host: reduce wakelock
+2c250c8 proc: add a reschedule point in proc_readfd_common()
+4327cb0 Topology: Enhance For MultiCore Decision Making
+300bffd vfs: conditionally clear close-on-exec flag
+0e711ac PM / devfreq: fix scaling down logic for simple clock scaling
+2ce6f66 Squashed hrtimer optimization commits.
+5e01f4a msm: thermal: Check temperature only if probed
+633326c mmc: core: Fix mmc clk scale down during writes.
+6805381 block: fix wrong error return in elevator_init()
+2d3b6fd irq: ratelimit is useless
+0a03b96 Apply CFLAGS, -Os to decompress.o to improve decompress performance during boot-up process
+92639d7 net: sch_generic: Allow devices to opt-out net watchdog
+cc438b9 ARM: topology: Suppress clock-frequency error
+290b7f5 ARM: topology: Add efficiency coefficient for Krait
+2214ea2 writeback: increase bdi_min_ratio to 5 in light of the latest writeback commit.
+f553456 wrkq_pw_eff: Fix permissions to 0644 to 0444
+a06cf80 include/linux/compiler-gcc.h: improve __visible documentation
+cdc3183 include/linux/compiler-gcc.h: hide assume_aligned attribute from sparse
+7e733b1 compiler.h: add support for function attribute assume_aligned
+17578d0 compiler-gcc: integrate the various compiler-gcc[34567].h files
+119d407 sched: features: disable gentle_fair_sleepers
+2de95a7 timer: optimize apply_slack()
+0496948 mmc: core: Update PON based on the system state
+30ffabf Input: optimize events_per_packet count calculation
+d00389e lib/memcopy: use glibc version
+19d820a lib/string: use glibc version
+a7a8fd8 input: synaptics: high prio and not unbound wq
+0d2c80d cpufreq: fallback to interactive if governor is not found
+016622c thermals: queue work on system_power_efficient_wq
+a3d36dd power: bcl: queue work on system_power_efficient_wq
+749d7e1 qcom: msm-core: queue work on system_power_efficient_wq
+469ceb7 regulator: core: Use the power efficient workqueue for delayed powerdown
+b0b600c block: remove WQ_POWER_EFFICIENT from kblockd
+f4015ba usb: move hub init and LED blink work to power efficient workqueue
+cc7c05f net: rfkill: move poll work to power efficient workqueue
+41651c1 timekeeping: Move clock sync work to power efficient workqueue
+8011131 net/neighbour: queue work on power efficient wq
+3a7a724 ASoC: jack: Use power efficient workqueue
+3b01026 ASoC: compress: Use power efficient workqueue
+ba6e2b4 ASoC: pcm: Use the power efficient workqueue for delayed powerdown
+7ad52b2 PHYLIB: queue work on system_power_efficient_wq
+0762d85 block: queue work on power efficient wq
+57a7eda net/ipv4: queue work on power efficient wq
+82eb26e rcu: Move SRCU grace period work to power efficient workqueue
+04abe531 net: wireless: move regulatory timeout work to power efficient workqueue
+f31ab9e firmware: use power efficient workqueue for unloading and aborting fw load
+b1628ea6 workqueue: Add system wide power_efficient workqueues
+1db3ebf workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues
+6439664f block: Disable add_random
+d300afa Linux 3.10.106
+9982606 char: lp: fix possible integer overflow in lp_setup()
+f597508 fs: exec: apply CLOEXEC before changing dumpable task flags
+c3452a0 ipv6: handle -EFAULT from skb_copy_bits
+c41d859 KVM: kvm_io_bus_unregister_dev() should never fail
+58f74bb kvm: exclude ioeventfd from counting kvm_io_range limit
+660d156 KVM: x86: clear bus pointer when destroyed
+2e8c233 ipv6: fix the use of pcpu_tstats in ip6_tunnel
+9586c19 ipv6: pointer math error in ip6_tnl_parse_tlv_enc_lim()
+6233404 ipv6: fix ip6_tnl_parse_tlv_enc_lim()
+2fb457c4 xc2028: Fix use-after-free bug properly
+143039a xc2028: unlock on error in xc2028_set_config()
+fa0dd33 Drivers: hv: avoid vfree() on crash
+cf7b6fa can: Fix kernel panic at security_sock_rcv_skb
+24a1258 mm/init: fix zone boundary creation
+187bda8 USB: dummy-hcd: fix bug in stop_activity (handle ep0)
+899c61d USB: fix problems with duplicate endpoint addresses
+fc96362 USB: usbtmc: add missing endpoint sanity check
+080812f perf trace: Use the syscall raw_syscalls:sys_enter timestamp
+5a2e101 net: sctp: rework multihoming retransmission path selection to rfc4960
+27d3bc6 Staging: vt6655-6: potential NULL dereference in hostap_disable_hostapd()
+1aca751 tun: Fix TUN_PKT_STRIP setting
+210fcaf ARM: dts: imx31: fix AVIC base address
+1a2c04c ARM: dts: imx31: move CCM device node to AIPS2 bus devices
+84b16b3 MIPS: KGDB: Use kernel context for sleeping threads
+58cc894 l2tp: take reference on sessions being dumped
+61da912 net: phy: handle state correctly in phy_stop_machine
+1e26b4c netfilter: arp_tables: fix invoking 32bit "iptable -P INPUT ACCEPT" failed in 64bit kernel
+b212094 ring-buffer: Have ring_buffer_iter_empty() return true when empty
+1f17e5a tracing: Allocate the snapshot buffer before enabling probe
+371b032 rtl8150: Use heap buffers for all register access
+7b48bce pegasus: Use heap buffers for all register access
+4bcbc12 powerpc: Disable HFSCR[TM] if TM is not supported
+b255712 net/mlx4_core: Fix racy CQ (Completion Queue) free
+5708a1c net/mlx4_en: Fix bad WQE issue
+9a9dcbd s390/decompressor: fix initrd corruption caused by bss clear
+6b8727c metag/usercopy: Add missing fixups
+e6bb58e metag/usercopy: Fix src fixup in from user rapf loops
+c0c5223 metag/usercopy: Set flags before ADDZ
+3db7b7c metag/usercopy: Add early abort to copy_to_user
+b3974bc metag/usercopy: Fix alignment error checking
+7d5c896 ring-buffer: Fix return value check in test_ringbuffer()
+55a91b9 ptrace: fix PTRACE_LISTEN race corrupting task->state
+bb45cc5 ipv4: igmp: Allow removing groups from a removed interface
+877a506 i2c: at91: manage unexpected RXRDY flag when starting a transfer
+b820c13 USB: OHCI: Fix race between ED unlink and URB submission
+7a61a66 ACPI / PNP: Reserve ACPI resources at the fs_initcall_sync stage
+45b6310 ACPI / resources: free memory on error in add_region_before()
+5428f8e ACPI / PNP: Avoid conflicting resource reservations
+45bf94d ALSA: ctxfi: Fix the incorrect check of dma_set_mask() call
+1aaf590 ALSA: ctxfi: Fallback DMA mask to 32bit
+e885158 scsi: libsas: fix ata xfer length
+b06704b ext4: mark inode dirty after converting inline directory
+db381b2 mmc: ushc: fix NULL-deref at probe
+cfb61d6 uwb: hwa-rc: fix NULL-deref at probe
+acdbc6d uwb: i1480-dfu: fix NULL-deref at probe
+a988783 USB: wusbcore: fix NULL-deref at probe
+0ef5358 USB: idmouse: fix NULL-deref at probe
+e318111 USB: uss720: fix NULL-deref at probe
+1eaa760 Input: cm109 - validate number of endpoints before using them
+80835e2 Input: yealink - validate number of endpoints before using them
+f47e62b Input: hanwang - validate number of endpoints before using them
+b8e76a4 Input: ims-pcu - validate number of endpoints before using them
+0fba7c1 net: unix: properly re-increment inflight counter of GC discarded candidates
+c15de44 net: properly release sk_frag.page
+4fc12d7 xen: do not re-use pirq number cached in pci device msi msg data
+180a327 isdn/gigaset: fix NULL-deref at probe
+7436a49 perf/core: Fix event inheritance on fork()
+6b5a9c3 net sched actions: decrement module reference count after table flush.
+bc8d5cd dccp/tcp: fix routing redirect race
+1602320 net: net_enable_timestamp() can be called from irq contexts
+e1ce527 locking/static_keys: Add static_key_{en,dis}able() helpers
+129bb68 ipv4: mask tos for input route
+9bcb346 vxlan: correctly validate VXLAN ID against VXLAN_N_VID
+63b313c USB: serial: io_ti: fix information leak in completion handler
+e56fadc USB: serial: io_ti: fix NULL-deref in interrupt callback
+5060f3f USB: iowarrior: fix NULL-deref in write
+9edb049 USB: iowarrior: fix NULL-deref at probe
+754c188 USB: serial: omninet: fix reference leaks at open
+8cf650d USB: serial: safe_serial: fix information leak in completion handler
+c228a52 tracing: Add #undef to fix compile error
+1331718 MIPS: ip27: Disable qlge driver in defconfig
+662c8dc USB: serial: digi_acceleport: fix OOB-event processing
+d55777f USB: serial: digi_acceleport: fix OOB data sanity check
+04c00cd dm: flush queued bios when process blocks to avoid deadlock
+d2ef158 nlm: Ensure callback code also checks that the files match
+562e4ce ktest: Fix child exit code processing
+6321b98 IB/ipoib: Fix deadlock between rmmod and set_mode
+f955511 s390/qdio: clear DSCI prior to scanning multiple input queues
+d0d7b5a NFSv4: fix getacl head length estimation
+66ac4e6 RDMA/core: Fix incorrect structure packing for booleans
+5a11e68 fuse: add missing FR_FORCE
+252d48d ath9k: use correct OTP register offsets for the AR9340 and AR9550
+0304f9e scsi: aacraid: Reorder Adapter status check
+a417db7 uvcvideo: Fix a wrong macro
+016e2e7 MIPS: Handle microMIPS jumps in the same way as MIPS32/MIPS64 jumps
+a17bda6 MIPS: Calculate microMIPS ra properly when unwinding the stack
+c5ed2ab MIPS: Fix is_jump_ins() handling of 16b microMIPS instructions
+078eba8 MIPS: Fix get_frame_info() handling of microMIPS function size
+157258f MIPS: Prevent unaligned accesses during stack unwinding
+9fe2a68 MIPS: Clear ISA bit correctly in get_frame_info()
+6517ff8 MIPS: OCTEON: Fix copy_from_user fault handling for large buffers
+ff661b6 net/sched: em_meta: Fix 'meta vlan' to correctly recognize zero VID frames
+54c6a1b vti4: Don't count header length twice.
+3aad6b0 net: 6lowpan: fix lowpan_header_create non-compression memcpy call
+67d469c drm/nv50/disp: min/max are reversed in nv50_crtc_gamma_set()
+117f394 ocfs2: do not write error flag to user structure we cannot copy from/to
+e50152d goldfish: Sanitize the broken interrupt handler
+39cfd05 x86/platform/goldfish: Prevent unconditional loading
+19d6577 USB: serial: ark3116: fix register-accessor error handling
+d33df94 USB: serial: opticon: fix CTS retrieval at open
+b7008aa USB: serial: spcp8x5: fix modem-status handling
+664aa9a USB: serial: ftdi_sio: fix line-status over-reporting
+6bd4689 USB: serial: ftdi_sio: fix extreme low-latency setting
+97f44fd USB: serial: ftdi_sio: fix modem-status error handling
+2d8bde6 USB: serial: mos7840: fix another NULL-deref at open
+f9e6eb4 net: socket: fix recvmmsg not returning error from sock_error
+9c31d0b packet: Do not call fanout_release from atomic contexts
+8593ba9 l2tp: do not use udp_ioctl()
+c63cf8d ping: fix a null pointer dereference
+5e92e09 netlabel: out of bound access in cipso_v4_validate()
+ab21678 ipv4: keep skb->dst around in presence of IP options
+f52ade6 net: use a work queue to defer net_disable_timestamp() work
+10da0a3 drm/i915: fix use-after-free in page_flip_completed()
+97d924d scsi: zfcp: fix use-after-free by not tracing WKA port open/close on failed send
+9e5c232 mac80211: Fix adding of mesh vendor IEs
+0cf3cb9 ARM: 8643/3: arm/ptrace: Preserve previous registers for short regset write
+53cae72 svcrpc: fix oops in absence of krb5 module
+9794fc5 tcp: initialize max window for a new fastopen socket
+2336a4c net: fix harmonize_features() vs NETIF_F_HIGHDMA
+d2a0042 platform/x86: intel_mid_powerbtn: Set IRQ_ONESHOT
+65a6712 s5k4ecgx: select CRC32 helper
+01c23cd drm/i915: Don't leak edid in intel_crt_detect_ddc()
+89483a0 crypto: caam - fix non-hmac hashes
+dd47126 fuse: do not use iocb after it may have been freed
+fd529f3 ite-cir: initialize use_demodulator before using it
+5c86941 ARM: ux500: fix prcmu_is_cpu_in_wfi() calculation
+8bbcd9d arm64/ptrace: Reject attempts to set incomplete hardware breakpoint fields
+8acf9ce arm64/ptrace: Avoid uninitialised struct padding in fpr_set()
+c38e78c arm64/ptrace: Preserve previous registers for short regset write
+5dd4810 ubifs: Fix journal replay wrt. xattr nodes
+1d289f2 mtd: nand: xway: disable module support
+36b872a mmc: mxs-mmc: Fix additional cycles after transmission stop
+deee58e svcrpc: don't leak contexts on PROC_DESTROY
+c83d363 ARM: dts: imx31: fix clock control module interrupts description
+04d2828 perf scripting: Avoid leaking the scripting_context variable
+4699444 IB/mlx4: Fix port query for 56Gb Ethernet links
+aee55cd IB/mlx4: Set traffic class in AH
+79bca64 powerpc/ibmebus: Fix device reference leaks in sysfs interface
+9dfc170 powerpc/ibmebus: Fix further device reference leaks
+b25d9f2 NFSv4.1: nfs4_fl_prepare_ds must be careful about reporting success.
+dd4772d x86/cpu: Fix bootup crashes by sanitizing the argument of the 'clearcpuid=' command-line option
+d545b5d USB: serial: ch341: fix modem-control and B0 handling
+c2da9ad USB: serial: ch341: fix resume after reset
+91d2605 USB: serial: ch341: fix open and resume after B0
+01c12dc USB: serial: ch341: fix control-message error handling
+6dd8e18 USB: serial: ch341: fix open error handling
+ce1211e USB: serial: ch341: fix initial modem-control state
+5212b99 USB: serial: kl5kusb105: fix line-state error handling
+7cdb756 mm/hugetlb.c: fix reservation race when freeing surplus pages
+34510c0 Input: i8042 - add Pegatron touchpad to noloop table
+2496677 powerpc: Fix build warning on 32-bit PPC
+bfc9522 gro: Disable frag0 optimization on IPv6 ext headers
+98dbda3 gro: use min_t() in skb_gro_reset_offset()
+81dd0f2 gro: Enter slow-path if there is no tailroom
+20f3a55 net: stmmac: Fix race between stmmac_drv_probe and stmmac_open
+e996374 net, sched: fix soft lockup in tc_classify
+c5ee4de ser_gigaset: return -ENOMEM on error instead of success
+1c9953d powerpc/pci/rpadlpar: Fix device reference leaks
+bba8b01 mmc: mmc_test: Uninitialized return value
+e87ec2f target/iscsi: Fix double free in lio_target_tiqn_addtpg()
+2df2c9f scsi: mvsas: fix command_active typo
+98f641b iommu/amd: Fix the left value check of cmd buffer
+755c0be clk: clk-wm831x: fix a logic error
+34cdbca hwmon: (ds620) Fix overflows seen when writing temperature limits
+e726a16 cris: Only build flash rescue image if CONFIG_ETRAX_AXISFLASHMAP is selected
+36e981bb usb: dwc3: gadget: always unmap EP0 requests
+46eb7ce staging: iio: ad7606: fix improper setting of oversampling pins
+66d98a2 USB: serial: kl5kusb105: abort on open exception path
+2c717c0 ALSA: usb-audio: Fix bogus error return in snd_usb_create_stream()
+77b714b usb: musb: Fix trying to free already-free IRQ 4
+64a4fbd usb: xhci-mem: use passed in GFP flags instead of GFP_KERNEL
+807e88b USB: serial: mos7720: fix parallel probe
+85d78ab USB: serial: mos7720: fix parport use-after-free on probe errors
+7b55eb3 USB: serial: mos7720: fix use-after-free on probe errors
+3699ae6 USB: serial: mos7720: fix NULL-deref at open
+b1ed954 USB: serial: mos7840: fix NULL-deref at open
+99f92e1 USB: serial: kobil_sct: fix NULL-deref in write
+b8119d3 USB: serial: cyberjack: fix NULL-deref at open
+1198ff7 USB: serial: oti6858: fix NULL-deref at open
+1e00613 USB: serial: io_edgeport: fix NULL-deref at open
+1787cd6 USB: serial: ti_usb_3410_5052: fix NULL-deref at open
+8da8617 USB: serial: garmin_gps: fix memory leak on failed URB submit
+b3b6890 USB: serial: iuu_phoenix: fix NULL-deref at open
+2381796 USB: serial: io_ti: fix another NULL-deref at open
+74a6602 USB: serial: io_ti: fix NULL-deref at open
+69b40ad USB: serial: spcp8x5: fix NULL-deref at open
+0ffe66c USB: serial: keyspan_pda: verify endpoints at probe
+15783da USB: serial: pl2303: fix NULL-deref at open
+9aa84b4 USB: serial: quatech2: fix sleep-while-atomic in close
+a60ede8 USB: serial: omninet: fix NULL-derefs at open and disconnect
+0b64692 usb: gadget: composite: Test get_alt() presence instead of set_alt()
+57369959 powerpc: Convert cmp to cmpd in idle enter sequence
+3850b41 IB/multicast: Check ib_find_pkey() return value
+947aa83 IB/mad: Fix an array index check
+6470651 ftrace/x86_32: Set ftrace_stub to weak to prevent gcc from using short jumps to it
+2060f406 scsi: zfcp: fix rport unblock race with LUN recovery
+1a04d4d scsi: zfcp: do not trace pure benign residual HBA responses at default level
+aabf18a scsi: zfcp: fix use-after-"free" in FC ingress path after TMF
+7f2ad78 block: protect iterate_bdevs() against concurrent close
+b86cdaf ext4: return -ENOMEM instead of success
+5454db6 ext4: reject inodes with negative size
+20384bc ext4: fix stack memory corruption with 64k block size
+69b6e5b ext4: fix mballoc breakage with 64k block size
+e1d0154 crypto: caam - fix AEAD givenc descriptors
+7e8a4a3 block_dev: don't test bdev->bd_contains when it is not stable
+94efe05 USB: serial: kl5kusb105: fix open error path
+57bd789 Btrfs: fix tree search logic when replaying directory entry deletes
+970788d hotplug: Make register and unregister notifier API symmetric
+a7a2f1e m68k: Fix ndelay() macro
+bd3bf5c locking/rtmutex: Prevent dequeue vs. unlock race
+e86c23a ext4: fix data exposure after a crash
+c4905ca selinux: fix off-by-one in setprocattr
+b1f5ab1 fbdev: color map copying bounds checking
+fe44c8f Revert "fbcmap: prevent memory overflow"
+4600302 KVM: x86: Introduce segmented_write_std
+979bb80 KVM: x86: fix emulation of "MOV SS, null selector"
+a29ba71 libceph: don't set weight to IN when OSD is destroyed
+7c33351 EVM: Use crypto_memneq() for digest comparisons
+0d37bdf crypto: crypto_memneq - add equality testing of memory regions w/o timing leaks
+d133154 arm/arm64: configs: Tone up to latest litration
+0054b78 arm/arm64: configs: Regenrate & expand
+
+   * manifest/
+e0baffe Track VLauncher
+48e5d73 Drop DeskClock
+b8ca6be Use Gallery2 from lineage To fix possible errors
+58d73ef Track system/media
+92a6e48 Track MusicFX and DSPlibs
+3678fa6 Drop LockClock
+40c1886 manifest: android-7.1.2_r8 -> android-7.1.2_r17
+
+   * packages/apps/CarrierConfig/
+1249ef5 Remove TIM from non-roaming networks list of H3G IT
+
+   * packages/apps/ContactsCommon/
+0a12813 Change icons
+
+   * packages/apps/VLauncher/
+906f3ac Rename and update icon
+
+   * vendor/viper/
+13febe2 Changelog: Two weeks
+a44b417 Remove PixelLauncher and use VLauncher
+
+====================
+     06-15-2017
+====================
+
+
+   * build/
+be002e9 GoogleAudio: set new pixel sounds as defaults [2/2]
+
+   * frameworks/base/
+68b9c15 LocationTile: Behave like other tiles
+e6aea5c Fix Double tap to wake on doze
+b83fefd Remove HWKeys tile for now
+
+   * kernel/lenovo/a6000/
+4df0bfd lib: lz4: cleanup unaligned access efficiency detection
+4ae0bc3 lib: lz4: fixed zram with lz4 on big endian machines
+bb3c1da lz4: fix system halt at boot kernel on x86_64
+2c076d4 ext4: Speedup WB_SYNC_ALL pass called from sync(2)
+47b4a1c Fixing an issue that caused DEVPORT to always be set.
+69cfa05 wlan: Remove WLAN_FEATURE_HOLD_RX_WAKELOCK feature
+57caed2 staging: prima: Update to LA.BR.1.2.9_rb1.18
+f554ec9 trace: Don't force tracing support by default
+3bc3dba init: Kconfig: Don't force DEBUG_KERNEL
+220fc0f cpuidle: don't disable cpuidle when entering suspend
+87243bb ASoC: compress: Don't error on both playback and capture being set
+d81b873 ASoC: compress: Fix compress device direction check
+0fc4bff mm: vmscan: lower swappiness to 10
+8f502ea arm64: kill off the libgcc dependency
+ae19ef3 tracing: Fix event header writeback.h to include tracepoint.h
+dcd46ef cpufreq: qcom-cpufreq: Check return of cpufreq_frequency_get_table
+a102099 workqueue: Fix workqueue stall issue after cpu down failure
+2f3c164 workqueue: clear POOL_DISASSOCIATED in rebind_workers()
+0f43762 workqueue: make sure delayed work run in local cpu
+ceee428 af_unix: fix struct pid memory leak
+3c7b690 PM / devfreq: governor_cpufreq: Fix incorrect refcounting of OF node
+9a19d29 adreno_tz: Initialize a static workqueue at init time
+6394079 ANDROID: dm verity: add minimum prefetch size
+8b3d83c power: align wakeup_sources format
+aa93e9f fs/sync.c: make sync_file_range(2) use WB_SYNC_NONE writeback
+245cb59 suspend: Return error when pending wakeup source is found.
+27df645 PM / sleep / irq: Do not suspend wakeup interrupts
+7400a94 clocksource: Fix abs() usage w/ 64bit values
+a83db22 rcu: Don't disable CPU hotplug during OOM notifiers
+25084b1 ARM: optimize memset_io()/memcpy_fromio()/memcpy_toio()
+6eca90f PM: Enable asynchronous noirq resume threads to save the resuming time
+6beda34 lowmemorykiller: Account for unevictable pages in vmpressure notifier
+2e5112d lowmemorykiller: account for unevictable pages
+2614513 lowmemorykiller: trace kill events.
+6310b1d PM: devfreq: Fix show available freqs
+f9b51d2 PM: devfreq: Always reflect a change of polling interval
+f2064aa msm: kgsl: Report correct GPU frequency in sysfs
+d517caba PM: devfreq: Use high priority workqueue
+d58f1a9 arm/arm64: irq: drop "IRQx no longer affine to CPUn" print to pr_debug()
+1cc6175 block: Set CFQ Slice Idle Default to 0
+4818ab9 block: Set BFQ Slice Idle to 0
+198f973 block: row: add magic values
+fa15fa9 kgsl: releax the values abit
+c595e87 lib/lz4: Pull out constant tables
+ab3a8d0 LZ4 : fix the data abort issue
+3a29671 lib: lz4: Set ARM_EFFICIENT_UNALIGNED_ACCESS
+3fdcabf lz4: add overrun checks to lz4_uncompress_unknownoutputsize()
+645847b lz4: fix another possible overrun
+c65839e lz4: ensure length does not wrap
+474e139 lz4: fix compression/decompression signedness mismatch
+6c188c8 lib/lz4: correct the LZ4 license
+15f5321 lib: add lz4 compressor module
+ae63dbb arm: add support for LZ4-compressed kernel
+fedc4b7 lib: add support for LZ4-compressed kernel
+cdd79b1 decompressor: add LZ4 decompressor module
+6ef9bd9 sched/fair: Optimize find_idlest_cpu() when there is no choice
+7e8c5d5 af_unix: speedup /proc/net/unix /proc/net/unix has quadratic behavior, and can hold unix_table_lock for a while if high number of unix sockets are alive. (90 ms for 200k sockets...)
+0e2c9d9 msm: memutils: memcpy, memmove, copy_page optimization
+8c92bdd sched/fair: Implement fast idling of CPUs when the system is partially loaded
+109f1fc sched/idle: Avoid spurious wakeup IPIs
+74c0f3f cputime: Fix jiffies based cputime assumption on steal accounting
+eab4928 sched/balancing: Reduce the rate of needless idle load balancing
+665cea1 sched/fair: Stop searching for tasks in newidle balance if there are runnable tasks
+6aed3dc ipv6: fix out of bound writes in __ip6_append_data()
+58276a7 ipv6/dccp: do not inherit ipv6_mc_list from parent
+70473d9 sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
+5c4f818 ping: implement proper locking
+14427d7 dccp/tcp: do not inherit mc_list from parent
+4f77edd ip6_gre: fix ip6gre_err() invalid reads
+6d6cc34 crypto: ahash - Fix EINPROGRESS notification callback
+1fcb0b9 crypto: hash - initialize entry len for null input in crypto hash sg list walk
+60fd8b8 crypto: hash - Add real ahash walk interface
+293b03f crypto: hash - Simplify the ahash_finup implementation
+facd532 crypto: hash - Pull out the functions to save/restore request
+3232d98 crypto: hash - Fix the pointer voodoo in unaligned ahash
+b99578e crypto: ahash - Fully restore ahash request before completing
+ccefe79 mm/mempolicy.c: fix error handling in set_mempolicy and mbind.
+2c04975 power: remove filesystem sync on suspend
+1966de3 writeback: Fix occasional slow sync(1)
+9cefc549 proc: much faster /proc/vmstat
+ecfd366 writeback: Do not sort b_io list only because of block device inode
+f4a254a writeback: fix race that cause writeback hung
+12234ad AIO: Don't plug the I/O queue in do_io_submit()
+a54d9d3 readahead: make context readahead more conservative
+14f34d9 writeback: fix writeback cache thrashing
+4c861f0 block: Reserve only one queue tag for sync IO if only 3 tags are available
+b6c74c4 proc: Remove additional SafetyNet flags from /proc/cmdline
+db87f7f proc: Remove verifiedbootstate flag from /proc/cmdline
+7d84e1a arm64: crypto: increase AES interleave to 4x
+307862b arm64/crypto: issue aese/aesmc instructions in pairs
+2edbc10 arm64: crypto: Change priority of arm64 aes cipher.
+08fac45 crypto: arm64/crc32 - bring in line with generic CRC32
+03571cd crypto: crc32 - Add ARM64 CRC32 hw accelerated module
+ca3a1f6 blk-throttle: implement proper hierarchy support
+bbf85e6 blk-throttle: implement throtl_grp->has_rules[]
+39e0e0b blk-throttle: Account for child group's start time in parent while bio climbs up
+2e9ed80 blk-throttle: add throtl_qnode for dispatch fairness
+9a7a193 blk-throttle: make throtl_pending_timer_fn() ready for hierarchy
+8633c3a blk-throttle: make tg_dispatch_one_bio() ready for hierarchy
+0b7d951 blk-throttle: make blk_throtl_bio() ready for hierarchy
+b1ab90b blk-throttle: make blk_throtl_drain() ready for hierarchy
+e4b99b9 blk-throttle: dispatch from throtl_pending_timer_fn()
+fe072c9 blk-throttle: implement dispatch looping
+b8bbbe1 blk-throttle: separate out throtl_service_queue->pending_timer from throtl_data->dispatch_work
+b284053 blk-throttle: set REQ_THROTTLED from throtl_charge_bio() and gate stats update with it
+835c696 blk-throttle: implement sq_to_tg(), sq_to_td() and throtl_log()
+57c06e6 blk-throttle: add throtl_service_queue->parent_sq
+d3215a3 blk-throttle: generalize update_disptime optimization in blk_throtl_bio()
+f3bf45f blk-throttle: dispatch to throtl_data->service_queue.bio_lists[]
+fa5af24 blk-throttle: move bio_lists[] and friends to throtl_service_queue
+e72d18f blk-throttle: add throtl_grp->service_queue
+fa70b52 blk-throttle: reorganize throtl_service_queue passed around as argument
+07590e1 blk-throttle: pass around throtl_service_queue instead of throtl_data
+9f85330 blk-throttle: add backlink pointer from throtl_grp to throtl_data
+0a809d6 blk-throttle: simplify throtl_grp flag handling
+8e2e17b blk-throttle: rename throtl_rb_root to throtl_service_queue
+ba4b30d blk-throttle: remove pointless throtl_nr_queued() optimizations
+824cf9c blk-throttle: relocate throtl_schedule_delayed_work()
+982abeb8 blk-throttle: collapse throtl_dispatch() into the work function
+3c2e0c9 blk-throttle: remove deferred config application mechanism
+b1b1058 blk-throttle: remove spurious throtl_enqueue_tg() call from throtl_select_dispatch()
+c47cf61 blkcg: move bulk of blkcg_gq release operations to the RCU callback
+15e6104 blkcg: invoke blkcg_policy->pd_init() after parent is linked
+4c626e0 blkcg: implement blkg_for_each_descendant_post()
+21d4565 blkcg: move blkg_for_each_descendant_pre() to block/blk-cgroup.h
+fe9c6c6 blkcg: fix error return path in blkg_create()
+eab266b sched: fix task-priority when using SCHED_RESET_ON_FORK
+b7b4372 BACKPORT: sched/preempt: Fix preempt_count manipulations
+8fb61f5 UPSTREAM: sched: Introduce preempt_count accessor functions
+304e280 IKSWM-5880:sched/rt: really force updates rq clock in pick_next_task_rt
+b562e5f sched/rt: Reduce rq lock contention by eliminating locking of non-feasible target
+294abee sched: Change autogroup_move_group() to use for_each_thread()
+ce8699f sched: Change thread_group_cputime() to use for_each_thread()
+1051005 sched: s/do_each_thread/for_each_process_thread/ in debug.c
+f7ea766 sched: s/do_each_thread/for_each_process_thread/ in core.c
+5c80336 sched: Fix exec_start/task_hot on migrated tasks
+94a4bad sched/fair: Avoid integer overflow
+8021ad8 sched: Optimize task_sched_runtime()
+b3ffa37 sched: Queue RT tasks to head when prio drops
+8bdf121 slab: introduce helper functions to get/set free object
+4e6554e slab: factor out calculate nr objects in cache_estimate
+24c8079 slab: replace non-existing 'struct freelist *' with 'void *'
+60c8762 slab: fix to calm down kmemleak warning
+71e1f29 slab: rename slab_bufctl to slab_freelist
+a6c7449 slab: remove useless statement for checking pfmemalloc
+51c93eb slab: use struct page for slab management
+06f3e9f slab: replace free and inuse in struct slab with newly introduced active
+d64879e slab: remove SLAB_LIMIT
+3264e41 slab: remove kmem_bufctl_t
+ffeba30 slab: change the management method of free objects of the slab
+0486951 slab: use __GFP_COMP flag for allocating slab pages
+5c7e2fe slab: use well-defined macro, virt_to_slab()
+03f0cb4 mm/slab: Fix drain freelist excessively
+1790e66 mm, slab: moved kmem_cache_alloc_node comment to correct place
+d13f827 mm/slab: fix unexpected index mapping result of kmalloc_size(INDEX_NODE+1)
+65402a0 increase i/o readahead
+b5a5133 arm/arm64: crypto: assure that ECB modes don't require an IV
+0fc037c Fix arch/arm/crypto/sha256_glue.c
+7e9757b arm: crypto: Add optimized SHA-256/224
+6c39c53 crypto: ablk_helper - Replace memcpy with struct assignment
+2ed39ef ARM: 7835/2: fix modular build of xor_blocks() with NEON enabled
+b1815f2 ARM: crypto: add NEON accelerated XOR implementation
+b4a5556 crypto: sha1 - implement base layer for SHA-1
+5f7a57a crypto: arm/aes update NEON AES module to latest OpenSSL version
+1fe5621 crypto: sha512-generic - move to generic glue implementation
+67d145c crypto: sha256-generic - move to generic glue implementation
+c7da51c crypto: sha1-generic - move to generic glue implementation
+60a3818 crypto: sha512 - implement base layer for SHA-512
+c98f256 crypto: sha256 - implement base layer for SHA-256
+d4f0cbe fs/buffer.c: increase the buffer-head per-CPU LRU size
+87bc3ea block_dev: implement readpages() to optimize sequential read
+7ab9acc ARM: alignment: correctly decode instructions in BE8 mode.
+9a4a319 PM / devfreq: Fix governor_store()
+d495196 Optimize copy_page for modern ARM platforms
+b62f982 lib/md5.c: simplify include
+08e8022 lib: list_sort.c: Limit number of unused cmp callbacks
+b1a4e56 crypto: LLVMLinux: Remove VLAIS usage from libcrc32c.c
+7dec4e8 crypto: LLVMLinux: Add macro to remove use of VLAIS in crypto code
+7ce3e4a lib/lcm.c: replace include
+f2abe95 lib/lcm.c: lcm(n,0)=lcm(0,n) is 0, not n
+25180dd lib/lcm.c: ensure correct result whenever it fits
+e1f8722 kfifo: use BUG_ON
+e19312c kfifo: kfifo_copy_{to,from}_user: fix copied bytes calculation
+1e0eefe lib/halfmd4.c: use rol32 inline function in the ROUND macro
+e43a147 lib/halfmd4.c: simplify includes
+78afe52 lib/decompress_unlzma: Do a NULL check for pointer
+115d2c6 lib/decompress_inflate.c: include appropriate header file
+a6f6ec0 lib/decompress.c: consistency of compress formats for kernel image
+b496e94 fs: fix for empty app-mounted directories
+27de320 Readahead: Optimize divide/multiply by power of 2 using L/R shift
+2caa3718 drivers: cpuidle: Remove counting of last_residency
+ec85a3f ARM: smp: Wait just 1 second for other CPU to halt
+cbf5ee3 drivers: apanic_mmc: write panic information to raw MMC partition
+b04f4b6 int_sqrt: Improve 3x faster integer sqrt.
+b67d508 int_sqrt: correction square root algo with naming
+2bb9348 UPSTREAM: kernel: make READ_ONCE() valid on const arguments
+302bacc UPSTREAM: kernel: Change ASSIGN_ONCE(val, x) to WRITE_ONCE(x, val)
+896a648 UPSTREAM: kernel: Provide READ_ONCE and ASSIGN_ONCE
+1973b1b BACKPORT: [UPSTREAM] mm: new shrinker API
+da99f35 [PATCH] Fix extern inline use for gcc > 4.3 in c99 mode
+89b98d9 lib/mpi: fix off by one in mpi_read_raw_from_sgl
+7f41c87 move count_zeroes.h out of asm-generic
+8c302ccd lib/mpi: Add mpi sgl helpers
+1986f1a MPI: Fix mpi_read_buffer
+a1f4464 MPILIB: add mpi_read_buf() and mpi_get_size() helpers
+d98d2cc MPI: MIPS: Fix compilation error with GCC 5.1
+8955aee MPILIB: Fix comparison of negative MPIs
+cdb0b2f MPILIB: Fix obvious but harmless typo
+2bdd066 MPILIB: Deobfuscate mpi_cmp
+ff29955 MPILIB: add module description and license
+b63db5f alpha: Modernize lib/mpi/longlong.h
+b30ff25 ARM: 8160/1: drop warning about return_address not using unwind tables
+da7137f ARM: 8158/1: LLVMLinux: use static inline in ARM ftrace.h
+71c62a3 msm_rmnet: Kill logspam
+cdda700 arm/arm64: crypto: boost performance
+8976a9d lib: add glibc style strchrnul() variant
+317cafe lib: bitmap: add missing mask in bitmap_andnot
+0d0a48a lib: bitmap: add missing mask in bitmap_and
+8b9dcf6 lib: bitmap: add missing mask in bitmap_shift_right
+15ad8d7 lib: bitmap: micro-optimize bitmap_allocate_region
+e339222 lib: bitmap: change parameter of bitmap_*_region to unsigned
+983fb50 lib: bitmap: fix typo in kerneldoc for bitmap_pos_to_ord
+b829b44 lib: bitmap: simplify bitmap_parselist
+b3ff329 lib: bitmap: make the start index of bitmap_clear unsigned
+3cc1117 lib: bitmap: make the start index of bitmap_set unsigned
+f4c4a67 lib: bitmap: make nbits parameter of bitmap_weight unsigned
+81aea08 lib: bitmap: make nbits parameter of bitmap_subset unsigned
+e412a4d lib: bitmap: make nbits parameter of bitmap_intersects unsigned
+4a64172 lib: bitmap: make nbits parameter of bitmap_{and,or,xor,andnot} unsigned
+c1c2bcf lib: bitmap: remove unnecessary mask from bitmap_complement
+72c4a1a lib: bitmap: make nbits parameter of bitmap_complement unsigned
+3c42a36 lib: bitmap: make nbits parameter of bitmap_equal unsigned
+cf6a9f1 lib: bitmap: make nbits parameter of bitmap_full unsigned
+fd7c971 lib: bitmap: make nbits parameter of bitmap_empty unsigned
+2ae60aa lib/crc7: Shift crc7() output left 1 bit
+447bbf9 lib: crc32: Add some additional __pure annotations
+9e9e61a lib: crc32: Mark test data __initconst
+94a4385 lib: crc32: Greatly shrink CRC combining code
+afe4af3 lib/crc32.c: remove unnecessary __constant
+0fd05d9 lib: crc32: reduce number of cases for crc32{, c}_combine
+03bcaf7 lib: crc32: conditionally resched when running testcases
+7063f00 lib: crc32: add test cases for crc32{, c}_combine routines
+4492f99 lib: crc32: add functionality to combine two crc32{, c}s in GF(2)
+b5ee730 lib: crc32: clean up spacing in test cases
+c6ac94f lib/crc32: update the comments of crc32_{be,le}_generic()
+515c736 sched/idle: Optimize the generic idle loop
+f077e50 Optimize ARM memset and memzero functions
+7589daa Rename ARM assembler push/pull macros
+70d066f give up on gcc ilog2() constant optimizations
+f62efa27 tcp: enable sockets to use MSG_FASTOPEN by default
+fbb7858 net: tcp: fix rtable leak in tcp_is_local[6]
+616b44d tcp_cubic: do not set epoch_start in the future
+c05e53f tcp_cubic: better follow cubic curve after idle period
+055fab5 tcp: fix timing issue in CUBIC slope calculation
+c00f869 mmc: move to a SCHED_FIFO thread
+a47fc73 dm-verity: run in a WQ_HIGHPRI workqueue
+33faef2 dm-crypt: run in a WQ_HIGHPRI workqueue
+f7627ed arm/dt: msm8916: Enable bam_dmux fast shutdown
+22af8d5 soc: qcom: bam_dmux: Correct payload length handing for dynamic mtu
+34a1654 soc: qcom: bam_dmux: Sync SSR with disconnect/reconnect
+a10cf5d ksm: fix initialisation hooks
+54c8676 Scripts: clean up version string
+
+   * packages/apps/Settings/
+36f6866 Volume can not be updated in Sound&notification
+db101e9 AllowBindAppWidgetActivity: Fix crash when the activity is closing
+1f0fc93 Camera: Move option to disable vibration on double tap
+
+   * packages/apps/VLauncher/
+d0fc813 Theme changes
+4928664 VLauncher
+81818f0 Fixed memoryleak, removed log and unnecessary import
+b78e6bc Small changes for app suggestion update calls
+a73de69 Update overlay request version to O Pixel Launcher equivalent
+e669dbe Remove three wrongly deobfuscated double while loops to prevent a freeze
+d5a7ac2 Continue work on showing predictions, add a toggle for it
+8dfb5c4 Change colours to the Pixel ones everywhere
+
+   * vendor/viper/
+6a1643c Rename prebuilt apps
+eb733fc This is viper, not cm.
+3d78705 New wallpaper for V2.0
+f0c210c Fix derps and add new google apps * Fix WITH_CM_CHARGER flag * Move PixelLauncher, Turbo and WallpaperPicker to correct folder * Add Google DeskClock * Update Pixel Launcher
+d65c169 Remove sounds props from here
+
+====================
+     06-14-2017
+====================
+
+
+   * frameworks/base/
+8f5b147 Update PT-BR translations
+e8abaf8 Try to fix navigation bar not showing by default In devices without hwkeys
+2b29598 HWKeysTile: Adapt for Viper
+2f3e435 Update PT-BR translations
+17d4b11 Use correct color for system_primary_color
+dfb9565 Option to Display Data Disabled Indicator Icon [1/2]
+ddb3d8d Ability to disable Do not Disturb mode when calling [1/3]
+14faf44 KernelCpuSpeedReader: Account for missing sysfs nodes
+2323f26 Make roaming indicator optional [1/2]
+9e84e32 statusbar ticker: Update tickercolorhelper
+178dd61 Ticker: Set default color to White [1/2]
+15e170c Statusbar ticker: use a gentle smooth fade animation
+4b56821 Ticker: allow to show music track info on new track being played [1/2]
+9d220fa Statusbar ticker: apply statusbar tint when set to white
+64f46d6 Add Status Bar Ticker [1/2]
+fa28d49 Check for spurious wake ups
+6c54b00 SystemUI: animate icon when locking a task
+2d09dbb Revert "Fix gap issue with keyguard clock/carrier label"
+51e261a Header: More padding
+80f9d10 Fix SystemUI FC
+25e8cf1 Fix build
+251c078 base: Add bool to enable/disable doze by default
+f383cb1 base: [MicroG] Allow location providers also outside of /system
+4eb2d7b Keyguard: Forward port lockscreen quick unlock (1/2)
+3b644dc Remove dashboard tile summaries [2/2]
+f7e0c5f Frameworks: add ability to disable bar color in battery saver mode (1/2)
+
+   * kernel/lenovo/a6000/
+be0d246 Merge "msm: camera: isp: Avoid information leak in ISPIF" into LA.BR.1.2.9_rb1.22
+08b2a4d Merge "msm: vidc: Allocate memory dynamically for debugfs info_reads" into LA.BR.1.2.9_rb1.22
+ac2ac15 msm: vidc: Allocate memory dynamically for debugfs info_reads
+30a161f msm: camera: isp: Avoid information leak in ISPIF
+cba5092 power: smb358-charger: Do not set supply type when charger insertion
+
+   * packages/apps/MusicFX/
+ced9643 Update PT-BR translations
+4854303 Let's translate remaining effects
+fcd5be7 Update PT-BR translations
+
+   * packages/apps/Nfc/
+182c26e NfcNci: make T3T/Nfc-F HCE optional
+
+   * packages/apps/Settings/
+94b4542 Update translations and cleanup
+37165f9 Restore stock ambient display behavior
+13ec2a9 Fix derps
+8cf6ef8 Move advanced reboot to Venom
+323a23b Settings: Remove duplicate permissions
+2b1b0b4 Keyguard: Forward port lockscreen quick unlock (2/2)
+e39ea20 Add option to enable or disable fullscreen keyboard [2/2]
+8f5147b Sync qs invert color with color inversion in Settings
+0d18650 Move heads up settings to Venom [1/2]
+0fa784c Rework dashboard settings [1/2]
+a4a35a8 Dashboard summaries double lines toggle [2/2]
+def0e69 Dashboard tile layout config [1/2]
+de54c55 Disable dashboard conditions [2/2]
+c4108cd Improvements to dashboard suggestions
+7ce871a Remove dashboard tile summaries [1/2]
+246a69a Disable dashboard suggestions [1/2]
+69fc8c7 Ambient display: Battery status (2/2)
+8d30964 Add missing strings
+13ab5a1 Custom ambient display settings (2/2) [neo: This is revival of old code.]
+adad131 Dark theme: Update colors
+c1a9c0b Move few preferences to venom
+82933fc Settings : Rebuild app list after reset
+2eb816c Settings:Rewrite Restart SystemUI
+4074b49 Allow sorting applications by size
+2004337 Add QS pulldown with one swipe on fp sensor [2/2]
+a1d48ad Settings: enable fast scroll for all app list views
+0f5be6c Automatic translation import
+85112a6 Settings: Make string untranslatable
+e966a2d Reset battery stats [2/2]
+c830ee6 Remove Double tap to sleep
+
+   * packages/apps/VLauncher/
+d10c7b9 First attempt at pulling in the reflection library for app suggestions
+
+   * packages/apps/Venom/
+e18522f devices: add peregrine
+ae7b942 Fix derps
+d33f548 Fix ButtonBacklight behavior when switching hwkeys
+f03f40e fix derp
+c6afc73 Change more things * New summaries * New icons * Update translation
+32f383e Fix derps and translations
+64a1c67 Move battery save mode color to Venom
+242b000 More icons and add category in the power menu option
+7b8d0e4 Option to Display Data Disabled indicator Icons [2/2]
+74f607d Ability to disable Do not Disturb mode when calling [3/3]
+4fd3b19 Make roaming indicator optional [2/2]
+fa9c57e Ticker: Set default color to White [2/2]
+e8942be Ticker: allow to show music track info on new track being played [2/2]
+46c172d Add Status Bar Ticker [2/2]
+1c0a54a Rework
+0a28df2 Add icons for new functions
+ade6a68 Fix build
+
+   * vendor/cmsdk/
+a0a234b [3/3] cmsdk: Screenshot for hardware keys
+
+   * vendor/viper/
+9c21ea0 Fix repo url and branch in README
+cc72e12 Get devices from repository
+c797bd7 Materialize telephony icons [1/2]
+48a5ad4 Materialize telephony icons [2/2]
+57febc6 Update Turbo from June security release
+7f46a1a Added ability to choose between AudioFX and AOSP MusicFX
+
+====================
+     06-13-2017
+====================
+
+
+   * kernel/lenovo/a6000/
+c34c9ff Merge AU_LINUX_ANDROID_LA.BR.1.2.9_RB1.07.01.02.254.029 on remote branch
+
+   * packages/apps/CustomTiles/
+6af4393 CustomTiles: Kill Battery Saver Tile
+
+   * packages/apps/MusicFX/
+d206570 Dark theme
+
+   * packages/apps/Snap/
+0f83363 SnapdragonCamera: Fix ghosting when non-zsl in VGA/QVGA size
+202f50a SnapdragonCamera: Fix live shot image stretch when recording is 4K
+fffbe39 SnapdragonCamera: Fix photo reversed when enable selfie Mirror
+dd1b09c SnapdragonCamera: Fix photo reversed when enable selfie Mirror
+b37ea18 SnapdragonCamera: Fix preview in wrong size
+708af54 SnapdragonCamera: Fix front camera preview flipped
+9d21c69 SnapdragonCamera: Fix preview is flipped on 8996
+cc08b44 SnapdragonCamera: Camera1 Selfie Mirror orientation check
+c188ffe SnapdragonCamera: Fix Camera1 force close when refocusing the picture.
+d24a8ed SnapdragonCamera: Change video snapshot picture size logic
+bdb5068 SnapdragonCamera: Avoid cancel AF shortly after trigger
+3de435d SnapdragonCamera: Fix crash during UI stress test
+f870393 SnapdragonCamera: Fix OutOfBoundsException in monkey test
+367758c SnapdragonCamera: Fix FC for NullPointerException
+c8a45a3 SnapdragonCamera: Reset zoom value when resuming
+a5054be SnapdragonCamera: Fix capture with flash will get black image.
+975aeca SnapdragonCamera: Fix FC cause by Null pointer
+922c4b3 SnapdragonCamera: Make copy of location before altering timestamp
+bd1d6ea Snap: Sign with platform key
+d7247ff Add orientation correction for landscape devices
+
+   * packages/apps/VLauncher/
+7a043e5 Fix multi-user permissions for Samsung's Secure Folder
+fdbb347 Rename permissions for compatibility
+3ee7b96 Pixelify 3 - Accent colour, widget scrolling
+
+   * packages/services/OmniJaws/
+8bc4719 LockClock: Import lock screen translations from LOS
+e35e9bf Automatic translation import
+f884e72 OmniJaws: update README.md to include OWM API key usage info
+213c6d7 OmniJaws: update README.md
+0f92f31 Automatic translation import
+2140bb6 Change api key
+9d0c3c8 Update PT-BR translations
+fe3fb92 OmniJaws: add pinWheel directions for wind
+9441638 WindSpeed: allow to translate
+574de8a Add strings for lock screen weather
+
+   * packages/services/Telecomm/
+276a269 Ability to disable Do not Disturb mode when calling [2/3]
+
+   * packages/services/Telephony/
+bcabddf Merge remote-tracking branch 'los/cm-14.1' into nougat
+a40c8ca Fix Phone Service crash on MSIM devices as Guest user
+
+   * system/bt/
+331fc1e bt: Disable AVRCP 1.6
+
+====================
+     06-12-2017
+====================
+
+
+   * build/
+120740e Eye candy for device/lunch menu
+1382d42 core: minimize dumpvar
+c5fe8f2 Changes in lunch menu
+0b550e2 envsetup: stop jack server once build completed
+
+   * packages/apps/VLauncher/
+2b32fb8 Pixelify 2 - Wallpapers, icons, app list
+b186607 Pixelify
+
+====================
+     06-11-2017
+====================
+
+
+   * frameworks/base/
+59135c0 Fix batterySendBroadcast not synchronized issue.
+89b8e9f bless python versions newer than 2.6
+99d0696 Handle ActivityNotFoundException for contacts activity
+036bafe extend PreferenceActivity for title text on a single pane mode
+925105d Override onRestoreInstanceState() in MultiSelectListPreference
+4128e2f Fragment animations are not being saved across configuration changes
+4ee875b Fix to NullPointerException when activity is relaunched
+2f4791d Fix right mLastTimeUsed when aggregate UsageStats
+ed25bd3 Fix ListView is not scrolled properly with arrows
+49709c4 Synchronize access of mSubscriptions
+6a1bf6f Fix deadlock b/w ActivityManagerService and MediaSessionService
+08ffcef Provide synchronization to setview to avoid NPE
+8c6e3719 AsyncTask: Fix to remove canceled tasks from executor's queue.
+80acad1 frameworks/base: Fix to avoid crash when the tab is not set from app
+b926a56 IInputMethodWrapper to recycle SomeArgs in all cases.
+d75a9e4 Catch corruptexception during Transaction operation
+9e75d25 better notification speed change
+298290a Adjusted animation timing
+9c65880 Fix TaskRecord wrong dump element firstActiveTime
+389b5a3 Fix force idle issue
+2c1efa5 [1/2] base: Screenshot for hardware keys
+f8c264a policy: refact navigation bar configs
+a36ae7e Notification panel fingerprint gesture: fix axis on landscape [1/2]
+6d9ae70 OmniStyle: Try to fix custom header shadow observer
+480fcaf BatteryMeterView: Extend pulsating animation to solid batter style
+779581d Fix external QS title color
+10d67b5 Remove FastJNI optimization on AssetManager to avoid dead lock.
+efb0f40 Double tap to sleep on navigation bar [1/2]
+532b0ba Double tap power button for camera - vibration toggle [1/2] added a toggle to disable double tap vibration when launching camera from the power button
+e825feb Fix a use-of-uninitialized-value warning
+ec15050 dont panic if immersive mode is set by the user
+2c57805 Optimised hwui rounded corners shader
+1d4f5db Reduce hwui CPU time by using glDrawRangeElements
+25e26ae FPS: prevent NPE if FP hal doesnt handle performancestats
+f03bd48 CaptivePortalLoginActivity correctly gets UserAgent
+092e416 Prettify the captive portal sign-in activity
+8800239 Add QS pulldown with one swipe on fp sensor [1/2]
+6237f1d Add Sound tile to QS [1/2]
+f70da5d Add padding on header
+fe9a616 Fix Potential NPE on Msim
+4c9dfa6 core: Add support for fake signatures, enabled per app by dynamic permission
+3b89ddf Fix gap issue with keyguard clock/carrier label
+17b701b Set network traffic meter font to sans serif condensed
+527ec68 FW_BASE: Rewrite restart SystemUI method
+21fb2ba Fix build error
+c489b83 base: SystemUI: remove force weather update bits force updates have been removed from service API
+936ccce base: SystemUI: use new OmniJaws error broadcasts
+9b84d02 KeyguardWeather: Update weather after switching options
+abe0206 Keyguard Weather : Refactor for new API[1/2] --Use Omnijaws API thanks to omni rom and Max Winger --Fix Weather on Lockscreen not updating --Goodbye Cclock (AT LAST)
+4017aac Extend OmniJaws Client to Keyguard Signed-off-by: Varun Date <date.varun123@gmail.com>
+0134ffe Fix weather items npe - When casting and you turn off the screen (who does that), all hell breaks loose
+2798925 Remove OmniJaws check on longpress
+9f4caf5 Play nice when OmniJaws is not installed
+e6c3b7c SystemUI: add xxxhdpi visualizer config
+98d81c8 Statusbar: correctly align status bar icons
+bd9549a Unlock keystore with fingerprint after reboot (1/2)
+61fab47 Dashboard layout settings [2/2]
+35b65b8 Remove dashboard tile summaries [1/3]
+16ee67c Disable dashboard suggestions [2/2]
+fe5c0db Disable dashboard conditions [1/2]
+1daab5c Fix HWKeys tile pref name
+8845998 Header Date+Time positions [1/2]
+e3b2c68 QS Header Icon settings [1/2]
+498d181 MusicTile: use icons from CrDroid
+ec4da41 Reboot/Recovery QS Tile: Use vectorized icons
+e72971c Update membar a bit more often Using the FAB clear-all was not updating the membar at all and thus giving us false readings. At one point on the OP3T it said I had less than 1GB of ram with no open apps. This fixes that issue.
+e4cb497 Fingerprints: Increase MAX_FAILED_ATTEMPTS to 10
+55ecd11 SystemUI: Fix NPE 12-11 17:56:37.756   686   686 E AndroidRuntime: FATAL EXCEPTION: main 12-11 17:56:37.756   686   686 E AndroidRuntime: Process: com.android.systemui, PID: 686 12-11 17:56:37.756   686   686 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.getLocationOnScreen(int[])' on a null object reference 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.isInArea(StatusBarIconController.java:531) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.applyIconTint(StatusBarIconController.java:550) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.setIconsDarkArea(StatusBarIconController.java:443) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.LightStatusBarController.update(LightStatusBarController.java:124) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.LightStatusBarController.onSystemUiVisibilityChanged(LightStatusBarController.java:74) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.setSystemUiVisibility(PhoneStatusBar.java:3417) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:452) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6176) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:888) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:778) 12-11 17:56:37.762   573   773 W ActivityManager:   Force finishing activity com.android.systemui/.recents.RecentsActivity
+abfd297 SystemUI: Add tile for enable/disable HW keys
+0aad4c3 Language toggle QS
+0235d5c GlobalScreenShot:Fix Unused Calls
+553609e Fix playing screenshot's sound when camera's sounds off
+6bd49ac FWB: Disable/Enable screenshot sound [1/2]
+00e45f4 Add option to enable or disable fullscreen keyboard [1/2]
+74aac96 Reboot/Recovery QS Tile: Use vectorized icons
+08a7c36 Advanced Bluetooth, Data, Wifi Toggles [1/2]
+9bfc75d incall vibration options [2/3]
+74337da ImmersiveRecents: improvements/cleanup
+7742237 Immersive Recents [1/2]
+55ec68e Add vpn and data saver to statusbar icon blacklist *fixed vpn toggle it is now instant
+7d1d93d QS: Expanded Desktop Tile Reloaded
+0c67252 Add Expanded Desktop QS Tile
+3e68388 Live Volume Steps [1/2]
+6de5be3 Show icons of only background apps in Toasts
+2c92de7 Toast icon switch [1/2]
+d319c9e base: SystemUI: Hide status bar on lock screen [1/2]
+35ab45f base: Improve secure lockscreen access with disabled QS
+bdfbdc0 base: allow disabling quick settings on secure lockscreen [1/2]
+7c1f2de Fix for wallpaper flicker on bootup on some targets
+6a46e37 Make Heads Up snooze toast more informative *tell the user which app is snoozing *also center the toast to account for big app names Example: Peeking notifications from SystemUI are snoozing for 1 minute.
+c4509c5 Little derp
+33a1860 Base: HeadsUp snooze function [1/2] 5.1 introduced a snooze feature which activates when swiping up. Default snooze time is 1 minute. Let's make it configurable!
+e575246 HeadsUp: add timeout option (1/2)
+640ee1b Reboot/Recovery QS Tile
+ff08dc7 Add Brightness QS Tile
+c0478a2 Add Screenshot QS Tile
+6719a1f Add Music QS Tile
+78874fa Add three-fingers-swipe to screenshot [2/2]
+7187764 Fingerprint authentication vibration [1/2]
+1b667f1 Add option to hide lockscreen clock, date & alarm text [1/2]
+9e09903 Add Haptic Feedback to QS tiles [1/2]
+a7bf058 Bluetooth: Change disconnected icon to be 40% transparent
+26a7c0c Added a toast to screenshot delete, why not right?
+78d0dc3 Hide arrows in network traffic indicators [1/2]
+44b56cf Smooth Spinners: Makes the loading "spinner" animation smoother in non-holo apps
+8799497 allow installation of non market apps by default
+db15b1a [1/2] Base: Hide power menu on secure lockscreen Adds an option to enable/disable power menu on secure lockscreen.
+0fa8922 voLTE icon: fix spaces
+e24cf64 replace new volte icon
+c650553 Add VOLTE icon Extracted from CAF and adapted to AOSP by @xyyx Added switch to statusbar icon blacklist by @xyyx
+d5d5e95 [1/2] Frameworks_base: Double tap to wake on doze
+b3f5849 Ambient display: Battery status (1/2)
+47a3cdb Custom ambient display settings (1/2)
+6de57cf Fix RTL layout with membar 'free ram' text
+3047945 Make Recents "Free Ram" text translatable
+10dec4c Core: Fix setupwizard FC
+23d1ea3 BatteryService: add dash charging support *and make it work along with lockscreen charging info commit
+0564089 Fix possible SysUI fc when playing lowbattery sound
+03d92fd Wired headset: make ringtone audio focus customizable [1/3]
+67157e7 audiofx: added missing @hide to BassBoost enhancements
+91b553d base: audiofx: harden against offload effects
+b9f19c5 [3/3] AudioFX: Add center frequency param to bassboost
+fd307ec [3/3] AudioEffect: Add a stereo widener effect
+24207e3 Revert "Base: API to restart SystemUI without root"
+55c8d7f Revert "Add INTENT_RESTART_SYSTEMUI action"
+3798f18 Revert "Improve scrolling cache"
+25f9590 Revert "base: Screen pinning improvements"
+7c9c90e Revert "Fix screenpinning from showing up unless enabled"
+2fccbf5 Revert "Fix wrong peek height of the notification panel"
+5a405bc Revert "Revert "Battery tile bolt/text should not be clear""
+45acca0 Revert "Allow WiFi & Bluetooth tile details to scroll"
+8f95453 Revert "QSTiles: set disconnect callback in bluetooth details list adapter"
+11a696b Revert "QS BluetoothTile proiritizes connected device"
+c2bc2f0 Revert "Bluetoothtile: Rectify and fix compilation"
+755320e Revert "Lockscreen PIN quick unlock [1/2]"
+
+   * hardware/qcom/audio-caf/msm8996/
+3b4fef6 Merge d40705f1fcd333f8e8115dd69555f9e9facfa78c on remote branch
+
+   * packages/apps/VLauncher/
+b819416 Remove checks for correct swipe up position, enables swipe up everywhere like Pixel Launcher
+
+   * packages/apps/Venom/
+42a5c47 Settings: Refactor Keyguard Weather [2/2] Nitrogen:
+90a67ba Add maintainer for k4
+b30f8a6 Add String For Maintainer Of A6000.
+166d587 Add Lenovo A6000 Maintainer.
+574a830 No longer officially supported
+9ea8c15 Double tap to sleep on navigation bar [2/2]
+a2bc39e Double tap power button for camera - vibration toggle [2/2] added a toggle to disable double tap vibration when launching camera from the power button
+f24da33 Add unlock keystore with fp and rework some things * Use SwitchPreference * Check if FP is present
+edcae26  Header Date+Time positions [2/2]
+f347531 QS Header Icon settings [2/2]
+05f31b0 Disable/Enable screenshot sound [2/2]
+9a055da Advanced Bluetooth, Data, Wifi Toggles [2/2]
+c753189 incall vibration options [3/3]
+3aea7d3 Immersive Recents [2/2]
+24e7168 Toast icon switch [2/2]
+e6f252e Hide status bar on lock screen [2/2]
+0fa58e4 allow disabling quick settings on secure lockscreen [2/2]
+8902ca6 Settings: HeadsUp snooze function [2/2]
+fd2d0ea HeadsUp: add timeout option [2/2]
+04c0722 Move heads up settings to Venom [2/2]
+6a86e71 Add three-fingers-swipe to screenshot [1/2]
+5ba391d Fingerprint authentication vibration [2/2]
+186e524 Add option to hide lockscreen clock, date & alarm text [2/2]
+268ab83 Add Haptic Feedback to QS tiles [2/2]
+8897e7f Hide arrows in network traffic indicators [2/2]
+cdba4a9 [2/2] Base: Hide power menu on secure lockscreen
+
+   * packages/services/Telecomm/
+06549e0 Fix missing import
+1aa1eb4 incall vibration options [1/3] *allow setting vibration when call is connected *allow setting vibration when call is disconnected *allow setting vibration for call waiting *this works with google and aosp dialer :)
+
+====================
+     06-10-2017
+====================
+
+
+   * build/
+8792e0f Fix ninja not being found
+e2c3879 Ccache: Print verbose version of the binary
+5a62646 Fix an uninitialized value warning.
+6e75ea6 Fix a nullness warning.
+db469c5 Re add Browser2
+7ff7099 Allow device tree to override audio_effects.conf
+
+   * kernel/lenovo/a6000/
+0019dbe Merge "soc: qcom: rpm-smd-debug: initialize variables and check for return value"
+
+   * packages/apps/MusicFX/
+b69adbc French Translations
+efde812 Hungarian translation
+2e2f39c Hungarian translation
+
+   * packages/apps/Venom/
+8fa2b35 [SQUASHED] Dashboard settings
+cb11b88 Live Volume Steps [2/2] -Volume steps changes are instant, no need to reboot!
+a11f06a Wired headset: make ringtone audio focus customizable [2/3]
+e739277 MiscSettings: Create category
+8237b07 Remove unused preference and cleanup
+b4c2b5b [2/2] Venom: Screenshot for hardware keys
+190dd97 Add missing preferences and move some
+aaf19b6 Restart SystemUI: Use new method
+28c313c Revert "Restart SystemUI on toggle navigation bar visibility"
+
+   * packages/services/Telecomm/
+3af1807 Wired headset: make ringtone audio focus customizable [3/3]
+
+   * packages/services/Telephony/
+278f81e Pixel-fy dual sim card (see image)
+
+   * system/media/
+9e297c7 [1/3] AudioEffects: Add center frequency param to bassboost
+1cb018f [2/3] audio_effects: Add a stereo widening effect
+
+====================
+     06-09-2017
+====================
+
+
+   * build/
+61b811a Remove MusicFX from here
+5058db9 Makefile: Add the missing dependency on FUTILITY.
+833889d Build FUTILITY tool from futility-host.
+
+   * kernel/lenovo/a6000/
+0166866 Merge "ipv6: addrconf: validate new MTU before applying it"
+430da15 soc: qcom: rpm-smd-debug: initialize variables and check for return value
+4dd7ede msm:mdss: nuke lenovo gamma tuning changes
+df6d7dd Merge "hid: usbhid: Changes to prevent buffer overflow"
+
+   * packages/apps/CMParts/
+deff93d Set android:configChanges for .PartsActivity
+59769bf Automatic translation import
+
+   * packages/apps/Contacts/
+ac5a54e Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/ContactsCommon/
+1292985 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/Dialer/
+6cacf58 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/ExactCalculator/
+2f00156 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/FMRadio/
+422ba79 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/Messaging/
+89c9217 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/MusicFX/
+2b25311 Improve the overall layout of MusicFX
+742c87d Modify the MusicFX landscape layout
+cf69776 Recentralize spinners and change layout
+
+   * packages/apps/PackageInstaller/
+cecd840 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/PhoneCommon/
+760f149 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/apps/ViperOTA/
+39cdbd5 Automatic translation import
+
+   * packages/services/Telecomm/
+b478213 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * packages/services/Telephony/
+94ec603 Merge remote-tracking branch 'los/cm-14.1' into HEAD
+
+   * system/core/
+1f76999 [SQUASHED] Add custom hosts file to block some s#it by default List created with Adaway v3.1.2 http://forum.xda-developers.com/showthread.php?t=2190753
+
+   * system/sepolicy/
+ea2d5ce Allow recovery to alter / on userdebug/eng builds
+
+   * vendor/cmsdk/
+464d94a cmsdk: fix twilight state not updating in live display auto mode
+
+   * vendor/viper/
+ff35710 Update one handed drawables to pixel blue to match system
+c3b3699 Add needed dsp parts  - Don't want it, don't use it (TARGET_NO_DSPMANAGER := true)
+66fabf8 Set config_wallpaperCropperPackage
+c0b653e prebuilt: Add O emojis
+9907baf prebuilt: Add camera effects for device without vendor partition
+97f6f1c prebuilt: Add latinime blob for to enable ime gestures
+67b1e94 Revert "Add substratum" This reverts commit 6509b8b2.
+94e90ac Viper: Change default search engine and homepage
+e00ba34 Add Jelly back
+8624a69 Revert "Add ViaBrowser"
+f926ff1 Drop LockClock
+dd7c336 Add sensitive numbers for Israel.
+af40107 sensitive_pn: Add sensitive phone numbers for Czech Republic
+b08a50b sensitive_pn: Add Canadian sensitive numbers
+3ac9fad sensitive_pn: Add more numbers from the Netherlands
+b072cad fix check_blacklist function to work on wiped /system partition
+4108e3d sensitive_pn: Add sensitive numbers for Serbia
+407d82f sensitive_pn: Add sensitive phone numbers for India
+af60947 sensitive_pn: Add more numbers for Germany
+ec90c60 sensitive_pn: Add sensitive phone numbers for Norway
+e7c288a sensitive_pn: Add additional US numbers
+894599f sensitive_pn: add sensitive number for Indonesia
+a63fbe7 sensitive_pn: Add sensitive phone number for Romania
+8ab1043 sensitive_pn: Added sensitive number for the Netherlands
+1eff938 sensitive_pn: add sensitive numbers for Turkey
+f9cc039 sensitive_pn: Add sensitive phone number for Bangladesh
+8295180 sensitive_pn: Add US number
+7e91a7d Add sensitive phone numbers for Brazil
+0b672ef sensitive_pn: reorder by MCC code
+4fc9c93 sensitive_pn: Add Australian sensitive phone number.
+db0df2f sensitive_pn: Add New Zealand sensitive numbers.
+604865e (2/2) Make sensitive phone numbers not to be shown in call log history.
+ea43cab Remove PhotoTable
+118acab Jump to version 2.0 Python
+
+====================
+     06-08-2017
+====================
+
+
+   * kernel/lenovo/a6000/
+8362a0a Merge "msm: camera: fix untrusted pointer for power down setting"
+f33938c Merge "msm: sps: Fix race condition in SPS debugfs APIs"
+32ed00b hid: usbhid: Changes to prevent buffer overflow
+d99dfd3 Merge "msm: camera: Use mutex lock to avoid race condition"
+f44289e ipv6: addrconf: validate new MTU before applying it
+62514a6 Merge "msm: vidc: Copy user buffers to kernel memory before access"
+
+   * packages/apps/Email/
+ea4eb75 Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4
+
+   * packages/apps/Gallery2/
+93bcb4c Gallery2: support GIF animation
+
+   * packages/apps/Jelly/
+22cb565 Implement history management through a ContentProvider.
+
+   * packages/apps/Snap/
+78666b5 Snap: Simulate back button press when menu back button is pressed
+
+   * packages/apps/Terminal/
+5856a60 Terminal: Fix keyboard Ctrl- and ALT-key input.
+
+   * packages/apps/Venom/
+2f4b177 Add huawei honor5x maintainer
+
+====================
+     06-07-2017
+====================
+
+
+   * external/chromium-webview/
+2909904 Update webviews
+
+   * frameworks/base/
+356e60d QS: Remove listeners only if added
+abcfb9d Handle Illegal Argument Exception
+eefc1d0 Reduce MTU Size
+232f04e Update font size of date and time on QS panel
+1f5bd2b Fix code-style around notification ranker service in AndroidManifest.xml
+0208ee3 Fix issue
+8f715b4 set the resultTo to null started by a finishing activity
+8cf154d Fix SystemUI FC due to Google Assistant
+
+   * hardware/ti/omap4/
+1738329 omap4: Correct disabling of dirty regions invalidation
+
+   * kernel/lenovo/a6000/
+53a07a3 Merge "msm: camera: validate num_streams in stream_cfg_cmd before using it"
+
+   * packages/apps/CarrierConfig/
+6aa9fb6 CarrierConfig: allow 3 ITA roaming
+
+   * packages/apps/VLauncher/
+83e2750 LauncherClient: make sure service is connected before trying to unbind
+bfed53c Remove useless 4dp padding from XML
+19a1b7f Properly animate opening the Google Now panel
+
+   * packages/apps/Venom/
+ee673b8 Venom: Add lockscreen features [3/3] Double tap to sleep anywhere on the lock screen [2/3] Disable Lockscreen Media Art [2/3]
+
+   * system/sepolicy/
+a09ba0e Add policy to fix interfacer derp on boot
+
+   * vendor/cmsdk/
+272c266 Automatic translation import
+aabb329 Double tap to sleep anywhere on lock screen [3/3]
+d8939d5 cmsdk: Disable Lockscreen Media Art [3/3]
+
+   * vendor/viper/
+cf717c1 Viper v1.2
+
