@@ -222,5 +222,13 @@
       "afh_folder":"https://www.androidfilehost.com/?w=files&flid=192408",
       "maintainer_name":"Matheus Fernandes (matheeusaf)",
       "xda_thread":"https://forum.xda-developers.com/moto-x-play/development/rom-viperos-v2-0-t3624772"
+   },
+   {
+      "name":"Redmi 2",
+      "brand":"Xiaomi",
+      "codename":"wt88047",
+      "afh_folder":"https://www.androidfilehost.com/?w=files&flid=192895",
+      "maintainer_name":"Keertesh",
+      "xda_thread":"https://forum.xda-developers.com/redmi-2/development/rom-viperos-t3626150"
    }
 ]
