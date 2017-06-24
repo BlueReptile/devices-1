@@ -230,5 +230,13 @@
       "afh_folder":"https://www.androidfilehost.com/?w=files&flid=193096",
       "maintainer_name":"Keertesh",
       "xda_thread":"https://forum.xda-developers.com/redmi-2/development/rom-viperos-t3626150"
+   },
+   {
+      "name":"K3 Note",
+      "brand":"Lenovo",
+      "codename":"aio_otfp",
+      "afh_folder":"https://www.androidfilehost.com/?w=files&flid=193260",
+      "maintainer_name":"Adeveloper79",
+      "xda_thread":""
    }
 ]
