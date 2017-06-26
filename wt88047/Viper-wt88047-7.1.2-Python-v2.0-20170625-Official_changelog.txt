@@ -1,0 +1,187 @@
+====================
+     06-25-2017
+====================
+
+
+   * packages/apps/Jelly/
+2d1bdcd Jelly: Add save form data setting
+
+====================
+     06-24-2017
+====================
+
+
+====================
+     06-23-2017
+====================
+
+
+   * hardware/qcom/fm/
+4c2e39e Automatic translation import
+
+   * packages/apps/Bluetooth/
+7f2b5c8 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+ebf9e97 Automatic translation import
+
+   * packages/apps/CustomTiles/
+9c8fcd2 Automatic translation import
+
+   * packages/apps/Gallery2/
+06d5e55 Automatic translation import
+
+   * packages/apps/Snap/
+7e76c83 Automatic translation import
+
+   * packages/apps/Terminal/
+a2a05d2 Automatic translation import
+
+   * packages/apps/TvSettings/
+6f07406 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+3e047b8 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+30cc23d Automatic translation import
+
+====================
+     06-22-2017
+====================
+
+
+====================
+     06-21-2017
+====================
+
+
+   * hardware/qcom/display/
+f3072db hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/apq8084/
+38e457c hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8916/
+6700612 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8974/
+24176c9 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8994/
+023758b hwcomposer: Fix regression in hwc_sync
+
+   * packages/providers/MediaProvider/
+fadf365 MediaProvider: Fix where condition of delete queries
+
+====================
+     06-20-2017
+====================
+
+
+====================
+     06-19-2017
+====================
+
+
+   * hardware/qcom/bt-caf/
+6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+====================
+     06-18-2017
+====================
+
+
+   * manifest/
+0a763fd Organize things
+
+   * packages/apps/Settings/
+f5f5208 Organize few strings
+
+   * packages/apps/Venom/
+8548e81 Screenshot actions: Add missing var
+
+   * vendor/viper/
+c225ef6 roomservice: Update remote name
+
+====================
+     06-17-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8996/
+074ff06 Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+   * hardware/ril/
+5758b0e ril: fix a memory leak.
+
+   * hardware/ril-caf/
+588e49d ril: fix a memory leak.
+
+   * packages/apps/WallpaperPicker/
+5b27292 Fix bad wallpaper preview image format
+
+   * vendor/qcom/opensource/dataservices/
+ca40d29 datatop: Remove unused variables from datatop_ip_table_poll.c
+
+====================
+     06-16-2017
+====================
+
+
+   * build/
+be002e9 GoogleAudio: set new pixel sounds as defaults [2/2]
+
+   * packages/apps/CarrierConfig/
+1249ef5 Remove TIM from non-roaming networks list of H3G IT
+
+   * packages/apps/ContactsCommon/
+0a12813 Change icons
+
+   * packages/apps/VLauncher/
+906f3ac Rename and update icon
+
+====================
+     06-15-2017
+====================
+
+
+   * frameworks/base/
+68b9c15 LocationTile: Behave like other tiles
+
+====================
+     06-14-2017
+====================
+
+
+   * packages/apps/MusicFX/
+ced9643 Update PT-BR translations
+
+   * packages/apps/Nfc/
+182c26e NfcNci: make T3T/Nfc-F HCE optional
+
+   * vendor/cmsdk/
+a0a234b [3/3] cmsdk: Screenshot for hardware keys
+
+====================
+     06-13-2017
+====================
+
+
+   * packages/services/OmniJaws/
+8bc4719 LockClock: Import lock screen translations from LOS
+
+   * packages/services/Telecomm/
+276a269 Ability to disable Do not Disturb mode when calling [2/3]
+
+   * packages/services/Telephony/
+bcabddf Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * system/bt/
+331fc1e bt: Disable AVRCP 1.6
+
+====================
+     06-12-2017
+====================
+
+
