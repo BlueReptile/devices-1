@@ -1,0 +1,374 @@
+====================
+     06-27-2017
+====================
+
+
+   * frameworks/av/
+eb9cc20 CameraService: Fix cameraId type of onDeviceStatusChanged
+
+   * manifest/
+707d0e7 VLauncher: Rename to Launcher3 [1/2]
+52b7838 Stop tracking frameworks/av
+
+   * packages/apps/Gallery2/
+e988d6a Gallery2: Fix views overlap
+
+   * packages/apps/Jelly/
+cc66a61 Jelly: Add WebChromeClientCompat
+e3b22ba Jelly: Fix some lint warnings
+
+   * packages/apps/Venom/
+caef80c Merge pull request #7 from PainKiller3/nougat
+
+   * vendor/viper/
+2b1e569 VLauncher: Rename to Launcher3 [2/2]
+
+====================
+     06-26-2017
+====================
+
+
+   * packages/apps/Venom/
+8dd30c3 Update device_maintainers.xml
+4a9c15f Update viper_devices.xml
+
+   * packages/providers/MediaProvider/
+0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
+815436d Gallery2: Fix thumbnails of new edit photos display wrongly in Documents.
+f3bd6a0 Music: Fix force closed when plug out the SD card while music is playing.
+eb0378b MediaProvider: Fix SQLiteDiskIOException.
+b619475 Revert "Fix check for existence of parent"
+21ce3cd Revert "MediaProvider: Fix where condition of delete queries"
+
+====================
+     06-25-2017
+====================
+
+
+   * packages/apps/Jelly/
+2d1bdcd Jelly: Add save form data setting
+d2926c7 Jelly: add Do Not Track setting
+42d6446 Jelly: Add incognito mode shortcut
+69c2401 Jelly: Update android tools build
+
+====================
+     06-24-2017
+====================
+
+
+   * packages/apps/Jelly/
+eff2fd2 Open link in Incognito tab automatically when in Incognito mode
+f7338cf Jelly: Enable safe browsing
+
+====================
+     06-23-2017
+====================
+
+
+   * hardware/qcom/fm/
+4c2e39e Automatic translation import
+
+   * packages/apps/Bluetooth/
+7f2b5c8 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+ebf9e97 Automatic translation import
+
+   * packages/apps/CustomTiles/
+9c8fcd2 Automatic translation import
+
+   * packages/apps/Gallery2/
+06d5e55 Automatic translation import
+
+   * packages/apps/Jelly/
+dd23317 Automatic translation import
+818e92d Jelly: Guess filename from URL
+1a4f237 Jelly: Allow media scan on download
+a8fe6fa Jelly: Show download notification on completed
+
+   * packages/apps/Snap/
+7e76c83 Automatic translation import
+
+   * packages/apps/Terminal/
+a2a05d2 Automatic translation import
+
+   * packages/apps/TvSettings/
+6f07406 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+3e047b8 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+30cc23d Automatic translation import
+
+====================
+     06-22-2017
+====================
+
+
+====================
+     06-21-2017
+====================
+
+
+   * hardware/qcom/display/
+f3072db hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/apq8084/
+38e457c hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8916/
+6700612 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8974/
+24176c9 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8994/
+023758b hwcomposer: Fix regression in hwc_sync
+
+   * packages/providers/MediaProvider/
+fadf365 MediaProvider: Fix where condition of delete queries
+
+====================
+     06-20-2017
+====================
+
+
+====================
+     06-19-2017
+====================
+
+
+   * hardware/qcom/bt-caf/
+6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+====================
+     06-18-2017
+====================
+
+
+   * manifest/
+0a763fd Organize things
+
+   * packages/apps/Settings/
+f5f5208 Organize few strings
+8fcebeb Fix derp
+
+   * packages/apps/Venom/
+8548e81 Screenshot actions: Add missing var
+a59e3c2 More changes * Add new tab * Move power button camera double tab to Gestures * Remove useless prefs in power menu * More summaries * Fix navigation bar not showing by default * Fix FC * Fix missing translations
+
+   * vendor/viper/
+c225ef6 roomservice: Update remote name
+
+====================
+     06-17-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8996/
+074ff06 Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+   * hardware/ril/
+5758b0e ril: fix a memory leak.
+
+   * hardware/ril-caf/
+588e49d ril: fix a memory leak.
+
+   * packages/apps/WallpaperPicker/
+5b27292 Fix bad wallpaper preview image format
+
+   * vendor/qcom/opensource/dataservices/
+ca40d29 datatop: Remove unused variables from datatop_ip_table_poll.c
+76076b1 datatop: Fix out_dir array empty content verification
+
+====================
+     06-16-2017
+====================
+
+
+   * build/
+be002e9 GoogleAudio: set new pixel sounds as defaults [2/2]
+
+   * manifest/
+e0baffe Track VLauncher
+48e5d73 Drop DeskClock
+b8ca6be Use Gallery2 from lineage To fix possible errors
+58d73ef Track system/media
+92a6e48 Track MusicFX and DSPlibs
+3678fa6 Drop LockClock
+40c1886 manifest: android-7.1.2_r8 -> android-7.1.2_r17
+
+   * packages/apps/CarrierConfig/
+1249ef5 Remove TIM from non-roaming networks list of H3G IT
+
+   * packages/apps/ContactsCommon/
+0a12813 Change icons
+
+   * packages/apps/Launcher3/
+906f3ac Rename and update icon
+
+   * vendor/viper/
+13febe2 Changelog: Two weeks
+a44b417 Remove PixelLauncher and use VLauncher
+6a1643c Rename prebuilt apps
+eb733fc This is viper, not cm.
+3d78705 New wallpaper for V2.0
+f0c210c Fix derps and add new google apps * Fix WITH_CM_CHARGER flag * Move PixelLauncher, Turbo and WallpaperPicker to correct folder * Add Google DeskClock * Update Pixel Launcher
+d65c169 Remove sounds props from here
+
+====================
+     06-15-2017
+====================
+
+
+   * frameworks/base/
+68b9c15 LocationTile: Behave like other tiles
+e6aea5c Fix Double tap to wake on doze
+b83fefd Remove HWKeys tile for now
+8f5b147 Update PT-BR translations
+
+   * packages/apps/Launcher3/
+d0fc813 Theme changes
+4928664 VLauncher
+81818f0 Fixed memoryleak, removed log and unnecessary import
+b78e6bc Small changes for app suggestion update calls
+a73de69 Update overlay request version to O Pixel Launcher equivalent
+e669dbe Remove three wrongly deobfuscated double while loops to prevent a freeze
+d5a7ac2 Continue work on showing predictions, add a toggle for it
+8dfb5c4 Change colours to the Pixel ones everywhere
+d10c7b9 First attempt at pulling in the reflection library for app suggestions
+
+   * packages/apps/Settings/
+36f6866 Volume can not be updated in Sound&notification
+db101e9 AllowBindAppWidgetActivity: Fix crash when the activity is closing
+1f0fc93 Camera: Move option to disable vibration on double tap
+
+====================
+     06-14-2017
+====================
+
+
+   * frameworks/base/
+e8abaf8 Try to fix navigation bar not showing by default In devices without hwkeys
+2b29598 HWKeysTile: Adapt for Viper
+2f3e435 Update PT-BR translations
+17d4b11 Use correct color for system_primary_color
+dfb9565 Option to Display Data Disabled Indicator Icon [1/2]
+ddb3d8d Ability to disable Do not Disturb mode when calling [1/3]
+14faf44 KernelCpuSpeedReader: Account for missing sysfs nodes
+2323f26 Make roaming indicator optional [1/2]
+9e84e32 statusbar ticker: Update tickercolorhelper
+178dd61 Ticker: Set default color to White [1/2]
+15e170c Statusbar ticker: use a gentle smooth fade animation
+4b56821 Ticker: allow to show music track info on new track being played [1/2]
+9d220fa Statusbar ticker: apply statusbar tint when set to white
+64f46d6 Add Status Bar Ticker [1/2]
+fa28d49 Check for spurious wake ups
+6c54b00 SystemUI: animate icon when locking a task
+2d09dbb Revert "Fix gap issue with keyguard clock/carrier label"
+51e261a Header: More padding
+80f9d10 Fix SystemUI FC
+25e8cf1 Fix build
+251c078 base: Add bool to enable/disable doze by default
+f383cb1 base: [MicroG] Allow location providers also outside of /system
+4eb2d7b Keyguard: Forward port lockscreen quick unlock (1/2)
+3b644dc Remove dashboard tile summaries [2/2]
+f7e0c5f Frameworks: add ability to disable bar color in battery saver mode (1/2)
+
+   * packages/apps/Launcher3/
+7a043e5 Fix multi-user permissions for Samsung's Secure Folder
+
+   * packages/apps/MusicFX/
+ced9643 Update PT-BR translations
+4854303 Let's translate remaining effects
+fcd5be7 Update PT-BR translations
+
+   * packages/apps/Nfc/
+182c26e NfcNci: make T3T/Nfc-F HCE optional
+
+   * packages/apps/Settings/
+94b4542 Update translations and cleanup
+37165f9 Restore stock ambient display behavior
+13ec2a9 Fix derps
+8cf6ef8 Move advanced reboot to Venom
+323a23b Settings: Remove duplicate permissions
+2b1b0b4 Keyguard: Forward port lockscreen quick unlock (2/2)
+e39ea20 Add option to enable or disable fullscreen keyboard [2/2]
+8f5147b Sync qs invert color with color inversion in Settings
+0d18650 Move heads up settings to Venom [1/2]
+0fa784c Rework dashboard settings [1/2]
+a4a35a8 Dashboard summaries double lines toggle [2/2]
+def0e69 Dashboard tile layout config [1/2]
+de54c55 Disable dashboard conditions [2/2]
+c4108cd Improvements to dashboard suggestions
+7ce871a Remove dashboard tile summaries [1/2]
+246a69a Disable dashboard suggestions [1/2]
+69fc8c7 Ambient display: Battery status (2/2)
+8d30964 Add missing strings
+13ab5a1 Custom ambient display settings (2/2) [neo: This is revival of old code.]
+adad131 Dark theme: Update colors
+c1a9c0b Move few preferences to venom
+82933fc Settings : Rebuild app list after reset
+2eb816c Settings:Rewrite Restart SystemUI
+4074b49 Allow sorting applications by size
+2004337 Add QS pulldown with one swipe on fp sensor [2/2]
+a1d48ad Settings: enable fast scroll for all app list views
+0f5be6c Automatic translation import
+85112a6 Settings: Make string untranslatable
+e966a2d Reset battery stats [2/2]
+c830ee6 Remove Double tap to sleep
+
+   * packages/apps/Snap/
+0f83363 SnapdragonCamera: Fix ghosting when non-zsl in VGA/QVGA size
+202f50a SnapdragonCamera: Fix live shot image stretch when recording is 4K
+fffbe39 SnapdragonCamera: Fix photo reversed when enable selfie Mirror
+dd1b09c SnapdragonCamera: Fix photo reversed when enable selfie Mirror
+b37ea18 SnapdragonCamera: Fix preview in wrong size
+708af54 SnapdragonCamera: Fix front camera preview flipped
+9d21c69 SnapdragonCamera: Fix preview is flipped on 8996
+cc08b44 SnapdragonCamera: Camera1 Selfie Mirror orientation check
+c188ffe SnapdragonCamera: Fix Camera1 force close when refocusing the picture.
+d24a8ed SnapdragonCamera: Change video snapshot picture size logic
+bdb5068 SnapdragonCamera: Avoid cancel AF shortly after trigger
+3de435d SnapdragonCamera: Fix crash during UI stress test
+f870393 SnapdragonCamera: Fix OutOfBoundsException in monkey test
+367758c SnapdragonCamera: Fix FC for NullPointerException
+c8a45a3 SnapdragonCamera: Reset zoom value when resuming
+a5054be SnapdragonCamera: Fix capture with flash will get black image.
+975aeca SnapdragonCamera: Fix FC cause by Null pointer
+922c4b3 SnapdragonCamera: Make copy of location before altering timestamp
+
+   * packages/apps/Venom/
+e18522f devices: add peregrine
+ae7b942 Fix derps
+d33f548 Fix ButtonBacklight behavior when switching hwkeys
+f03f40e fix derp
+c6afc73 Change more things * New summaries * New icons * Update translation
+32f383e Fix derps and translations
+64a1c67 Move battery save mode color to Venom
+242b000 More icons and add category in the power menu option
+7b8d0e4 Option to Display Data Disabled indicator Icons [2/2]
+74f607d Ability to disable Do not Disturb mode when calling [3/3]
+4fd3b19 Make roaming indicator optional [2/2]
+fa9c57e Ticker: Set default color to White [2/2]
+e8942be Ticker: allow to show music track info on new track being played [2/2]
+46c172d Add Status Bar Ticker [2/2]
+1c0a54a Rework
+0a28df2 Add icons for new functions
+ade6a68 Fix build
+
+   * system/bt/
+331fc1e bt: Disable AVRCP 1.6
+
+   * vendor/cmsdk/
+a0a234b [3/3] cmsdk: Screenshot for hardware keys
+
+   * vendor/viper/
+9c21ea0 Fix repo url and branch in README
+cc72e12 Get devices from repository
+c797bd7 Materialize telephony icons [1/2]
+48a5ad4 Materialize telephony icons [2/2]
+57febc6 Update Turbo from June security release
+7f46a1a Added ability to choose between AudioFX and AOSP MusicFX
+
