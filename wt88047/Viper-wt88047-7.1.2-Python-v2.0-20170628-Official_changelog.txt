@@ -1,0 +1,192 @@
+====================
+     06-28-2017
+====================
+
+
+   * device/wingtech/wt88047/
+ad147cb wt88047 : Add Maintainer name
+
+   * packages/apps/Jelly/
+9a5fcdd Jelly: Search on Enter key
+
+   * vendor/viper/
+98ca874 Update common.mk
+119b147 Update common.mk
+faf93ea Add files via upload
+5491194 Delete com.kabouzeid.gramophone_0.15.0-132_minAPI16(nodpi)_apkmirror.com.apk
+29ed69d Add files via upload
+fc1d827 Create l
+
+====================
+     06-27-2017
+====================
+
+
+   * frameworks/av/
+eb9cc20 CameraService: Fix cameraId type of onDeviceStatusChanged
+
+   * manifest/
+52b7838 Stop tracking frameworks/av
+
+   * packages/apps/FMRadio/
+f59537f Merge pull request #1 from LineageOS/cm-14.1
+
+   * packages/apps/Gallery2/
+e988d6a Gallery2: Fix views overlap
+
+   * packages/apps/Venom/
+caef80c Merge pull request #7 from PainKiller3/nougat
+
+====================
+     06-26-2017
+====================
+
+
+   * packages/providers/MediaProvider/
+0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
+
+====================
+     06-25-2017
+====================
+
+
+====================
+     06-24-2017
+====================
+
+
+====================
+     06-23-2017
+====================
+
+
+   * hardware/qcom/fm/
+4c2e39e Automatic translation import
+
+   * packages/apps/Bluetooth/
+7f2b5c8 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+ebf9e97 Automatic translation import
+
+   * packages/apps/CustomTiles/
+9c8fcd2 Automatic translation import
+
+   * packages/apps/Snap/
+7e76c83 Automatic translation import
+
+   * packages/apps/Terminal/
+a2a05d2 Automatic translation import
+
+   * packages/apps/TvSettings/
+6f07406 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+3e047b8 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+30cc23d Automatic translation import
+
+====================
+     06-22-2017
+====================
+
+
+====================
+     06-21-2017
+====================
+
+
+====================
+     06-20-2017
+====================
+
+
+   * hardware/qcom/display/
+f3072db hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/apq8084/
+38e457c hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8916/
+6700612 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8974/
+24176c9 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8994/
+023758b hwcomposer: Fix regression in hwc_sync
+
+====================
+     06-19-2017
+====================
+
+
+   * hardware/qcom/bt-caf/
+6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+====================
+     06-18-2017
+====================
+
+
+   * packages/apps/Settings/
+f5f5208 Organize few strings
+
+   * vendor/viper/
+c225ef6 roomservice: Update remote name
+
+====================
+     06-17-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8996/
+074ff06 Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+   * hardware/ril/
+5758b0e ril: fix a memory leak.
+
+   * hardware/ril-caf/
+588e49d ril: fix a memory leak.
+
+   * packages/apps/WallpaperPicker/
+5b27292 Fix bad wallpaper preview image format
+
+   * vendor/qcom/opensource/dataservices/
+ca40d29 datatop: Remove unused variables from datatop_ip_table_poll.c
+
+====================
+     06-16-2017
+====================
+
+
+   * build/
+be002e9 GoogleAudio: set new pixel sounds as defaults [2/2]
+
+   * packages/apps/CarrierConfig/
+1249ef5 Remove TIM from non-roaming networks list of H3G IT
+
+   * packages/apps/ContactsCommon/
+0a12813 Change icons
+
+   * packages/apps/VLauncher/
+906f3ac Rename and update icon
+
+   * vendor/viper/
+13febe2 Changelog: Two weeks
+a44b417 Remove PixelLauncher and use VLauncher
+6a1643c Rename prebuilt apps
+eb733fc This is viper, not cm.
+3d78705 New wallpaper for V2.0
+f0c210c Fix derps and add new google apps * Fix WITH_CM_CHARGER flag * Move PixelLauncher, Turbo and WallpaperPicker to correct folder * Add Google DeskClock * Update Pixel Launcher
+d65c169 Remove sounds props from here
+
+====================
+     06-15-2017
+====================
+
+
+   * frameworks/base/
+68b9c15 LocationTile: Behave like other tiles
+
