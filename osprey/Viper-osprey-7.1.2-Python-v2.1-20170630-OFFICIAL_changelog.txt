@@ -1,0 +1,607 @@
+====================
+     06-30-2017
+====================
+
+
+   * frameworks/base/
+3fab67ad03a Automatic translation import
+f4bf3d71825 SystemUI: Add tile for enable/disable HW keys
+
+   * packages/apps/Jelly/
+d6b3b84 Jelly: Add non encrypted google search engine
+897fa20 Jelly: Propagate custom request headers to WebClient
+58c2aed Jelly: Add suggestions
+
+   * packages/apps/MusicFX/
+1d44bdb Automatic translation import
+
+   * packages/apps/Settings/
+e8a70ae6b1 Automatic translation import
+
+   * packages/apps/VLauncher/
+b0eef32d2 Automatic translation import
+
+   * packages/apps/Venom/
+21f9aaf Automatic translation import
+f8d30de Few changes on power menu category
+
+   * packages/apps/ViperOTA/
+f41a95b Automatic translation import
+
+   * vendor/viper/
+b23176c6 Bump version
+
+====================
+     06-29-2017
+====================
+
+
+   * frameworks/base/
+f59186a880b SystemUI: Fix task lock & freeform buttons placement
+4d38a5f0d48 Fix screenpinning from showing up unless enabled
+15539506b84 Screen pinning improvements
+1ab96cb26eb Notification Ticker: add darkintensity support and clean up other things
+317132e2901 Fix potential KeyguardMonitor FC on unlock
+7b6aebf849f Automatic translation import
+4613d480159 ActivityStarter: Fix protected app intents
+b3d900ea0bc Volume Panel: Fix Bluetooth music stream icon when muted
+f96935a5f19 Wew... derp
+b4c16298617 [1/2] Fix ring icon
+e7a302c256e Camera2: Fix Error Callback if buffer lost.
+3a6f9597f9b SystemUI: move time tick to bg handler
+a8e819d4d0d Fix NPE with void android.view.VelocityTracker.clear()
+06da8ac641b SystemUI: force a clock update if the screen is turned back on
+3b5151d49b5 Frameworks: Fix Null Pointer Issue
+719369c6357 When updating a split app, copy compiled files from base.apk only.
+b971bd31005 QS Tile: increase DEFAULT_MAX_BOUND to 6
+bf7ed0ae955 Fix service cannot start when service removed from restartList
+2f732c24d7e Only destory ce data when prepare user CE data failed.
+a4d624253b9 When backup schedule version error will be caused system_server crash
+a01529e33ae fix ArraySet crash
+2771308fb3b Battery icon: Improve theme compatibility
+8a0e48b33c8 Add support for the .opus file format
+84056d282f9 Binder: Be forceful about a forceful exit
+b0bfad69973 Automatic translation import
+
+   * packages/apps/Messaging/
+2663362 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/MusicFX/
+0ba369a MusicFX : Save and load presets from external storage
+a6e91fd Automatic translation import
+
+   * packages/apps/OmniStyle/
+eadb7ec Automatic translation import
+
+   * packages/apps/Settings/
+ca0bd56ba6 Settings: Hide disabled lockscreen blur from search index
+2b4a303a87 Automatic translation import
+3d21191eed Clean few strings
+
+   * packages/apps/VLauncher/
+6891f85be Automatic translation import
+82ba08dfa More theme changes
+
+   * packages/apps/VPapers/
+704cac2 Automatic translation import
+
+   * packages/apps/Venom/
+9bd53bb Ticker: Remove extra preferences
+e239766 Fix custom header automatically turning on
+a0d08dc Automatic translation import
+4e9d20e Add wt88047
+365eedf Added Official Device Maintainer For Asus Zenfone Max (Z010D)
+8170604 device: add bullhead >>>>>
+
+   * packages/apps/ViperOTA/
+045e327 Automatic translation import
+
+   * packages/services/OmniJaws/
+0526786 Automatic translation import
+
+====================
+     06-28-2017
+====================
+
+
+   * packages/apps/Jelly/
+69173dd Jelly: Add show/hide keyboard utilities
+
+   * packages/apps/Messaging/
+d1e7aec Messaging: Don't crash on unsupported shared content type
+53b0ba3 Messaging: Request external storage permission before handling shared files
+
+   * packages/apps/VLauncher/
+f1da9e8d9 Launcher3: icon pack/app labeling integration
+cbb6c8c09 Launcher3: remove generic icon pack support
+a800bb1e4 Fix derp in prediction
+b455d5b61 VLauncher
+
+   * packages/apps/Venom/
+7272137 Re add some prefs
+
+====================
+     06-27-2017
+====================
+
+
+   * build/
+6ec4fd15a Revert "Preventing default locale from being overridden because of buildinfo.sh"
+f2e8eb392 Revert "build: skip 'ro.product.device' using  new macro "TARGET_SKIP_PRODUCT_DEVICE""
+6485ef802 Disable recovery resource warning
+
+   * frameworks/av/
+eb9cc2030 CameraService: Fix cameraId type of onDeviceStatusChanged
+
+   * packages/apps/CMParts/
+be018bf CMParts: Use vector drawables for most system icons
+f8de279 Automatic translation import
+
+   * packages/apps/Calendar/
+c5c33344 Dark theme
+
+   * packages/apps/Contacts/
+7c71b16dc Dark theme
+
+   * packages/apps/ContactsCommon/
+dbcbeb97 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/Dialer/
+91d6a84c8 Dark theme
+
+   * packages/apps/FMRadio/
+5c95795 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/Gallery2/
+e988d6ab7 Gallery2: Fix views overlap
+
+   * packages/apps/Jelly/
+9a5fcdd Jelly: Search on Enter key
+74c7e51 Jelly: Don't reload on keyboard changes
+
+   * packages/apps/Messaging/
+1ca0673 Dark theme
+04d7504 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/PhoneCommon/
+4393cfd Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/Settings/
+7af2d79ce7 Settings: Add two more options for battery saver
+f039bd86fe Fix WriteSettingsDetails memory leak
+3146ecf660 Fix Screen Magnification recursive draw
+9bb638427d Fix PremiumSmsAccess memory leak
+6d033723c0 settings: disable 'no process..' logspam
+041b207b20 Automatic translation import
+bd3afaef5d Settings: handle decrypting larger pattern sizes for sw600dp
+e834674127 Revert "Settings: Fix internal storage summary for non-emulated storage"
+b0483c0e75 Settings: Fix automatic hotspot turn off summary
+
+   * packages/apps/VLauncher/
+ce20ffea8 Remove checks for correct swipe up position, enables swipe up everywhere like Pixel Launcher
+0803c4a14 Fix multi-user permissions for Samsung's Secure Folder
+b63122fac Update overlay request version to O Pixel Launcher equivalent
+2bbbe7a0b App suggestions: Refactor on strings
+f9893b26a Dark theme
+9cc5b0a0f Theme changes
+08409efd6 Update icon
+d4b2888b6 Launcher3: fix to always show settings button
+e3ce14286 Cleaning up references to mDragView after reordering Workspaces
+9675aaf8d Fix crash when LAUNCHER3_ALL_APPS_PULL_UP is false
+14eb97278 Change signature|system permissions to signature|privileged
+b7703d67d Fix issues with using Launcher3 as default launcher
+78b25f578 Launcher3: allow predictive apps to be turned off
+c7c389253 Launcher3: reload the workspace after icon pack selection
+37fc0f420 Launcher3: add icon pack support
+a7d3342aa Launcher3: update permissions for compatibility
+e9d9c3cac Launcher3: New design policy integration
+705b64d7e Launcher3: Allow support for Predicted Apps
+bf8f189a3 Launcher3: Materialize the settings menu
+87819092f Launcher3: bring back pulldown to open notifications panel
+65340dd1c Launcher3: animate workspace when animating the Google now page
+3b6482440 LauncherClient: make sure service is connected before trying to unbind
+70d40cc39 Launcher3: prevent crash
+e0c455f84 Launcher3: support google now tab
+59a945682 Launcher3: import reversed google now lib
+e6b25b3fa Launcher3: refactor gesture handling
+b54af81a1 Launcher3: double tap on home screen to turn off screen
+ee4156bc5 Launcher3: Add swipe up/down gestures
+
+   * packages/apps/Venom/
+7c027d1 Update some icons
+47bfea0 [3/3] Torch long press power: add auto-off function
+
+   * packages/services/Telephony/
+ae9ccc17 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * system/core/
+dba654716 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * vendor/cmsdk/
+94e44f9 Automatic translation import
+a8c558e [2/3] Torch long press power: add auto-off function
+
+   * vendor/viper/
+080a98d5 apns-conf: Add Japan Umobile APNs
+b252a14d sensitive_pn: Add sensitive numbers for Greece
+0ebe7250 sensitive_pn: fix Czech Republic MCC
+2425b2cc sensitive_pn: Add Taiwanese sensitive numbers
+d122e708 Add sensitive numbers for Ukraine.
+3788a034 Add Virgin Media Ireland to APN's
+590319de sensitive_pn: Add additional FR number
+a6470355 sensitive_pn: Add additional GB numbers
+b9e10a1f sensitive_pn: Add additional PT numbers
+5310561d sensitive_pn: add missing phone number for Brazil
+
+====================
+     06-26-2017
+====================
+
+
+   * frameworks/base/
+6b15b6e94bc [1/3] Torch long press power: add auto-off function
+dbf66e7785d SymbolComparator operator() is missing const
+2f6de00a663 Adopt lockscreen shortcut hint from AOSP
+3ac260e4703 Revert "Show icons of only background apps in Toasts"
+e1edfaf81a7 [1/2] Disable lockscreen charging info by default
+
+   * manifest/
+76445e3 Stop tracking frameworks/av
+
+   * packages/apps/Jelly/
+cc66a61 Jelly: Add WebChromeClientCompat
+e3b22ba Jelly: Fix some lint warnings
+
+   * packages/apps/Settings/
+83c991eecb [2/2] Fix ring icon
+276f913bbd Disable dt2w on doze by default
+
+   * packages/apps/Venom/
+3018592 [2/2] Disable lockscreen charging info by default
+
+   * packages/apps/ViperOTA/
+8e9d9a7 MD5 verification: Make it mandatory Also delete zip file if verification fails
+
+   * packages/providers/MediaProvider/
+0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
+815436d Gallery2: Fix thumbnails of new edit photos display wrongly in Documents.
+f3bd6a0 Music: Fix force closed when plug out the SD card while music is playing.
+eb0378b MediaProvider: Fix SQLiteDiskIOException.
+b619475 Revert "Fix check for existence of parent"
+
+====================
+     06-25-2017
+====================
+
+
+   * packages/apps/Jelly/
+2d1bdcd Jelly: Add save form data setting
+d2926c7 Jelly: add Do Not Track setting
+42d6446 Jelly: Add incognito mode shortcut
+69c2401 Jelly: Update android tools build
+
+   * packages/providers/MediaProvider/
+21ce3cd Revert "MediaProvider: Fix where condition of delete queries"
+
+====================
+     06-24-2017
+====================
+
+
+   * packages/apps/Jelly/
+eff2fd2 Open link in Incognito tab automatically when in Incognito mode
+f7338cf Jelly: Enable safe browsing
+
+====================
+     06-23-2017
+====================
+
+
+   * hardware/qcom/fm/
+4c2e39e Automatic translation import
+
+   * packages/apps/Bluetooth/
+7f2b5c8c Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+ebf9e97 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+136471a1 Automatic translation import
+
+   * packages/apps/CustomTiles/
+9c8fcd2 Automatic translation import
+
+   * packages/apps/FMRadio/
+900759c Automatic translation import
+
+   * packages/apps/Gallery2/
+06d5e5580 Automatic translation import
+
+   * packages/apps/Jelly/
+dd23317 Automatic translation import
+818e92d Jelly: Guess filename from URL
+1a4f237 Jelly: Allow media scan on download
+a8fe6fa Jelly: Show download notification on completed
+
+   * packages/apps/Messaging/
+c8e61e5 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+433f6c8 Automatic translation import
+
+   * packages/apps/Snap/
+7e76c83a4 Automatic translation import
+
+   * packages/apps/Terminal/
+a2a05d2 Automatic translation import
+
+   * packages/apps/TvSettings/
+6f074067 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+3e047b887 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+30cc23d Automatic translation import
+
+   * packages/services/Telephony/
+23b6f586 Automatic translation import
+
+   * vendor/motorola/
+7ea4a2e0 omap4-common: remove base64 blob
+
+====================
+     06-22-2017
+====================
+
+
+   * frameworks/base/
+9ed72cd13d3 Option to Display Data Disabled Indicator Icon [1/2]
+9ed0c7c297e Fix correct height of brightness slider
+
+   * packages/apps/Venom/
+90b9691 Remaking things
+
+====================
+     06-21-2017
+====================
+
+
+   * frameworks/base/
+73c32ef642b LocationTile: Behave like other tiles
+31b16d6d2a8 Fix Double tap to wake on doze
+19d31ca5f16 Try to fix navigation bar not showing by default In devices without hwkeys
+03363f657cb Update PT-BR translations
+e65872ac339 Use correct color for system_primary_color
+df41c1321ed KernelCpuSpeedReader: Account for missing sysfs nodes
+edfd0b04f14 statusbar ticker: Update tickercolorhelper
+b19bd33f629 Ticker: Set default color to White [1/2]
+dde5b3a4560 Statusbar ticker: use a gentle smooth fade animation
+af07393e2ac Ticker: allow to show music track info on new track being played [1/2]
+ca8b398129e Statusbar ticker: apply statusbar tint when set to white
+c6b5c005125 Add Status Bar Ticker [1/2]
+a028ab1b48a Check for spurious wake ups
+335b007b068 SystemUI: animate icon when locking a task
+d75a0c14cd6 Revert "Fix gap issue with keyguard clock/carrier label"
+e930e3220d7 Header: More padding
+d4438f472bf Fix SystemUI FC
+68c96880ec1 Fix build
+3354c9f5e3e base: Add bool to enable/disable doze by default
+5dfe6e33316 base: [MicroG] Allow location providers also outside of /system
+482d8d8bce3 Keyguard: Forward port lockscreen quick unlock (1/2)
+1572a16f7ab Frameworks: add ability to disable bar color in battery saver mode (1/2)
+25e1fdad49f Fix batterySendBroadcast not synchronized issue.
+717c60237dd bless python versions newer than 2.6
+3f5a9b5c576 Handle ActivityNotFoundException for contacts activity
+6db5463349f extend PreferenceActivity for title text on a single pane mode
+8e7ac42da47 Override onRestoreInstanceState() in MultiSelectListPreference
+02881d19c9e Fragment animations are not being saved across configuration changes
+2a64d0d961f Fix to NullPointerException when activity is relaunched
+e9d0dc4b2b0 Fix right mLastTimeUsed when aggregate UsageStats
+4f39221a412 Fix ListView is not scrolled properly with arrows
+fbae2169c3a Synchronize access of mSubscriptions
+1ae3894d504 Fix deadlock b/w ActivityManagerService and MediaSessionService
+302f8778413 Provide synchronization to setview to avoid NPE
+0901ce03945 AsyncTask: Fix to remove canceled tasks from executor's queue.
+1bedda32836 frameworks/base: Fix to avoid crash when the tab is not set from app
+e595c88c66e IInputMethodWrapper to recycle SomeArgs in all cases.
+0086fdde1e3 Catch corruptexception during Transaction operation
+b1e21625435 better notification speed change
+e626799ff57 Adjusted animation timing
+dd9e225fc12 Fix TaskRecord wrong dump element firstActiveTime
+20d49983748 Fix force idle issue
+b1e48274291 [1/2] base: Screenshot for hardware keys
+9580d840eaf policy: refact navigation bar configs
+ed4b10ebe82 Notification panel fingerprint gesture: fix axis on landscape [1/2]
+98219ac6b26 OmniStyle: Try to fix custom header shadow observer
+d812296f1e7 BatteryMeterView: Extend pulsating animation to solid batter style
+b40bcbbd8de Fix external QS title color
+8fa33c01304 Remove FastJNI optimization on AssetManager to avoid dead lock.
+e832baabbf7 Double tap to sleep on navigation bar [1/2]
+5fa94bb3e0d Double tap power button for camera - vibration toggle [1/2] added a toggle to disable double tap vibration when launching camera from the power button
+f28d2737920 Fix a use-of-uninitialized-value warning
+40e0b9efc13 dont panic if immersive mode is set by the user
+e136f735837 Optimised hwui rounded corners shader
+f767586bb83 Reduce hwui CPU time by using glDrawRangeElements
+a761354f69b FPS: prevent NPE if FP hal doesnt handle performancestats
+62cdd3aa4e7 CaptivePortalLoginActivity correctly gets UserAgent
+7bd8c4e3534 Prettify the captive portal sign-in activity
+c1328cb6732 Add Sound tile to QS [1/2]
+82452f76a31 Add padding on header
+2307e6d24a6 Fix Potential NPE on Msim
+733b7dd17d9 core: Add support for fake signatures, enabled per app by dynamic permission
+ecf6740ec6f Fix gap issue with keyguard clock/carrier label
+9e540a937ec Set network traffic meter font to sans serif condensed
+442ad9a20ee FW_BASE: Rewrite restart SystemUI method
+cf0a99711b1 Fix build error
+f5fa1afbf9b base: SystemUI: remove force weather update bits force updates have been removed from service API
+5a48ef3cae2 base: SystemUI: use new OmniJaws error broadcasts
+f4b65cd1c15 KeyguardWeather: Update weather after switching options
+aac8d8f5746 Keyguard Weather : Refactor for new API[1/2] --Use Omnijaws API thanks to omni rom and Max Winger --Fix Weather on Lockscreen not updating --Goodbye Cclock (AT LAST)
+f2cc26901c4 Extend OmniJaws Client to Keyguard Signed-off-by: Varun Date <date.varun123@gmail.com>
+8b6fdb9ad4e Fix weather items npe - When casting and you turn off the screen (who does that), all hell breaks loose
+1749474feff Remove OmniJaws check on longpress
+7d6b92dfe1e Play nice when OmniJaws is not installed
+d07b3825379 SystemUI: add xxxhdpi visualizer config
+78d3d12e803 Statusbar: correctly align status bar icons
+c89db8cee83 Unlock keystore with fingerprint after reboot (1/2)
+14ce52929b1 Header Date+Time positions [1/2]
+c39415e71bf QS Header Icon settings [1/2]
+
+   * packages/apps/Venom/
+d084c1d Screenshot actions: Add missing var
+a07f363 More changes * Add new tab * Move power button camera double tab to Gestures * Remove useless prefs in power menu * More summaries * Fix navigation bar not showing by default * Fix FC * Fix missing translations
+2ef820c devices: add peregrine
+7f25192 Fix derps
+2f10fd8 Fix ButtonBacklight behavior when switching hwkeys
+120530b fix derp
+47948a6 Change more things * New summaries * New icons * Update translation
+0c4b70a Fix derps and translations Translations by @Andersonmendes2016 Fix Maintainers @Birdman
+1ba216c Move battery save mode color to Venom
+fb0909a More icons and add category in the power menu option
+fd14d33 Ticker: Set default color to White [2/2]
+f6dd1bb Ticker: allow to show music track info on new track being played [2/2]
+abefad7 Add Status Bar Ticker [2/2]
+67a197e Rework
+d11ed3b Add icons for new functions
+1199342 Fix build
+e120509 Settings: Refactor Keyguard Weather [2/2] Nitrogen:
+e8e2709 Add maintainer for k4
+d3ad185 Add String For Maintainer Of A6000.
+cb53897 Add Lenovo A6000 Maintainer.
+2dd52de No longer officially supported
+70bd5de Double tap to sleep on navigation bar [2/2]
+f860d11 Double tap power button for camera - vibration toggle [2/2] added a toggle to disable double tap vibration when launching camera from the power button
+08ea562 Add unlock keystore with fp and rework some things * Use SwitchPreference * Check if FP is present
+65d842f  Header Date+Time positions [2/2]
+07d90f5 QS Header Icon settings [2/2]
+018a56f Disable/Enable screenshot sound [2/2]
+cce9045 Advanced Bluetooth, Data, Wifi Toggles [2/2]
+9863424 incall vibration options [3/3]
+3a3b244 Immersive Recents [2/2]
+cb08354 Toast icon switch [2/2]
+8f91f54 Hide status bar on lock screen [2/2]
+b48cb42 allow disabling quick settings on secure lockscreen [2/2]
+ac5082d Settings: HeadsUp snooze function [2/2]
+7384ecf HeadsUp: add timeout option [2/2]
+f6826df Move heads up settings to Venom [2/2]
+bfed1c5 Add three-fingers-swipe to screenshot [1/2]
+a6fe976 Fingerprint authentication vibration [2/2]
+9d189b2 Add Haptic Feedback to QS tiles [2/2]
+0bba0c8 Hide arrows in network traffic indicators [2/2]
+b8a3d4e [2/2] Base: Hide power menu on secure lockscreen
+
+   * packages/providers/MediaProvider/
+fadf365 MediaProvider: Fix where condition of delete queries
+
+====================
+     06-20-2017
+====================
+
+
+   * frameworks/base/
+9acc4438159 MusicTile: use icons from Viper
+d958fc3d1f0 Reboot/Recovery QS Tile: Use vectorized icons
+8cd4be66e3d Update membar a bit more often Using the FAB clear-all was not updating the membar at all and thus giving us false readings. At one point on the OP3T it said I had less than 1GB of ram with no open apps. This fixes that issue.
+19c8617fafc Fingerprints: Increase MAX_FAILED_ATTEMPTS to 10
+328f037dc2b SystemUI: Fix NPE 12-11 17:56:37.756   686   686 E AndroidRuntime: FATAL EXCEPTION: main 12-11 17:56:37.756   686   686 E AndroidRuntime: Process: com.android.systemui, PID: 686 12-11 17:56:37.756   686   686 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.getLocationOnScreen(int[])' on a null object reference 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.isInArea(StatusBarIconController.java:531) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.applyIconTint(StatusBarIconController.java:550) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.setIconsDarkArea(StatusBarIconController.java:443) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.LightStatusBarController.update(LightStatusBarController.java:124) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.LightStatusBarController.onSystemUiVisibilityChanged(LightStatusBarController.java:74) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.setSystemUiVisibility(PhoneStatusBar.java:3417) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:452) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6176) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:888) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:778) 12-11 17:56:37.762   573   773 W ActivityManager:   Force finishing activity com.android.systemui/.recents.RecentsActivity
+e2a2f5d2ba4 Language toggle QS
+78e8437daf1 GlobalScreenShot:Fix Unused Calls
+f696a32148d Fix playing screenshot's sound when camera's sounds off
+897580c6107 FWB: Disable/Enable screenshot sound [1/2]
+
+   * hardware/qcom/display/
+f3072db9f hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/apq8084/
+38e457cdb hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8916/
+6700612a1 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8974/
+24176c9df hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8994/
+023758b1a hwcomposer: Fix regression in hwc_sync
+
+   * packages/apps/Settings/
+5f07a4f1f2 Organize few strings
+e5f7fdbebd Fix derp
+40c688ff0b Volume can not be updated in Sound&notification
+9e21e59797 AllowBindAppWidgetActivity: Fix crash when the activity is closing
+4480917fc9 Camera: Move option to disable vibration on double tap
+6bdd5a2004 Restore stock ambient display behavior
+58f51d4801 Fix derps
+5713dbbbd6 Move advanced reboot to Venom
+3253c6a5e2 Settings: Remove duplicate permissions
+f74c235f89 Keyguard: Forward port lockscreen quick unlock (2/2)
+fadbc02f8f Sync qs invert color with color inversion in Settings
+d8f4c48a16 Move heads up settings to Venom [1/2]
+3dcafdce57 Ambient display: Battery status (2/2)
+822eb0c7b2 Custom ambient display settings (2/2)
+bdca896df6 Dark theme: Update colors
+1fde4d6bb2 Move few preferences to venom
+715d2a7a28 Settings : Rebuild app list after reset
+f7bcd60f89 Settings:Rewrite Restart SystemUI
+62cd23750b Allow sorting applications by size
+91848303ec Settings: enable fast scroll for all app list views
+
+   * system/core/
+fdea66196 init: Run restorecon_recursive asynchronously
+
+====================
+     06-19-2017
+====================
+
+
+   * vendor/viper/
+6a1f3977 Rename DeskClock
+
+====================
+     06-18-2017
+====================
+
+
+   * device/qcom/common/
+5985a61 power: Use the correct opcode for STOR_CLK_SCALE_DIS
+
+   * hardware/qcom/bt-caf/
+6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+====================
+     06-17-2017
+====================
+
+
+   * device/motorola/msm8916-common/
+5815230 Update remote
+
+   * device/motorola/osprey/
+5261ce9 Update remote
+
+   * hardware/ril/
+5758b0e ril: fix a memory leak.
+
+   * hardware/ril-caf/
+588e49d ril: fix a memory leak.
+
+   * manifest/
+f33b7d6 Switch to gitlab
+0a763fd Organize things
+
+   * packages/apps/MusicFX/
+33f63b1 Automatic translation import
+
+   * packages/apps/WallpaperPicker/
+5b27292 Fix bad wallpaper preview image format
+
+   * vendor/qcom/opensource/dataservices/
+ca40d29 datatop: Remove unused variables from datatop_ip_table_poll.c
+76076b1 datatop: Fix out_dir array empty content verification
+
+   * vendor/viper/
+6b1370cc Right dimensions for wallpaper
+c225ef6e roomservice: Update remote name
+
