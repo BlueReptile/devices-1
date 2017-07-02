@@ -1,0 +1,907 @@
+====================
+     07-02-2017
+====================
+
+
+====================
+     07-01-2017
+====================
+
+
+   * kernel/motorola/msm8226/
+1541f5e Revert "tmpfs: clear S_ISGID when setting posix ACLs"
+
+   * packages/apps/Jelly/
+9d693cc Jelly: Remove unneeded getApplicationContext call
+
+====================
+     06-30-2017
+====================
+
+
+   * device/motorola/albus/
+f0e5efe albus: add back ffmpeg media codecs
+
+   * device/oneplus/oneplus3/
+621bbb9 OnePlus3: Fix dependencies, show dash charging, show correct charging current value on lockscreen.
+
+   * frameworks/base/
+3fab67a Automatic translation import
+f4bf3d7 SystemUI: Add tile for enable/disable HW keys
+f59186a SystemUI: Fix task lock & freeform buttons placement
+4d38a5f Fix screenpinning from showing up unless enabled
+1553950 Screen pinning improvements
+1ab96cb Notification Ticker: add darkintensity support and clean up other things
+317132e Fix potential KeyguardMonitor FC on unlock
+7b6aebf Automatic translation import
+4613d48 ActivityStarter: Fix protected app intents
+b3d900e Volume Panel: Fix Bluetooth music stream icon when muted
+f96935a Wew... derp
+b4c1629 [1/2] Fix ring icon
+e7a302c Camera2: Fix Error Callback if buffer lost.
+3a6f959 SystemUI: move time tick to bg handler
+a8e819d Fix NPE with void android.view.VelocityTracker.clear()
+06da8ac SystemUI: force a clock update if the screen is turned back on
+3b5151d Frameworks: Fix Null Pointer Issue
+719369c When updating a split app, copy compiled files from base.apk only.
+b971bd3 QS Tile: increase DEFAULT_MAX_BOUND to 6
+bf7ed0a Fix service cannot start when service removed from restartList
+2f732c2 Only destory ce data when prepare user CE data failed.
+a4d6242 When backup schedule version error will be caused system_server crash
+a01529e fix ArraySet crash
+2771308 Battery icon: Improve theme compatibility
+8a0e48b Add support for the .opus file format
+84056d2 Binder: Be forceful about a forceful exit
+b0bfad6 Automatic translation import
+
+   * packages/apps/Jelly/
+d6b3b84 Jelly: Add non encrypted google search engine
+897fa20 Jelly: Propagate custom request headers to WebClient
+58c2aed Jelly: Add suggestions
+
+   * packages/apps/MusicFX/
+1d44bdb Automatic translation import
+0ba369a MusicFX : Save and load presets from external storage
+
+   * packages/apps/Settings/
+e8a70ae Automatic translation import
+
+   * packages/apps/VLauncher/
+b0eef32 Automatic translation import
+
+   * packages/apps/Venom/
+21f9aaf Automatic translation import
+f8d30de Few changes on power menu category
+9bd53bb Ticker: Remove extra preferences
+
+   * packages/apps/ViperOTA/
+f41a95b Automatic translation import
+
+   * vendor/motorola/albus/
+c3b1e27 albus: use prebuild audio HAL
+
+   * vendor/viper/
+b23176c Bump version
+
+====================
+     06-29-2017
+====================
+
+
+   * device/oneplus/oneplus3/
+94b2a7d ViperOS BringUp and Update to latest LineageOS sources
+
+   * packages/apps/Jelly/
+69173dd Jelly: Add show/hide keyboard utilities
+
+   * packages/apps/Messaging/
+2663362 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/MusicFX/
+a6e91fd Automatic translation import
+
+   * packages/apps/OmniStyle/
+eadb7ec Automatic translation import
+
+   * packages/apps/Settings/
+ca0bd56 Settings: Hide disabled lockscreen blur from search index
+2b4a303 Automatic translation import
+3d21191 Clean few strings
+
+   * packages/apps/VLauncher/
+6891f85 Automatic translation import
+82ba08d More theme changes
+
+   * packages/apps/VPapers/
+704cac2 Automatic translation import
+
+   * packages/apps/Venom/
+e239766 Fix custom header automatically turning on
+a0d08dc Automatic translation import
+4e9d20e Add wt88047
+365eedf Added Official Device Maintainer For Asus Zenfone Max (Z010D)
+8170604 device: add bullhead >>>>>
+
+   * packages/apps/ViperOTA/
+045e327 Automatic translation import
+
+   * packages/services/OmniJaws/
+0526786 Automatic translation import
+
+====================
+     06-28-2017
+====================
+
+
+   * kernel/motorola/potter/
+2bf9639 update defconfig
+
+   * packages/apps/Jelly/
+9a5fcdd Jelly: Search on Enter key
+74c7e51 Jelly: Don't reload on keyboard changes
+
+   * packages/apps/Messaging/
+d1e7aec Messaging: Don't crash on unsupported shared content type
+53b0ba3 Messaging: Request external storage permission before handling shared files
+1ca0673 Dark theme
+
+   * packages/apps/VLauncher/
+f1da9e8 Launcher3: icon pack/app labeling integration
+cbb6c8c Launcher3: remove generic icon pack support
+a800bb1 Fix derp in prediction
+b455d5b VLauncher
+
+   * packages/apps/Venom/
+7272137 Re add some prefs
+
+   * vendor/motorola/albus/
+c67c2e3 albus: add libmodmanager
+
+====================
+     06-27-2017
+====================
+
+
+   * build/
+6ec4fd1 Revert "Preventing default locale from being overridden because of buildinfo.sh"
+f2e8eb3 Revert "build: skip 'ro.product.device' using  new macro "TARGET_SKIP_PRODUCT_DEVICE""
+6485ef8 Disable recovery resource warning
+
+   * device/motorola/griffin/
+896e493 griffin: Remove noisy 'Failed to acquire lock'
+f615db4 Revert "griffin: fix in-call mic"
+f4021e2 Revert "griffin: fix headphone playback"
+
+   * frameworks/av/
+eb9cc20 CameraService: Fix cameraId type of onDeviceStatusChanged
+
+   * kernel/motorola/msm8996/
+1468ebc msm: sps: Fix race condition in SPS debugfs APIs
+535c194 ARM: dts: msm: Add 600Mhz GPU clock support for SDM450
+291fcc9 ARM: dts: msm: Update gfx clock corners for SDM450
+3d8bd31 usb: gadget: f_uvc: Fix crash on disconnect/connect during streaming
+e016619 Merge "xt_qtaguid: Fix kmemleak error in TIME_WAIT sockets"
+f32d350 Merge "soc: qcom: Clear the memory before freeing it up"
+91c5d2d msm: ipa: Add mutext protection when updating notify req cache
+0b3dfba power: qcom: Fix issue with power table notifications
+32ccd5a power: qcom: ea: Fix uninitialized temperature and cpu variable
+4ca5620 diag: Fix to check for command length size
+97a7ff5 ALSA: pcm : Call kill_fasync() in stream lock
+fe2f36e tracing: do not leak kernel addresses
+8300d72 Prevent heap overflow in uvc driver
+e47df49 xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder
+126f0d4 xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window
+447c209 msm: camera2: cpp: Fix out-of-bounds frame or command buffer access
+e879139 msm: camera2: cpp: Fix iommu_attach/detach compat_ioctl issue
+b5b3df8 msm: ipa: Fix for missing int overflow check in the refcount library
+322cd34 radio-iris: Use copy_from_user API to access userspace memory
+2b47279 Merge "ARM: dts: msm: Add initial support for sdm450"
+2115e34 soc: qcom: pil: Explicitly clear the subsystem loading address
+f312b78 soc: qcom: Do not clear segments if pil boot failed in memory allocation
+fa4f7c0 soc: qcom: Skip clearing modem FW region post load failure
+b90dd04 msm: ipa: fix IPC low priority logging
+b1545be msm: camera: Allow driver file to be opend only once.
+55df3a2 msm: mdss: Add plane_count range check in mdss WFD
+5a7b77b soc: qcom: Clear the memory before freeing it up
+b5be198 msm: msm_bus: Fix inconsistent type casting in bandwidth monitor driver
+2ab1e75 power: qpnp-smbcharger: handle charger removal during APSD re-run
+f754b83 qbt1000: Initialize drvdata structure before usage
+8d46972 qbt1000: Terminate fingerprint TA name with null
+87917c2 msm: rmnet_ipa: fix security issue
+768ae98 defconfig: msm: Enable sdm450 support in msmcortex defconfigs
+e437656 ARM: dts: msm: Update Temperature sensor support for MSM8953
+053bc5a thermal: tsens: Update sensor ID index
+1dec1f5 ARM: dts: msm: Add initial support for sdm450
+33c278b soc: qcom: Do not clear segments if pil boot failed in memory allocation
+05c2961 msm: mdss: Validating data values before passing on as operand
+805f52a msm: camera: isp: Check userspace parameters
+5ee6ef4 soc: qcom: pil: Avoid possible buffer overflow during Modem boot
+43d93b6 soc: qcom: Skip clearing modem FW region post load failure
+c04d7a7 msm: camera: Prevent info leak in kernel driver.
+fd946e5 mmc: card: block: check the user controlled parameters to avoid overflow
+4ba4fd0 crypto: msm: check invalid src and dst vbuf in qcedev.c
+e2dcf6c mmc: cmdq_hci: Avoid releasing clock twice during DCMD error
+d4315df mmc: queue: Remove BUG_ON() in cmdq_thread
+c77ecb2 ANDROID: ion: Protect kref from userspace manipulation
+d165d84 msm: camera: Fix kernel overwrite GET_BUF_BY_IDX ioctl
+1665a11 ASoC: msm: qdspv2: add result check when audio process fail
+ea2de56 drivers: qcom: ultrasound: check concurrent device open operations
+9ce34dd msm: mdss: fix race condition during mdp debugfs release
+539a295 crypto: msm: Fix buffer overflow issue
+cdd2bc6 msm: kgsl: Fix kgsl memory allocation and free race condition
+26bd6a6 ashmem: remove cache maintenance support
+2d08edc msm: kgsl: Fix the race between context create and destroy
+1554b5b msm: ipa: Fix memory leak in ipa driver
+9ceaf62 soc: qcom: remove debugfs interface from ssr, service locator & notifier
+82e30a2 msm: isp: increase UB size for isp40
+15e5a62 wcnss: fix the potential memory leak and heap overflow
+27033c8 msm: mdss: Handling possible integer overflow
+38b316f soc: qcom: pil: Clear elf region on authentication failure
+b8725ce Merge "power: qpnp-fg: fix unbalanced irq enable warning for FULL_SOC irq"
+02ab627 msm: mdss: avoid overflow in mdp clock rate calculation for rotator
+fa9cc61 msm: camera: isp: Handle array out of bound access.
+e1461a0 ASoC: msm: qdspv2: add mutex to prevent access same memory simultaneously
+79da7b5 soci : qcom: socinfo: Protect current_image using semaphore lock.
+6f860d8 msmi : vidc: Protect debug_buffer access in core_info_read with lock.
+8756e80 mhi: core: remove unused dbgfs function
+6748eef clk: msm: gcc: Add support for active clients of SNOC/BIMC
+d2f9a83 mmc: sd: return error information of sd_init_card incase of failure
+1e28a24 trace: resolve stack corruption due to string copy
+3671270 sched/rt: Fix PI handling vs. sched_setscheduler()
+9a5b4cd sched/core: Fix task and run queue sched_info::run_delay inconsistencies
+d8c2b76 msm: camera: Add regulator enable and disable independent of CSID
+73e07fb msm-core: Fix uninitialized sampling work
+3ad3a94 msm: mdss: Fix integer overflow in cursor validaton
+21dadaa msm: mdss: Install sync fences after user copy
+6e6601c msm: mdss: fix race condition in mdp debugfs
+db36671 msm: mdss: Validate cursor image size
+a29b2aa android: fiq_debugger: restrict access to critical commands.
+a34ee69 CHROMIUM: usb: gadget: configfs: Fix KASAN use-after-free
+94e9516 input: synaptics: put offset checks under mutex.
+379c258 l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind()
+0f4324c Revert "mm: vmscan: Add a debug file for shrinkers"
+a5dabf0 Merge "msm: ipa: Modify IPAERR to IPADBG"
+46b171b Merge "usb: host: xhci: Fix bound check for interrupter number"
+9a5dd66 Merge "regulator: msm_gfx_ldo: Fix the CX voting logic"
+7c9f174 wcnss: Dump WCNSS registers during reset FIQ
+a5aa4be Merge "drivers: soc: add size check"
+7a7c829 Merge "msm: ADSPRPC: Fix leak that happens while the list gets empty"
+76443df Merge "msm: camera: Lack of copy_from_user in camera driver."
+707af30 msm: mdss: Fix DSPP usage inconsistency issue
+87181d0 msm: mdss: Add lock to avoid release of active session in rotator
+705dd66 msm: mdss: Add plane_count limit check for mdss_rotator buffer
+1a748bd ARM : dts: msm: Add 600Mhz GPU clock support for SDM450
+54f053a ARM : dts: msm: Update gfx clock corners for SDM450
+8ad78df Merge "msm: mdss: fix memcpy source and dest memory buffer size mismatch"
+33ba042 msm: ba: Update printk format specifier to prevent leaks
+09ae657 qbt1000: Fix for incorrect buffer size check and integer overflow
+9a32fed clk: msm: clock-alpha-pll: Update handoff for dynamic alpha pll
+0fec0eb msm: kgsl: Perform cache operation with kernel address
+eb9c314 msm: camera: sensor: Validate sensor name during probe
+8b802ec defconfig: gud: Remove gud driver
+f84e84f msm: gud: Remove gud driver
+fe8382b ARM: dts: msm: Add 600Mhz GPU clock support for SDM450
+7027eab ARM: dts: msm: Update gfx clock corners for SDM450
+586abf0 clk: msm: Add support for 600MHz for GPU clock
+120e1f6 msm: msm_bus: Add mutex to protect node_list
+7e8c313 input: synaptics: fix for buggy code poined by SIL tool
+f6c0938 USB: f_qc_rndis: Prevent use-after-free for _rndis_qc
+0c11ed8 ASoC: msm: remove unused msm-compr-q6-v2
+10b5942 soc: qcom: msm_bus: add mutex lock for cllist data
+984f5f9 Merge "diag: Set in_busy only after initialization of read buffers"
+5096ef2 Merge "ASoC: msm-lsm-client: use kzalloc instead of kmalloc"
+64b1df5 Merge "diag: Clear masks upon logging exit"
+e01a482 msm: mdss: remove client from device list if failed to register
+c220d3c input: synaptics_dsx_2.6: protect tmpbuf allocation
+4d87018 clk: msm: mdss: add support for chip serial number in dfps info
+
+   * packages/apps/CMParts/
+be018bf CMParts: Use vector drawables for most system icons
+f8de279 Automatic translation import
+
+   * packages/apps/Calendar/
+c5c3334 Dark theme
+
+   * packages/apps/Contacts/
+7c71b16 Dark theme
+
+   * packages/apps/ContactsCommon/
+dbcbeb9 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/Dialer/
+91d6a84 Dark theme
+
+   * packages/apps/FMRadio/
+5c95795 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/Gallery2/
+e988d6a Gallery2: Fix views overlap
+
+   * packages/apps/Messaging/
+04d7504 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/PhoneCommon/
+4393cfd Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/Settings/
+7af2d79 Settings: Add two more options for battery saver
+f039bd8 Fix WriteSettingsDetails memory leak
+3146ecf Fix Screen Magnification recursive draw
+9bb6384 Fix PremiumSmsAccess memory leak
+6d03372 settings: disable 'no process..' logspam
+041b207 Automatic translation import
+bd3afae Settings: handle decrypting larger pattern sizes for sw600dp
+e834674 Revert "Settings: Fix internal storage summary for non-emulated storage"
+b0483c0 Settings: Fix automatic hotspot turn off summary
+83c991e [2/2] Fix ring icon
+276f913 Disable dt2w on doze by default
+
+   * packages/apps/VLauncher/
+ce20ffe Remove checks for correct swipe up position, enables swipe up everywhere like Pixel Launcher
+0803c4a Fix multi-user permissions for Samsung's Secure Folder
+b63122f Update overlay request version to O Pixel Launcher equivalent
+2bbbe7a App suggestions: Refactor on strings
+f9893b2 Dark theme
+9cc5b0a Theme changes
+08409ef Update icon
+d4b2888 Launcher3: fix to always show settings button
+e3ce142 Cleaning up references to mDragView after reordering Workspaces
+9675aaf Fix crash when LAUNCHER3_ALL_APPS_PULL_UP is false
+14eb972 Change signature|system permissions to signature|privileged
+b7703d6 Fix issues with using Launcher3 as default launcher
+78b25f5 Launcher3: allow predictive apps to be turned off
+c7c3892 Launcher3: reload the workspace after icon pack selection
+37fc0f4 Launcher3: add icon pack support
+a7d3342 Launcher3: update permissions for compatibility
+e9d9c3c Launcher3: New design policy integration
+705b64d Launcher3: Allow support for Predicted Apps
+bf8f189 Launcher3: Materialize the settings menu
+8781909 Launcher3: bring back pulldown to open notifications panel
+65340dd Launcher3: animate workspace when animating the Google now page
+3b64824 LauncherClient: make sure service is connected before trying to unbind
+70d40cc Launcher3: prevent crash
+e0c455f Launcher3: support google now tab
+59a9456 Launcher3: import reversed google now lib
+e6b25b3 Launcher3: refactor gesture handling
+b54af81 Launcher3: double tap on home screen to turn off screen
+ee4156b Launcher3: Add swipe up/down gestures
+
+   * packages/apps/Venom/
+7c027d1 Update some icons
+47bfea0 [3/3] Torch long press power: add auto-off function
+3018592 [2/2] Disable lockscreen charging info by default
+
+   * packages/services/Telephony/
+ae9ccc1 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * system/core/
+dba6547 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * vendor/cmsdk/
+94e44f9 Automatic translation import
+a8c558e [2/3] Torch long press power: add auto-off function
+
+   * vendor/motorola/albus/
+7c8b2cd albus: remove IMS blobs for now
+
+   * vendor/viper/
+080a98d apns-conf: Add Japan Umobile APNs
+b252a14 sensitive_pn: Add sensitive numbers for Greece
+0ebe725 sensitive_pn: fix Czech Republic MCC
+2425b2c sensitive_pn: Add Taiwanese sensitive numbers
+d122e70 Add sensitive numbers for Ukraine.
+3788a03 Add Virgin Media Ireland to APN's
+590319d sensitive_pn: Add additional FR number
+a647035 sensitive_pn: Add additional GB numbers
+b9e10a1 sensitive_pn: Add additional PT numbers
+5310561 sensitive_pn: add missing phone number for Brazil
+
+====================
+     06-26-2017
+====================
+
+
+   * device/motorola/albus/
+f81076f albus: disable camera wrapper for now
+65153dc albus: sync configs with stock offical release
+f50b6a5 albus: sync props with stock
+5d99475 albus: set perms for sensors service and let it starts
+fdaa09a albus: set SELinux to permissive for now
+e5910a2 albus: disable VT support
+
+   * device/motorola/potter/
+9166886 potter: add some bluetooth props
+
+   * frameworks/base/
+6b15b6e [1/3] Torch long press power: add auto-off function
+dbf66e7 SymbolComparator operator() is missing const
+2f6de00 Adopt lockscreen shortcut hint from AOSP
+3ac260e Revert "Show icons of only background apps in Toasts"
+e1edfaf [1/2] Disable lockscreen charging info by default
+
+   * kernel/motorola/potter/
+2e08a9c update defconfig
+9bffdf6 update defconfig
+8b275a6 msm8953: overclocking with cmdline option
+0cb098e elementalx_defconfig
+ba7647a zen-iosched: change fifo_batch to 16
+33bdffc block: add zen scheduler
+5b20e2b SIO: update for linux 3.18
+5e08b95 FIOPS: update for linux 3.18
+689b4fb Add SIO and FIOPS i/o schedulers
+4244b35 sound control: remove speaker control
+d3f01c6 drivers: wakeup: add options to disable timerfd, netlink and wlan wakelocks
+677ee9b ASoC: msm8x16-wcd: add speaker gain and prevent reset
+09009d1 ASoC: msm8x16-wcd: Sound control: allow further reduction of digital gain
+ee809eb ASoC: msm8x16-wcd: Sound control: add mic gain
+899c2b7 ASoC: msm8x16-wcd: Sound control
+8a4d756 mdss: move to a kthread for vsync_retire_work_handler
+a7f5a0b wake_gestures: add sweep2wake, doubletap2wake and sweep2sleep
+21313c8 msm: qpnp-haptic: disable vibration when vmax_mv_strong is set to min
+8f8a674 platform/msm: haptic: add sysfs node for vmax_mv
+2adaac2 mdss_fb: add backlight dimmer option
+9204059 zram: increase number of compressions streams
+69b75b2 dm-crypt: increase threads
+6c49c28 msm: mdss: KCAL: disable igc update
+63407eb msm: mdss: KCAL: Send a pp display commit when changes are made
+5b7e4ac mdss mdp: kcal for mdss_mdp_v1_7
+38efced cfq-iosched: fix the setting of IOPS mode on SSDs
+63c321f proc: Remove verifiedbootstate flag from /proc/cmdline
+e72f89f adrenoboost: disable by default
+26f8d5c adrenoboost: finetuning algorithm - scale it a bit down
+dd23303 msm_adreno_tz: add adrenoboost parameter
+f4a8da2 usb: gadget: mass_storage: added sysfs entry for cdrom to LUNs
+4be8922 msm: vidc: disable CPU L2 cache PC during video sessions
+8e463ac PM: devfreq: Use high priority workqueue
+96d781c cpufreq: cache tunables for ondemand and conservative governors
+3ff995f cpuidle: don't disable cpuidle when entering suspend
+9ba6f2b adjust Makefile
+a5d749a writeback: fix writeback cache thrashing
+4d72ac9 block: Make CFQ default to IOPS mode on SSDs
+d71ed77 AIO: Don't plug the I/O queue in do_io_submit()
+27cb064 Added fsync on/off support.
+7e3c880 mm: slub: Default slub_max_order to 0
+50cb3f0 tcp: fix timing issue in CUBIC slope calculation
+ffa0201 binfmt_elf.c: use get_random_int() to fix entropy depleting
+fbb581d disable crc check
+102b43a Fix version name
+d8f83fd gitignore
+
+   * manifest/
+76445e3 Stop tracking frameworks/av
+
+   * packages/apps/Jelly/
+cc66a61 Jelly: Add WebChromeClientCompat
+e3b22ba Jelly: Fix some lint warnings
+
+   * packages/apps/ViperOTA/
+8e9d9a7 MD5 verification: Make it mandatory Also delete zip file if verification fails
+
+   * packages/providers/MediaProvider/
+0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
+815436d Gallery2: Fix thumbnails of new edit photos display wrongly in Documents.
+f3bd6a0 Music: Fix force closed when plug out the SD card while music is playing.
+eb0378b MediaProvider: Fix SQLiteDiskIOException.
+b619475 Revert "Fix check for existence of parent"
+
+   * vendor/motorola/albus/
+345e45c albus: sync blobs with official stock ROM
+
+====================
+     06-25-2017
+====================
+
+
+   * kernel/motorola/msm8226/
+8847127 ALSA: seq: Fix race at timer setup and close
+964fde8 ALSA: compress: fix an integer overflow check
+
+   * packages/apps/Jelly/
+2d1bdcd Jelly: Add save form data setting
+d2926c7 Jelly: add Do Not Track setting
+42d6446 Jelly: Add incognito mode shortcut
+69c2401 Jelly: Update android tools build
+
+   * packages/providers/MediaProvider/
+21ce3cd Revert "MediaProvider: Fix where condition of delete queries"
+
+====================
+     06-24-2017
+====================
+
+
+   * device/oneplus/oneplus3/
+b797438 op3: Update power profile from latest OOS
+a77cc84 op3: Automatically set bluetooth name based on rf version
+
+   * kernel/motorola/msm8996/
+b2c0835 drivers: staging: switch to qcacld-2.0 Moto drivers
+
+   * kernel/motorola/potter/
+5077212 arm: dt: import missing albus revision
+
+   * kernel/oneplus/msm8996/
+9ed8f43 update defconfig
+2721382 Merge remote-tracking branch 'lineageos/cm-14.1' into ElementalX-3.00-los
+
+   * packages/apps/Jelly/
+eff2fd2 Open link in Incognito tab automatically when in Incognito mode
+f7338cf Jelly: Enable safe browsing
+
+   * vendor/motorola/
+7ea4a2e omap4-common: remove base64 blob
+
+====================
+     06-23-2017
+====================
+
+
+   * device/motorola/albus/
+ec91a26 albus: update init.mmi
+ae2bab8 albus: set Trustonic TEE perms
+a9aaa36 albus: update fingerprint to stock release
+0f5b5b8 albus: update potter references
+
+   * device/oneplus/oneplus3/
+9a25a6a op3: Sync bluetooth configuration with CAF
+
+   * hardware/qcom/fm/
+4c2e39e Automatic translation import
+
+   * kernel/motorola/msm8226/
+f791056a msm:camera:isp: Fix array index bound checks
+b4fb5bb msm: cpp: Validate frame message before manipulating it
+bcaf0dd msm: vidc: Check validity of userspace address
+
+   * kernel/motorola/potter/
+263859f albus: disable some debug configs
+
+   * packages/apps/Bluetooth/
+7f2b5c8 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+ebf9e97 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+136471a Automatic translation import
+
+   * packages/apps/CustomTiles/
+9c8fcd2 Automatic translation import
+
+   * packages/apps/FMRadio/
+900759c Automatic translation import
+
+   * packages/apps/Gallery2/
+06d5e55 Automatic translation import
+
+   * packages/apps/Jelly/
+dd23317 Automatic translation import
+818e92d Jelly: Guess filename from URL
+1a4f237 Jelly: Allow media scan on download
+a8fe6fa Jelly: Show download notification on completed
+
+   * packages/apps/Messaging/
+c8e61e5 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+433f6c8 Automatic translation import
+
+   * packages/apps/Snap/
+7e76c83 Automatic translation import
+
+   * packages/apps/Terminal/
+a2a05d2 Automatic translation import
+
+   * packages/apps/TvSettings/
+6f07406 Automatic translation import
+
+   * packages/apps/Venom/
+90b9691 Remaking things
+
+   * packages/inputmethods/LatinIME/
+3e047b8 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+30cc23d Automatic translation import
+
+   * packages/resources/devicesettings/
+75498f7 Automatic translation import
+
+   * packages/services/Telephony/
+23b6f58 Automatic translation import
+
+   * vendor/motorola/albus/
+7c2f593 albus: add missing sensor services
+
+====================
+     06-22-2017
+====================
+
+
+   * device/motorola/albus/
+0d11b11 albus: update init
+779bc09 albus: sync overlay with stock
+78625f4 albus: update power profile
+4d329f6 albus: update init scripts
+0337be1 albus: update system.prop
+b77bd16 albus: remove releasetools extention
+da9e8f8 albus: update makefiles
+eab19fb albus: update wifi config
+af884a0 albus: update gps config
+00c1cd2 albus: update sec_config
+b588f39 albus: import thermal engine config
+5efd832 albus: update display config
+445c29b albus: update media configs
+7f40dff albus: update nfc configs
+9aa45ae albus: update sensors configs
+cf615dd albus: update camera configs
+92f250a albus: update bdroid_buildcfg
+5fb26f3 albus: update audio configs
+751d3f0 albus: update readme
+013186b albus: kang potter device tree
+1109ae8 Initial commit
+
+   * device/motorola/potter/
+28fd065 potter: address FM denials
+6fa41a4 potter: import sound trigger configs
+804f5bc potter: disable XML audio policy
+
+   * device/oneplus/oneplus3/
+c2e7eda op3: Define ril-daemon normally
+b303c21 op3: sepolicy: Remove old and duplicate permissions
+f4ecf29 Revert "op3: sepolicy: Fix rmt_storage and rfs_access policies"
+bb87f54 op3: Add system GID to rmt_storage
+2b9d2a4 op3: rmt_storage should have wakelock GID
+9d18ddd op3: Drop NET_RAW and NET_ADMIN from qti
+9cbce71 op3: Grant netmgrd proper unix perms
+
+   * frameworks/base/
+9ed72cd Option to Display Data Disabled Indicator Icon [1/2]
+9ed0c7c Fix correct height of brightness slider
+
+   * kernel/oneplus/msm8996/
+86cce41 ANDROID: sdcardfs: remove dead function open_flags_to_access_mode()
+
+   * vendor/motorola/albus/
+899b9d4 albus: switch to albus blobs
+06b47fa albus: import potter blobs
+839d1fb Initial commit
+
+====================
+     06-21-2017
+====================
+
+
+   * device/motorola/potter/
+298e2ea potter: add AUDIO_DEVICE_OUT_FM as output device
+606cb32 potter: update audio_effects.conf
+02f210d potter: set AUDIO_FEATURE_ENABLED_FM_POWER_OPT flag
+835c528 potter: disable QCOM AAC encoder
+24d890d potter: disable FM transmitter
+4c5ba1d potter: remove unused media_profiles_rc.xml
+ba7b266 potter: import stock FM and BT scripts
+0fe5ee1 potter: unset TARGET_QCOM_NO_FM_FIRMWARE to let HAL handle fm_dl service
+f808b33 potter: revert to fm_dl service
+85e1ef4 Revert "potter: do not use a wrapper for hci_qcomm_init service"
+1ad7302 Revert "potter: set fm_qsoc_patches domain"
+552b88a Revert "potter: fm_qsoc_patches is a oneshot service"
+e14e173 potter: fix init_wifi service
+af880a8 potter: remove duplicate definition of hostapd
+
+   * device/oneplus/oneplus3/
+f2bc6c0 op3: Update qti telephony extension from MIUI 7.6.5 dev
+70581ae op3: Convert rf_version to integer before comparison
+0f0e85d op3: Update from Open Beta 18
+3a1de8f op3: Adjust lmk parameters
+
+   * frameworks/base/
+73c32ef LocationTile: Behave like other tiles
+31b16d6 Fix Double tap to wake on doze
+19d31ca Try to fix navigation bar not showing by default In devices without hwkeys
+03363f6 Update PT-BR translations
+e65872a Use correct color for system_primary_color
+df41c13 KernelCpuSpeedReader: Account for missing sysfs nodes
+edfd0b0 statusbar ticker: Update tickercolorhelper
+b19bd33 Ticker: Set default color to White [1/2]
+dde5b3a Statusbar ticker: use a gentle smooth fade animation
+af07393 Ticker: allow to show music track info on new track being played [1/2]
+ca8b398 Statusbar ticker: apply statusbar tint when set to white
+c6b5c00 Add Status Bar Ticker [1/2]
+a028ab1 Check for spurious wake ups
+335b007 SystemUI: animate icon when locking a task
+d75a0c1 Revert "Fix gap issue with keyguard clock/carrier label"
+e930e32 Header: More padding
+d4438f4 Fix SystemUI FC
+68c9688 Fix build
+3354c9f base: Add bool to enable/disable doze by default
+5dfe6e3 base: [MicroG] Allow location providers also outside of /system
+482d8d8 Keyguard: Forward port lockscreen quick unlock (1/2)
+1572a16 Frameworks: add ability to disable bar color in battery saver mode (1/2)
+25e1fda Fix batterySendBroadcast not synchronized issue.
+717c602 bless python versions newer than 2.6
+3f5a9b5 Handle ActivityNotFoundException for contacts activity
+6db5463 extend PreferenceActivity for title text on a single pane mode
+8e7ac42 Override onRestoreInstanceState() in MultiSelectListPreference
+02881d1 Fragment animations are not being saved across configuration changes
+2a64d0d Fix to NullPointerException when activity is relaunched
+e9d0dc4 Fix right mLastTimeUsed when aggregate UsageStats
+4f39221 Fix ListView is not scrolled properly with arrows
+fbae216 Synchronize access of mSubscriptions
+1ae3894 Fix deadlock b/w ActivityManagerService and MediaSessionService
+302f877 Provide synchronization to setview to avoid NPE
+0901ce0 AsyncTask: Fix to remove canceled tasks from executor's queue.
+1bedda3 frameworks/base: Fix to avoid crash when the tab is not set from app
+e595c88 IInputMethodWrapper to recycle SomeArgs in all cases.
+0086fdd Catch corruptexception during Transaction operation
+b1e2162 better notification speed change
+e626799 Adjusted animation timing
+dd9e225 Fix TaskRecord wrong dump element firstActiveTime
+20d4998 Fix force idle issue
+b1e48274 [1/2] base: Screenshot for hardware keys
+9580d84 policy: refact navigation bar configs
+ed4b10e Notification panel fingerprint gesture: fix axis on landscape [1/2]
+98219ac OmniStyle: Try to fix custom header shadow observer
+d812296 BatteryMeterView: Extend pulsating animation to solid batter style
+b40bcbb Fix external QS title color
+8fa33c0 Remove FastJNI optimization on AssetManager to avoid dead lock.
+e832baa Double tap to sleep on navigation bar [1/2]
+5fa94bb Double tap power button for camera - vibration toggle [1/2] added a toggle to disable double tap vibration when launching camera from the power button
+f28d273 Fix a use-of-uninitialized-value warning
+40e0b9e dont panic if immersive mode is set by the user
+e136f73 Optimised hwui rounded corners shader
+f767586 Reduce hwui CPU time by using glDrawRangeElements
+a761354 FPS: prevent NPE if FP hal doesnt handle performancestats
+62cdd3a CaptivePortalLoginActivity correctly gets UserAgent
+7bd8c4e Prettify the captive portal sign-in activity
+c1328cb Add Sound tile to QS [1/2]
+82452f7 Add padding on header
+2307e6d Fix Potential NPE on Msim
+733b7dd core: Add support for fake signatures, enabled per app by dynamic permission
+ecf6740 Fix gap issue with keyguard clock/carrier label
+9e540a9 Set network traffic meter font to sans serif condensed
+442ad9a FW_BASE: Rewrite restart SystemUI method
+cf0a997 Fix build error
+f5fa1af base: SystemUI: remove force weather update bits force updates have been removed from service API
+5a48ef3 base: SystemUI: use new OmniJaws error broadcasts
+f4b65cd KeyguardWeather: Update weather after switching options
+aac8d8f Keyguard Weather : Refactor for new API[1/2] --Use Omnijaws API thanks to omni rom and Max Winger --Fix Weather on Lockscreen not updating --Goodbye Cclock (AT LAST)
+f2cc269 Extend OmniJaws Client to Keyguard Signed-off-by: Varun Date <date.varun123@gmail.com>
+8b6fdb9 Fix weather items npe - When casting and you turn off the screen (who does that), all hell breaks loose
+1749474 Remove OmniJaws check on longpress
+7d6b92d Play nice when OmniJaws is not installed
+d07b382 SystemUI: add xxxhdpi visualizer config
+78d3d12 Statusbar: correctly align status bar icons
+c89db8c Unlock keystore with fingerprint after reboot (1/2)
+14ce529 Header Date+Time positions [1/2]
+c39415e QS Header Icon settings [1/2]
+9acc443 MusicTile: use icons from Viper
+d958fc3 Reboot/Recovery QS Tile: Use vectorized icons
+8cd4be6 Update membar a bit more often Using the FAB clear-all was not updating the membar at all and thus giving us false readings. At one point on the OP3T it said I had less than 1GB of ram with no open apps. This fixes that issue.
+19c8617 Fingerprints: Increase MAX_FAILED_ATTEMPTS to 10
+328f037 SystemUI: Fix NPE 12-11 17:56:37.756   686   686 E AndroidRuntime: FATAL EXCEPTION: main 12-11 17:56:37.756   686   686 E AndroidRuntime: Process: com.android.systemui, PID: 686 12-11 17:56:37.756   686   686 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.getLocationOnScreen(int[])' on a null object reference 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.isInArea(StatusBarIconController.java:531) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.applyIconTint(StatusBarIconController.java:550) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.StatusBarIconController.setIconsDarkArea(StatusBarIconController.java:443) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.LightStatusBarController.update(LightStatusBarController.java:124) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.LightStatusBarController.onSystemUiVisibilityChanged(LightStatusBarController.java:74) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.phone.PhoneStatusBar.setSystemUiVisibility(PhoneStatusBar.java:3417) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:452) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:154) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6176) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:888) 12-11 17:56:37.756   686   686 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:778) 12-11 17:56:37.762   573   773 W ActivityManager:   Force finishing activity com.android.systemui/.recents.RecentsActivity
+e2a2f5d Language toggle QS
+78e8437 GlobalScreenShot:Fix Unused Calls
+f696a32 Fix playing screenshot's sound when camera's sounds off
+897580c FWB: Disable/Enable screenshot sound [1/2]
+
+   * kernel/motorola/msm8996/
+0950292 arm/dt: 8996-moto: Disable L1SS for PCIE1
+
+   * packages/apps/Settings/
+5f07a4f Organize few strings
+e5f7fdb Fix derp
+40c688f Volume can not be updated in Sound&notification
+9e21e59 AllowBindAppWidgetActivity: Fix crash when the activity is closing
+4480917 Camera: Move option to disable vibration on double tap
+6bdd5a2 Restore stock ambient display behavior
+58f51d4 Fix derps
+5713dbb Move advanced reboot to Venom
+3253c6a Settings: Remove duplicate permissions
+f74c235 Keyguard: Forward port lockscreen quick unlock (2/2)
+fadbc02 Sync qs invert color with color inversion in Settings
+d8f4c48 Move heads up settings to Venom [1/2]
+3dcafdc Ambient display: Battery status (2/2)
+822eb0c Custom ambient display settings (2/2)
+bdca896 Dark theme: Update colors
+1fde4d6 Move few preferences to venom
+715d2a7 Settings : Rebuild app list after reset
+f7bcd60 Settings:Rewrite Restart SystemUI
+62cd237 Allow sorting applications by size
+9184830 Settings: enable fast scroll for all app list views
+
+   * packages/apps/Venom/
+d084c1d Screenshot actions: Add missing var
+a07f363 More changes * Add new tab * Move power button camera double tab to Gestures * Remove useless prefs in power menu * More summaries * Fix navigation bar not showing by default * Fix FC * Fix missing translations
+2ef820c devices: add peregrine
+7f25192 Fix derps
+2f10fd8 Fix ButtonBacklight behavior when switching hwkeys
+120530b fix derp
+47948a6 Change more things * New summaries * New icons * Update translation
+0c4b70a Fix derps and translations Translations by @Andersonmendes2016 Fix Maintainers @Birdman
+1ba216c Move battery save mode color to Venom
+fb0909a More icons and add category in the power menu option
+fd14d33 Ticker: Set default color to White [2/2]
+f6dd1bb Ticker: allow to show music track info on new track being played [2/2]
+abefad7 Add Status Bar Ticker [2/2]
+67a197e Rework
+d11ed3b Add icons for new functions
+1199342 Fix build
+e120509 Settings: Refactor Keyguard Weather [2/2] Nitrogen:
+e8e2709 Add maintainer for k4
+d3ad185 Add String For Maintainer Of A6000.
+cb53897 Add Lenovo A6000 Maintainer.
+2dd52de No longer officially supported
+70bd5de Double tap to sleep on navigation bar [2/2]
+f860d11 Double tap power button for camera - vibration toggle [2/2] added a toggle to disable double tap vibration when launching camera from the power button
+08ea562 Add unlock keystore with fp and rework some things * Use SwitchPreference * Check if FP is present
+65d842f  Header Date+Time positions [2/2]
+07d90f5 QS Header Icon settings [2/2]
+018a56f Disable/Enable screenshot sound [2/2]
+cce9045 Advanced Bluetooth, Data, Wifi Toggles [2/2]
+9863424 incall vibration options [3/3]
+3a3b244 Immersive Recents [2/2]
+cb08354 Toast icon switch [2/2]
+8f91f54 Hide status bar on lock screen [2/2]
+b48cb42 allow disabling quick settings on secure lockscreen [2/2]
+ac5082d Settings: HeadsUp snooze function [2/2]
+7384ecf HeadsUp: add timeout option [2/2]
+f6826df Move heads up settings to Venom [2/2]
+bfed1c5 Add three-fingers-swipe to screenshot [1/2]
+a6fe976 Fingerprint authentication vibration [2/2]
+9d189b2 Add Haptic Feedback to QS tiles [2/2]
+0bba0c8 Hide arrows in network traffic indicators [2/2]
+b8a3d4e [2/2] Base: Hide power menu on secure lockscreen
+
+   * packages/providers/MediaProvider/
+fadf365 MediaProvider: Fix where condition of delete queries
+
+====================
+     06-20-2017
+====================
+
+
+   * device/motorola/griffin/
+28ea79c griffin: create bdwlan firmwares symlinks
+0905d58 griffin: address some mods selinux
+
+   * hardware/qcom/display/
+f3072db hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/apq8084/
+38e457c hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8916/
+6700612 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8974/
+24176c9 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8994/
+023758b hwcomposer: Fix regression in hwc_sync
+
+   * kernel/motorola/msm8996/
+6268224 drivers: video: Add bounds checking in fb_cmap_to_user
+0bf922a sysctl: Drop reference added by grab_header in proc_sys_readdir
+ef12557 ipv6: fix out of bound writes in __ip6_append_data()
+15bea55 ipv6/dccp: do not inherit ipv6_mc_list from parent
+9a19b61 sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
+37617cf ipv6: Prevent overrun when parsing v6 header options
+
+   * system/core/
+fdea661 init: Run restorecon_recursive asynchronously
+
+====================
+     06-19-2017
+====================
+
+
+   * hardware/qcom/bt-caf/
+6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+   * kernel/oneplus/msm8996/
+439fb70 update defconfig
+ccfc94d Merge remote-tracking branch 'lineageos/cm-14.1' into ElementalX-3.00-los
+
+   * vendor/viper/
+6a1f397 Rename DeskClock
+
