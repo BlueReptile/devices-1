@@ -1,0 +1,227 @@
+====================
+     07-01-2017
+====================
+
+
+   * device/wingtech/wt88047/
+7ca8f14 Revert "wt88047: camera: Enable real-time face beautification"
+b5b42f0 Revert "wt88047: camera: Enable real-time face beautification"
+0b442bb wt88047: camera: Enable real-time face beautification
+c328730 "wt88047: camera: Enable real-time face beautification"
+
+   * hardware/qcom/fm/
+9477a03 Automatic translation import
+
+   * packages/apps/AudioFX/
+efb0b87 Automatic translation import
+
+   * packages/apps/Camera2/
+2ca70c9 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+49ba52e Automatic translation import
+
+   * packages/apps/CustomTiles/
+4b0ab89 Automatic translation import
+
+   * packages/apps/Gallery2/
+a66d49f Automatic translation import
+
+   * packages/apps/Jelly/
+afee4a3 Automatic translation import
+
+   * packages/apps/Snap/
+a7eb8d6 Automatic translation import
+
+   * packages/apps/Terminal/
+23d836b Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+081bb6a Automatic translation import
+
+====================
+     06-30-2017
+====================
+
+
+   * frameworks/base/
+3fab67a Automatic translation import
+
+   * packages/apps/MusicFX/
+1d44bdb Automatic translation import
+
+   * packages/apps/Settings/
+e8a70ae Automatic translation import
+
+   * packages/apps/VLauncher/
+b0eef32 Automatic translation import
+
+   * packages/apps/Venom/
+21f9aaf Automatic translation import
+
+   * packages/apps/ViperOTA/
+f41a95b Automatic translation import
+
+   * vendor/viper/
+06ebdfa Change devices repo name
+
+====================
+     06-29-2017
+====================
+
+
+   * packages/apps/Messaging/
+2663362 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/OmniStyle/
+eadb7ec Automatic translation import
+
+   * packages/apps/VPapers/
+704cac2 Automatic translation import
+
+   * packages/services/OmniJaws/
+0526786 Automatic translation import
+
+====================
+     06-28-2017
+====================
+
+
+====================
+     06-27-2017
+====================
+
+
+   * build/
+6ec4fd1 Revert "Preventing default locale from being overridden because of buildinfo.sh"
+
+   * device/wingtech/wt88047/
+ad147cb wt88047 : Add Maintainer name
+b5b9b99 wt88047 : No need of dependencies
+
+   * frameworks/av/
+eb9cc20 CameraService: Fix cameraId type of onDeviceStatusChanged
+
+   * packages/apps/CMParts/
+be018bf CMParts: Use vector drawables for most system icons
+
+   * packages/apps/Calendar/
+c5c3334 Dark theme
+
+   * packages/apps/Contacts/
+7c71b16 Dark theme
+
+   * packages/apps/ContactsCommon/
+dbcbeb9 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/Dialer/
+91d6a84 Dark theme
+
+   * packages/apps/FMRadio/
+5c95795 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/PhoneCommon/
+4393cfd Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/services/Telephony/
+ae9ccc1 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * system/core/
+dba6547 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * vendor/cmsdk/
+94e44f9 Automatic translation import
+
+====================
+     06-26-2017
+====================
+
+
+   * manifest/
+52b7838 Stop tracking frameworks/av
+
+   * packages/providers/MediaProvider/
+0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
+
+====================
+     06-25-2017
+====================
+
+
+====================
+     06-24-2017
+====================
+
+
+   * device/wingtech/wt88047/
+3023324 viper.dependencies: Fix up
+
+====================
+     06-23-2017
+====================
+
+
+   * device/wingtech/wt88047/
+60c1cc7 wt88047 : Viper-ify
+
+   * packages/apps/Bluetooth/
+7f2b5c8 Automatic translation import
+
+   * packages/apps/TvSettings/
+6f07406 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+3e047b8 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+30cc23d Automatic translation import
+
+====================
+     06-22-2017
+====================
+
+
+====================
+     06-21-2017
+====================
+
+
+====================
+     06-20-2017
+====================
+
+
+   * hardware/qcom/display/
+f3072db hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/apq8084/
+38e457c hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8916/
+6700612 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8974/
+24176c9 hwcomposer: Fix regression in hwc_sync
+
+   * hardware/qcom/display-caf/msm8994/
+023758b hwcomposer: Fix regression in hwc_sync
+
+====================
+     06-19-2017
+====================
+
+
+====================
+     06-18-2017
+====================
+
+
+   * device/wingtech/wt88047/
+40f6535 Revert "wt88047: Kill TARGET_UNIFIED_DEVICE flag"
+9cda0f1 wt88047: Update device identifiers
+bf2899c wt88047: Update proprietary-files
+52487fe wt88047: Move dex2oat overrides to perf.mk
+599ab09 wt88047: Kill TARGET_UNIFIED_DEVICE flag
+
+   * hardware/qcom/bt-caf/
+6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
