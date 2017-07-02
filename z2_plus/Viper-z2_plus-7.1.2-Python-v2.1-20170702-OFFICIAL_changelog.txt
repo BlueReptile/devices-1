@@ -3,13 +3,7 @@
 ====================
 
 
-   * device/wingtech/wt88047/
-7ca8f14 Revert "wt88047: camera: Enable real-time face beautification"
-b5b42f0 Revert "wt88047: camera: Enable real-time face beautification"
-0b442bb wt88047: camera: Enable real-time face beautification
-c328730 "wt88047: camera: Enable real-time face beautification"
-
-   * hardware/qcom/fm/
+    * hardware/qcom/fm/
 9477a03 Automatic translation import
 
    * packages/apps/AudioFX/
