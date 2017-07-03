@@ -246,5 +246,13 @@
       "afh_folder":"https://www.androidfilehost.com/?w=files&flid=194157",
       "maintainer_name":"PainKiller3",
       "xda_thread":"https://forum.xda-developers.com/zenfone2/general/rom-viperos-v2-0-t3627083"
+   },
+   {
+      "name":"Mi 3w / Mi 4",
+      "brand":"Xiaomi",
+      "codename":"cancro",
+      "afh_folder":"https://www.androidfilehost.com/?w=files&flid=195721",
+      "maintainer_name":"travarilo",
+      "xda_thread":"https://forum.xda-developers.com/xiaomi-mi-3/development/rom-viperos-v1-1-t3615141"
    }
 ]
