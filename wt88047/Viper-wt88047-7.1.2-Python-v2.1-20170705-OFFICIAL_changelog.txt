@@ -1,0 +1,208 @@
+====================
+     07-05-2017
+====================
+
+
+   * packages/apps/Jelly/
+fa0b42a Jelly: Don't save form data in incognito mode
+
+   * packages/apps/Venom/
+9c2bbd2 Power menu: No longer depend
+
+====================
+     07-04-2017
+====================
+
+
+   * hardware/qcom/fm/
+2e20c17 Automatic translation import
+
+   * packages/apps/Gallery2/
+0b08d5d Automatic translation import
+
+   * packages/apps/Profiles/
+9d14b09 Automatic translation import
+
+   * packages/apps/Terminal/
+7c34511 Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+6637927 Automatic translation import
+
+====================
+     07-03-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8916/
+5578c76 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.22' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+9cddbb8 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.14' into cm-14.1-caf-8994
+
+====================
+     07-02-2017
+====================
+
+
+   * hardware/ti/omap4/
+030bec5 BUGBASH-733 Memory leak in system_server caused by suspend / color fade
+
+====================
+     07-01-2017
+====================
+
+
+   * device/wingtech/wt88047/
+7ca8f14 Revert "wt88047: camera: Enable real-time face beautification"
+
+   * packages/apps/AudioFX/
+efb0b87 Automatic translation import
+
+   * packages/apps/Camera2/
+2ca70c9 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+49ba52e Automatic translation import
+
+   * packages/apps/CustomTiles/
+4b0ab89 Automatic translation import
+
+   * packages/apps/Snap/
+a7eb8d6 Automatic translation import
+
+   * vendor/viper/
+06ebdfa Change devices repo name
+
+====================
+     06-30-2017
+====================
+
+
+   * frameworks/base/
+3fab67a Automatic translation import
+
+   * packages/apps/MusicFX/
+1d44bdb Automatic translation import
+
+   * packages/apps/Settings/
+e8a70ae Automatic translation import
+
+   * packages/apps/VLauncher/
+b0eef32 Automatic translation import
+
+   * packages/apps/ViperOTA/
+f41a95b Automatic translation import
+
+   * packages/apps/WallpaperPicker/
+2b021c4 WallpaperPicker: Update for wallpaper API changes
+
+====================
+     06-29-2017
+====================
+
+
+   * packages/apps/Messaging/
+2663362 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/OmniStyle/
+eadb7ec Automatic translation import
+
+   * packages/apps/VPapers/
+704cac2 Automatic translation import
+
+   * packages/services/OmniJaws/
+0526786 Automatic translation import
+
+====================
+     06-28-2017
+====================
+
+
+   * external/stagefright-plugins/
+931ae6b FFmpegExtractor: Fix "supported" typo in logs
+
+====================
+     06-27-2017
+====================
+
+
+   * build/
+6ec4fd1 Revert "Preventing default locale from being overridden because of buildinfo.sh"
+
+   * frameworks/av/
+eb9cc20 CameraService: Fix cameraId type of onDeviceStatusChanged
+
+   * manifest/
+52b7838 Stop tracking frameworks/av
+
+   * packages/apps/CMParts/
+be018bf CMParts: Use vector drawables for most system icons
+
+   * packages/apps/Calendar/
+c5c3334 Dark theme
+
+   * packages/apps/Contacts/
+7c71b16 Dark theme
+
+   * packages/apps/ContactsCommon/
+dbcbeb9 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/Dialer/
+91d6a84 Dark theme
+
+   * packages/apps/FMRadio/
+5c95795 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/PhoneCommon/
+4393cfd Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/services/Telephony/
+ae9ccc1 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * system/core/
+dba6547 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * vendor/cmsdk/
+94e44f9 Automatic translation import
+
+====================
+     06-26-2017
+====================
+
+
+   * packages/providers/MediaProvider/
+0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
+
+====================
+     06-25-2017
+====================
+
+
+====================
+     06-24-2017
+====================
+
+
+====================
+     06-23-2017
+====================
+
+
+   * packages/apps/Bluetooth/
+7f2b5c8 Automatic translation import
+
+   * packages/apps/TvSettings/
+6f07406 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+3e047b8 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+30cc23d Automatic translation import
+
+====================
+     06-22-2017
+====================
+
+
