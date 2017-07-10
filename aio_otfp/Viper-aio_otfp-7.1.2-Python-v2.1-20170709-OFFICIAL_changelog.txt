@@ -1,0 +1,429 @@
+====================
+     07-10-2017
+====================
+
+
+====================
+     07-09-2017
+====================
+
+
+   * packages/apps/AudioFX/
+4273aee Automatic translation import
+
+   * packages/apps/Gallery2/
+bd7c0d6 Automatic translation import
+
+   * packages/apps/Jelly/
+99c0a8b Automatic translation import
+
+   * packages/apps/Terminal/
+2e009e8 Automatic translation import
+
+====================
+     07-08-2017
+====================
+
+
+====================
+     07-07-2017
+====================
+
+
+====================
+     07-06-2017
+====================
+
+
+   * external/boringssl/
+c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * external/skia/
+7c2dfdd Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * frameworks/av/
+9295880 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * libcore/
+30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/providers/DownloadProvider/
+d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/providers/MediaProvider/
+03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+====================
+     07-05-2017
+====================
+
+
+   * packages/apps/Jelly/
+fa0b42a Jelly: Don't save form data in incognito mode
+
+   * packages/apps/Venom/
+9c2bbd2 Power menu: No longer depend
+
+====================
+     07-04-2017
+====================
+
+
+   * hardware/qcom/fm/
+2e20c17 Automatic translation import
+
+   * packages/apps/Gallery2/
+0b08d5d Automatic translation import
+
+   * packages/apps/Jelly/
+1fd384c Automatic translation import
+
+   * packages/apps/Profiles/
+9d14b09 Automatic translation import
+
+   * packages/apps/Terminal/
+7c34511 Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+6637927 Automatic translation import
+
+====================
+     07-03-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8916/
+5578c76 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.22' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+9cddbb8 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.14' into cm-14.1-caf-8994
+
+   * hardware/qcom/fm/
+7a29d93 FM: Fix helium hal build
+0df98d3 Change rename_dialog background color to default
+f62c66a FMStats: fix GetFMStatsForFreq error for non-cherokee
+
+   * packages/apps/Gallery2/
+c45b89b Gallery2: Fix crash after returning from albums in wallpaper picker
+
+   * packages/apps/Jelly/
+b8109ec Jelly: Update suggestions provider API URLs
+
+====================
+     07-02-2017
+====================
+
+
+   * hardware/qcom/fm/
+9477a03 Automatic translation import
+
+   * hardware/ti/omap4/
+030bec5 BUGBASH-733 Memory leak in system_server caused by suspend / color fade
+
+   * packages/apps/AudioFX/
+efb0b87 Automatic translation import
+
+   * packages/apps/Camera2/
+2ca70c9 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+49ba52e Automatic translation import
+
+   * packages/apps/CustomTiles/
+4b0ab89 Automatic translation import
+
+   * packages/apps/Gallery2/
+a66d49f Automatic translation import
+
+   * packages/apps/Jelly/
+a7659df Jelly: Make UrlResolvedReceiver final
+b15286f Jelly: Move bing suggestions provider to https
+f50b7e9 Jelly: Fix Suggestions Provider strings (suggestion / uggestion)
+697e32d Jelly: Remove unused parameter
+afee4a3 Automatic translation import
+66d1b83 Jelly: Allow launching external apps
+
+   * packages/apps/Snap/
+a7eb8d6 Automatic translation import
+
+   * packages/apps/Terminal/
+23d836b Automatic translation import
+
+   * packages/apps/Venom/
+250cb5c Merge pull request #13 from travarilo/nougat
+17dd255 add cancro
+5d01604 add cancro
+
+   * packages/providers/DataUsageProvider/
+081bb6a Automatic translation import
+
+====================
+     07-01-2017
+====================
+
+
+   * frameworks/base/
+3fab67a Automatic translation import
+
+   * packages/apps/Jelly/
+9d693cc Jelly: Remove unneeded getApplicationContext call
+d6b3b84 Jelly: Add non encrypted google search engine
+897fa20 Jelly: Propagate custom request headers to WebClient
+58c2aed Jelly: Add suggestions
+
+   * packages/apps/MusicFX/
+1d44bdb Automatic translation import
+
+   * packages/apps/Settings/
+e8a70ae Automatic translation import
+
+   * packages/apps/VLauncher/
+b0eef32 Automatic translation import
+
+   * packages/apps/Venom/
+21f9aaf Automatic translation import
+
+   * packages/apps/ViperOTA/
+f41a95b Automatic translation import
+
+   * packages/apps/WallpaperPicker/
+2b021c4 WallpaperPicker: Update for wallpaper API changes
+
+   * vendor/viper/
+06ebdfa Change devices repo name
+b23176c Bump version
+
+====================
+     06-30-2017
+====================
+
+
+   * frameworks/base/
+f4bf3d7 SystemUI: Add tile for enable/disable HW keys
+f59186a SystemUI: Fix task lock & freeform buttons placement
+4d38a5f Fix screenpinning from showing up unless enabled
+1553950 Screen pinning improvements
+1ab96cb Notification Ticker: add darkintensity support and clean up other things
+317132e Fix potential KeyguardMonitor FC on unlock
+7b6aebf Automatic translation import
+4613d48 ActivityStarter: Fix protected app intents
+b3d900e Volume Panel: Fix Bluetooth music stream icon when muted
+f96935a Wew... derp
+b4c1629 [1/2] Fix ring icon
+e7a302c Camera2: Fix Error Callback if buffer lost.
+3a6f959 SystemUI: move time tick to bg handler
+a8e819d Fix NPE with void android.view.VelocityTracker.clear()
+06da8ac SystemUI: force a clock update if the screen is turned back on
+3b5151d Frameworks: Fix Null Pointer Issue
+719369c When updating a split app, copy compiled files from base.apk only.
+b971bd3 QS Tile: increase DEFAULT_MAX_BOUND to 6
+bf7ed0a Fix service cannot start when service removed from restartList
+2f732c2 Only destory ce data when prepare user CE data failed.
+a4d6242 When backup schedule version error will be caused system_server crash
+a01529e fix ArraySet crash
+2771308 Battery icon: Improve theme compatibility
+8a0e48b Add support for the .opus file format
+84056d2 Binder: Be forceful about a forceful exit
+b0bfad6 Automatic translation import
+
+   * packages/apps/MusicFX/
+0ba369a MusicFX : Save and load presets from external storage
+
+   * packages/apps/Venom/
+f8d30de Few changes on power menu category
+9bd53bb Ticker: Remove extra preferences
+
+====================
+     06-29-2017
+====================
+
+
+   * packages/apps/Jelly/
+69173dd Jelly: Add show/hide keyboard utilities
+
+   * packages/apps/Messaging/
+2663362 Merge remote-tracking branch 'los/cm-14.1' into nougat
+d1e7aec Messaging: Don't crash on unsupported shared content type
+53b0ba3 Messaging: Request external storage permission before handling shared files
+
+   * packages/apps/MusicFX/
+a6e91fd Automatic translation import
+
+   * packages/apps/OmniStyle/
+eadb7ec Automatic translation import
+
+   * packages/apps/Settings/
+ca0bd56 Settings: Hide disabled lockscreen blur from search index
+2b4a303 Automatic translation import
+3d21191 Clean few strings
+
+   * packages/apps/VLauncher/
+6891f85 Automatic translation import
+82ba08d More theme changes
+f1da9e8 Launcher3: icon pack/app labeling integration
+cbb6c8c Launcher3: remove generic icon pack support
+a800bb1 Fix derp in prediction
+b455d5b VLauncher
+
+   * packages/apps/VPapers/
+704cac2 Automatic translation import
+
+   * packages/apps/Venom/
+e239766 Fix custom header automatically turning on
+a0d08dc Automatic translation import
+4e9d20e Add wt88047
+365eedf Added Official Device Maintainer For Asus Zenfone Max (Z010D)
+8170604 device: add bullhead >>>>>
+7272137 Re add some prefs
+
+   * packages/apps/ViperOTA/
+045e327 Automatic translation import
+
+   * packages/services/OmniJaws/
+0526786 Automatic translation import
+
+====================
+     06-28-2017
+====================
+
+
+   * external/stagefright-plugins/
+931ae6b FFmpegExtractor: Fix "supported" typo in logs
+
+   * packages/apps/Jelly/
+9a5fcdd Jelly: Search on Enter key
+74c7e51 Jelly: Don't reload on keyboard changes
+
+   * packages/apps/Messaging/
+1ca0673 Dark theme
+04d7504 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/VLauncher/
+ce20ffe Remove checks for correct swipe up position, enables swipe up everywhere like Pixel Launcher
+0803c4a Fix multi-user permissions for Samsung's Secure Folder
+b63122f Update overlay request version to O Pixel Launcher equivalent
+
+   * packages/apps/Venom/
+7c027d1 Update some icons
+47bfea0 [3/3] Torch long press power: add auto-off function
+
+   * vendor/viper/
+080a98d apns-conf: Add Japan Umobile APNs
+b252a14 sensitive_pn: Add sensitive numbers for Greece
+0ebe725 sensitive_pn: fix Czech Republic MCC
+2425b2c sensitive_pn: Add Taiwanese sensitive numbers
+d122e70 Add sensitive numbers for Ukraine.
+3788a03 Add Virgin Media Ireland to APN's
+590319d sensitive_pn: Add additional FR number
+a647035 sensitive_pn: Add additional GB numbers
+b9e10a1 sensitive_pn: Add additional PT numbers
+5310561 sensitive_pn: add missing phone number for Brazil
+
+====================
+     06-27-2017
+====================
+
+
+   * build/
+6ec4fd1 Revert "Preventing default locale from being overridden because of buildinfo.sh"
+f2e8eb3 Revert "build: skip 'ro.product.device' using  new macro "TARGET_SKIP_PRODUCT_DEVICE""
+6485ef8 Disable recovery resource warning
+
+   * frameworks/av/
+eb9cc20 CameraService: Fix cameraId type of onDeviceStatusChanged
+
+   * frameworks/base/
+6b15b6e [1/3] Torch long press power: add auto-off function
+dbf66e7 SymbolComparator operator() is missing const
+2f6de00 Adopt lockscreen shortcut hint from AOSP
+3ac260e Revert "Show icons of only background apps in Toasts"
+e1edfaf [1/2] Disable lockscreen charging info by default
+
+   * manifest/
+52b7838 Stop tracking frameworks/av
+
+   * packages/apps/CMParts/
+be018bf CMParts: Use vector drawables for most system icons
+f8de279 Automatic translation import
+
+   * packages/apps/Calendar/
+c5c3334 Dark theme
+
+   * packages/apps/Contacts/
+7c71b16 Dark theme
+
+   * packages/apps/ContactsCommon/
+dbcbeb9 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/Dialer/
+91d6a84 Dark theme
+
+   * packages/apps/FMRadio/
+5c95795 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/Gallery2/
+e988d6a Gallery2: Fix views overlap
+
+   * packages/apps/Jelly/
+cc66a61 Jelly: Add WebChromeClientCompat
+e3b22ba Jelly: Fix some lint warnings
+
+   * packages/apps/PhoneCommon/
+4393cfd Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * packages/apps/Settings/
+7af2d79 Settings: Add two more options for battery saver
+f039bd8 Fix WriteSettingsDetails memory leak
+3146ecf Fix Screen Magnification recursive draw
+9bb6384 Fix PremiumSmsAccess memory leak
+6d03372 settings: disable 'no process..' logspam
+041b207 Automatic translation import
+bd3afae Settings: handle decrypting larger pattern sizes for sw600dp
+e834674 Revert "Settings: Fix internal storage summary for non-emulated storage"
+b0483c0 Settings: Fix automatic hotspot turn off summary
+83c991e [2/2] Fix ring icon
+276f913 Disable dt2w on doze by default
+
+   * packages/apps/VLauncher/
+2bbbe7a App suggestions: Refactor on strings
+f9893b2 Dark theme
+9cc5b0a Theme changes
+08409ef Update icon
+d4b2888 Launcher3: fix to always show settings button
+e3ce142 Cleaning up references to mDragView after reordering Workspaces
+9675aaf Fix crash when LAUNCHER3_ALL_APPS_PULL_UP is false
+14eb972 Change signature|system permissions to signature|privileged
+b7703d6 Fix issues with using Launcher3 as default launcher
+78b25f5 Launcher3: allow predictive apps to be turned off
+c7c3892 Launcher3: reload the workspace after icon pack selection
+37fc0f4 Launcher3: add icon pack support
+a7d3342 Launcher3: update permissions for compatibility
+e9d9c3c Launcher3: New design policy integration
+705b64d Launcher3: Allow support for Predicted Apps
+bf8f189 Launcher3: Materialize the settings menu
+8781909 Launcher3: bring back pulldown to open notifications panel
+65340dd Launcher3: animate workspace when animating the Google now page
+3b64824 LauncherClient: make sure service is connected before trying to unbind
+70d40cc Launcher3: prevent crash
+e0c455f Launcher3: support google now tab
+59a9456 Launcher3: import reversed google now lib
+e6b25b3 Launcher3: refactor gesture handling
+b54af81 Launcher3: double tap on home screen to turn off screen
+ee4156b Launcher3: Add swipe up/down gestures
+
+   * packages/apps/Venom/
+3018592 [2/2] Disable lockscreen charging info by default
+
+   * packages/apps/ViperOTA/
+8e9d9a7 MD5 verification: Make it mandatory Also delete zip file if verification fails
+
+   * packages/services/Telephony/
+ae9ccc1 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * system/core/
+dba6547 Merge remote-tracking branch 'los/cm-14.1' into nougat
+
+   * vendor/cmsdk/
+94e44f9 Automatic translation import
+a8c558e [2/3] Torch long press power: add auto-off function
+
