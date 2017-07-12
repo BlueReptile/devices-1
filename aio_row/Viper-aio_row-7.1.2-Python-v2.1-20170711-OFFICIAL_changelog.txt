@@ -1,0 +1,297 @@
+====================
+     07-12-2017
+====================
+
+
+====================
+     07-11-2017
+====================
+
+
+====================
+     07-10-2017
+====================
+
+
+   * bionic/
+d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+====================
+     07-09-2017
+====================
+
+
+   * packages/apps/AudioFX/
+4273aee Automatic translation import
+
+   * packages/apps/Gallery2/
+bd7c0d6 Automatic translation import
+
+   * packages/apps/Jelly/
+99c0a8b Automatic translation import
+
+   * packages/apps/Terminal/
+2e009e8 Automatic translation import
+
+====================
+     07-08-2017
+====================
+
+
+====================
+     07-07-2017
+====================
+
+
+   * external/boringssl/
+c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * external/skia/
+7c2dfdd Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * frameworks/av/
+9295880 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * libcore/
+30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/providers/DownloadProvider/
+d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/providers/MediaProvider/
+03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+====================
+     07-06-2017
+====================
+
+
+   * packages/apps/Jelly/
+fa0b42a Jelly: Don't save form data in incognito mode
+
+====================
+     07-05-2017
+====================
+
+
+   * hardware/qcom/fm/
+2e20c17 Automatic translation import
+
+   * packages/apps/Gallery2/
+0b08d5d Automatic translation import
+
+   * packages/apps/Jelly/
+1fd384c Automatic translation import
+
+   * packages/apps/Profiles/
+9d14b09 Automatic translation import
+
+   * packages/apps/Terminal/
+7c34511 Automatic translation import
+
+   * packages/apps/Venom/
+9c2bbd2 Power menu: No longer depend
+
+   * packages/providers/DataUsageProvider/
+6637927 Automatic translation import
+
+====================
+     07-04-2017
+====================
+
+
+   * hardware/qcom/fm/
+7a29d93 FM: Fix helium hal build
+0df98d3 Change rename_dialog background color to default
+f62c66a FMStats: fix GetFMStatsForFreq error for non-cherokee
+
+   * packages/apps/Gallery2/
+c45b89b Gallery2: Fix crash after returning from albums in wallpaper picker
+
+====================
+     07-03-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8916/
+5578c76 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.22' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+9cddbb8 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.14' into cm-14.1-caf-8994
+
+   * packages/apps/Jelly/
+b8109ec Jelly: Update suggestions provider API URLs
+
+====================
+     07-02-2017
+====================
+
+
+   * hardware/qcom/fm/
+9477a03 Automatic translation import
+
+   * hardware/ti/omap4/
+030bec5 BUGBASH-733 Memory leak in system_server caused by suspend / color fade
+
+   * packages/apps/AudioFX/
+efb0b87 Automatic translation import
+
+   * packages/apps/Camera2/
+2ca70c9 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+49ba52e Automatic translation import
+
+   * packages/apps/CustomTiles/
+4b0ab89 Automatic translation import
+
+   * packages/apps/Gallery2/
+a66d49f Automatic translation import
+
+   * packages/apps/Jelly/
+a7659df Jelly: Make UrlResolvedReceiver final
+b15286f Jelly: Move bing suggestions provider to https
+f50b7e9 Jelly: Fix Suggestions Provider strings (suggestion / uggestion)
+697e32d Jelly: Remove unused parameter
+afee4a3 Automatic translation import
+66d1b83 Jelly: Allow launching external apps
+9d693cc Jelly: Remove unneeded getApplicationContext call
+
+   * packages/apps/Snap/
+a7eb8d6 Automatic translation import
+
+   * packages/apps/Terminal/
+23d836b Automatic translation import
+
+   * packages/apps/Venom/
+250cb5c Merge pull request #13 from travarilo/nougat
+17dd255 add cancro
+5d01604 add cancro
+
+   * packages/providers/DataUsageProvider/
+081bb6a Automatic translation import
+
+====================
+     07-01-2017
+====================
+
+
+   * frameworks/base/
+3fab67a Automatic translation import
+f4bf3d7 SystemUI: Add tile for enable/disable HW keys
+
+   * packages/apps/Jelly/
+d6b3b84 Jelly: Add non encrypted google search engine
+897fa20 Jelly: Propagate custom request headers to WebClient
+58c2aed Jelly: Add suggestions
+
+   * packages/apps/MusicFX/
+1d44bdb Automatic translation import
+
+   * packages/apps/Settings/
+e8a70ae Automatic translation import
+
+   * packages/apps/VLauncher/
+b0eef32 Automatic translation import
+
+   * packages/apps/Venom/
+21f9aaf Automatic translation import
+f8d30de Few changes on power menu category
+
+   * packages/apps/ViperOTA/
+f41a95b Automatic translation import
+
+   * packages/apps/WallpaperPicker/
+2b021c4 WallpaperPicker: Update for wallpaper API changes
+
+   * vendor/viper/
+06ebdfa Change devices repo name
+b23176c Bump version
+
+====================
+     06-30-2017
+====================
+
+
+   * frameworks/base/
+f59186a SystemUI: Fix task lock & freeform buttons placement
+4d38a5f Fix screenpinning from showing up unless enabled
+1553950 Screen pinning improvements
+1ab96cb Notification Ticker: add darkintensity support and clean up other things
+317132e Fix potential KeyguardMonitor FC on unlock
+7b6aebf Automatic translation import
+4613d48 ActivityStarter: Fix protected app intents
+b3d900e Volume Panel: Fix Bluetooth music stream icon when muted
+f96935a Wew... derp
+b4c1629 [1/2] Fix ring icon
+e7a302c Camera2: Fix Error Callback if buffer lost.
+3a6f959 SystemUI: move time tick to bg handler
+a8e819d Fix NPE with void android.view.VelocityTracker.clear()
+06da8ac SystemUI: force a clock update if the screen is turned back on
+3b5151d Frameworks: Fix Null Pointer Issue
+719369c When updating a split app, copy compiled files from base.apk only.
+b971bd3 QS Tile: increase DEFAULT_MAX_BOUND to 6
+bf7ed0a Fix service cannot start when service removed from restartList
+2f732c2 Only destory ce data when prepare user CE data failed.
+a4d6242 When backup schedule version error will be caused system_server crash
+a01529e fix ArraySet crash
+2771308 Battery icon: Improve theme compatibility
+8a0e48b Add support for the .opus file format
+84056d2 Binder: Be forceful about a forceful exit
+b0bfad6 Automatic translation import
+
+   * packages/apps/MusicFX/
+0ba369a MusicFX : Save and load presets from external storage
+
+   * packages/apps/Venom/
+9bd53bb Ticker: Remove extra preferences
+e239766 Fix custom header automatically turning on
+
+====================
+     06-29-2017
+====================
+
+
+   * packages/apps/Jelly/
+69173dd Jelly: Add show/hide keyboard utilities
+
+   * packages/apps/Messaging/
+2663362 Merge remote-tracking branch 'los/cm-14.1' into nougat
+d1e7aec Messaging: Don't crash on unsupported shared content type
+53b0ba3 Messaging: Request external storage permission before handling shared files
+
+   * packages/apps/MusicFX/
+a6e91fd Automatic translation import
+
+   * packages/apps/OmniStyle/
+eadb7ec Automatic translation import
+
+   * packages/apps/Settings/
+ca0bd56 Settings: Hide disabled lockscreen blur from search index
+2b4a303 Automatic translation import
+3d21191 Clean few strings
+
+   * packages/apps/VLauncher/
+6891f85 Automatic translation import
+82ba08d More theme changes
+f1da9e8 Launcher3: icon pack/app labeling integration
+cbb6c8c Launcher3: remove generic icon pack support
+a800bb1 Fix derp in prediction
+b455d5b VLauncher
+
+   * packages/apps/VPapers/
+704cac2 Automatic translation import
+
+   * packages/apps/Venom/
+a0d08dc Automatic translation import
+4e9d20e Add wt88047
+365eedf Added Official Device Maintainer For Asus Zenfone Max (Z010D)
+8170604 device: add bullhead >>>>>
+7272137 Re add some prefs
+
+   * packages/apps/ViperOTA/
+045e327 Automatic translation import
+
+   * packages/services/OmniJaws/
+0526786 Automatic translation import
+
