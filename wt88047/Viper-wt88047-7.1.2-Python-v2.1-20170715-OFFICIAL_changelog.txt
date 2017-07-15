@@ -1,0 +1,153 @@
+====================
+     07-15-2017
+====================
+
+
+   * device/wingtech/wt88047/
+6db94de Merge pull request #1 from Keertesh19/nougat
+d8f1d51 wt88047: Allow vendor init to override props
+029959d wt88047: Abandon TARGET_UNIFIED_DEVICE flag
+
+   * hardware/qcom/audio-caf/msm8996/
+f8fcd59 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/display-caf/msm8996/
+3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/media-caf/msm8996/
+0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * packages/apps/Jelly/
+4d40bf7 Jelly: Remove unneeded parameter type in addResult
+
+====================
+     07-14-2017
+====================
+
+
+   * packages/apps/Snap/
+5c51d47 Revert some permissions related changes
+
+====================
+     07-13-2017
+====================
+
+
+====================
+     07-12-2017
+====================
+
+
+   * device/wingtech/wt88047/
+b7a40dd Update dt2w.mk
+
+====================
+     07-11-2017
+====================
+
+
+====================
+     07-10-2017
+====================
+
+
+   * device/wingtech/wt88047/
+df497c0 wt88047 : Add dt2w Support (Hope it works :p)
+9d67952 Delete dt2w.mk
+
+====================
+     07-09-2017
+====================
+
+
+   * bionic/
+d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+====================
+     07-08-2017
+====================
+
+
+   * device/wingtech/wt88047/
+c6cde0c wt88047 : Add dt2w Support
+21d16c5 wt88047 : Add dt2w Support
+d36f6d0 wt88047 : Add dt2w support
+3e331d4 wt88047 : Add dt2w support
+7f5345a wt88047 : Add dt2w support
+9e10117 wt88047 : Add dt2w support (Hope it works :p)
+
+   * packages/apps/AudioFX/
+4273aee Automatic translation import
+
+   * packages/apps/Gallery2/
+bd7c0d6 Automatic translation import
+
+   * packages/apps/Terminal/
+2e009e8 Automatic translation import
+
+====================
+     07-07-2017
+====================
+
+
+====================
+     07-06-2017
+====================
+
+
+   * external/boringssl/
+c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * external/skia/
+7c2dfdd Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * frameworks/av/
+9295880 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * libcore/
+30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/providers/DownloadProvider/
+d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * packages/providers/MediaProvider/
+03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+====================
+     07-05-2017
+====================
+
+
+   * packages/apps/Venom/
+9c2bbd2 Power menu: No longer depend
+
+====================
+     07-04-2017
+====================
+
+
+   * hardware/qcom/fm/
+2e20c17 Automatic translation import
+
+   * packages/apps/Profiles/
+9d14b09 Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+6637927 Automatic translation import
+
+====================
+     07-03-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8916/
+5578c76 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.22' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+9cddbb8 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.14' into cm-14.1-caf-8994
+
+====================
+     07-02-2017
+====================
+
+
