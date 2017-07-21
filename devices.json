@@ -254,5 +254,21 @@
       "afh_folder":"https://www.androidfilehost.com/?w=files&flid=198058",
       "maintainer_name":"Aryan Kedare",
       "xda_thread":""
+   },
+   {
+      "name":"Zenfone 2 Laser (720p)",
+      "brand":"Asus",
+      "codename":"Z00L",
+      "afh_folder":"https://www.androidfilehost.com/?w=files&flid=187392",
+      "maintainer_name":"Riad Khan (riad236)",
+      "xda_thread":""
+   },
+   {
+      "name":"Zenfone 2 Laser/Selfie (1080p)",
+      "brand":"Asus",
+      "codename":"Z00T",
+      "afh_folder":"https://www.androidfilehost.com/?w=files&flid=200519",
+      "maintainer_name":"Riad Khan (riad236)",
+      "xda_thread":""
    }
 ]
