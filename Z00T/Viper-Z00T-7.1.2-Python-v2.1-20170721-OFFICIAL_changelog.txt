@@ -1,0 +1,128 @@
+====================
+     07-21-2017
+====================
+
+
+   * packages/apps/Jelly/
+54d8d10 Jelly: Remove unused variable in SearchBarController
+063d6a9 Jelly: Use proper popup background attr
+ca27881 Jelly: Add "search in page" feature
+
+====================
+     07-20-2017
+====================
+
+
+   * hardware/qcom/fm/
+165ef42 FM: Use some sane colors
+
+====================
+     07-19-2017
+====================
+
+
+====================
+     07-18-2017
+====================
+
+
+====================
+     07-17-2017
+====================
+
+
+   * packages/apps/Gallery2/
+d9f1451 Gallery: Fix potential crash
+8af515d Gallery2: Switch to navigationbar from support libs
+
+====================
+     07-16-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8996/
+f8fcd59 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/display-caf/msm8996/
+3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/media-caf/msm8996/
+0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+====================
+     07-15-2017
+====================
+
+
+   * packages/apps/Jelly/
+4d40bf7 Jelly: Remove unneeded parameter type in addResult
+69f2dad Jelly: Remove redundant character escape
+55f3a05 Jelly: Make suggestion provider "None" translatable
+c3794c5 Hide Sheet Menu after clicking on an entry
+4e7e82e Jelly: Query an already ordered favorite list
+
+   * packages/apps/Snap/
+5c51d47 Revert some permissions related changes
+
+====================
+     07-14-2017
+====================
+
+
+   * packages/apps/Snap/
+0dbf891 Add overlay for restarting camera preview for additional cameras
+
+====================
+     07-13-2017
+====================
+
+
+   * packages/apps/Jelly/
+6934a68 Jelly: use Google as default all the things
+
+====================
+     07-12-2017
+====================
+
+
+====================
+     07-11-2017
+====================
+
+
+====================
+     07-10-2017
+====================
+
+
+   * bionic/
+d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+   * hardware/qcom/audio-caf/msm8996/
+23d91de Merge 69af59b8962261e89d3309fd17b28425a3c0170f on remote branch
+
+   * hardware/qcom/media-caf/msm8996/
+c62bab1 Merge 04555962a06fe17ba83f2419951b30482f5f7d1f on remote branch
+
+====================
+     07-09-2017
+====================
+
+
+   * packages/apps/AudioFX/
+4273aee Automatic translation import
+
+   * packages/apps/Gallery2/
+bd7c0d6 Automatic translation import
+
+   * packages/apps/Jelly/
+99c0a8b Automatic translation import
+
+   * packages/apps/Terminal/
+2e009e8 Automatic translation import
+
+====================
+     07-08-2017
+====================
+
+
