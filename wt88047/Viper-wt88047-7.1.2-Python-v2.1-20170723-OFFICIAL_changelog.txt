@@ -1,0 +1,112 @@
+====================
+     07-23-2017
+====================
+
+
+   * hardware/qcom/fm/
+41ccba0 Automatic translation import
+
+   * packages/apps/AudioFX/
+530b16b Automatic translation import
+
+   * packages/apps/Bluetooth/
+2cf33d5 Automatic translation import
+
+   * packages/apps/Camera2/
+8627c94 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+607056c Automatic translation import
+
+   * packages/apps/Gallery2/
+c708d67 Automatic translation import
+
+   * packages/apps/Jelly/
+1e0f603 Automatic translation import
+
+   * packages/apps/Snap/
+b32e764 Automatic translation import
+
+   * packages/apps/Terminal/
+9f5d391 Automatic translation import
+
+====================
+     07-22-2017
+====================
+
+
+====================
+     07-21-2017
+====================
+
+
+====================
+     07-20-2017
+====================
+
+
+====================
+     07-19-2017
+====================
+
+
+====================
+     07-18-2017
+====================
+
+
+   * device/wingtech/wt88047/
+d4996ca Create viper.dependencies
+
+====================
+     07-17-2017
+====================
+
+
+====================
+     07-16-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8996/
+f8fcd59 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/display-caf/msm8996/
+3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/media-caf/msm8996/
+0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+====================
+     07-15-2017
+====================
+
+
+====================
+     07-14-2017
+====================
+
+
+====================
+     07-13-2017
+====================
+
+
+====================
+     07-12-2017
+====================
+
+
+====================
+     07-11-2017
+====================
+
+
+====================
+     07-10-2017
+====================
+
+
+   * bionic/
+d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1
+
