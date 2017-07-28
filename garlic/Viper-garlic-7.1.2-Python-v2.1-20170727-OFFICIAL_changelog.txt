@@ -1,0 +1,155 @@
+====================
+     07-27-2017
+====================
+
+
+   * frameworks/native/
+a3d7d0a native: add phone-xxhdpi-4096-dalvik-heap property config
+4434c7c native: Add phone-xxhdpi-4096-hwui-memory property config
+
+   * packages/apps/Gallery2/
+f60b01e Revert "Gallery2: set module privileged in Android.mk to delete photos on SD card."
+
+   * packages/apps/Snap/
+bbb6ee1 Revert "SnapdragonCamera: Adding PRIVILEGED true"
+
+   * system/netd/
+b2d5c79 SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.
+
+====================
+     07-26-2017
+====================
+
+
+   * hardware/qcom/fm/
+7e027bc Automatic translation import
+
+   * packages/apps/Email/
+00af046 Automatic translation import
+
+   * packages/apps/Gallery2/
+93411ba Automatic translation import
+41241c1 Gallery2: Fix various issues and glitches
+906a508 Gallery2: Fix potential crash
+
+   * packages/apps/Jelly/
+b40c1b5 Automatic translation import
+
+   * packages/apps/Snap/
+9a17e64 Automatic translation import
+
+====================
+     07-25-2017
+====================
+
+
+====================
+     07-24-2017
+====================
+
+
+====================
+     07-23-2017
+====================
+
+
+   * hardware/qcom/fm/
+41ccba0 Automatic translation import
+
+   * packages/apps/AudioFX/
+530b16b Automatic translation import
+
+   * packages/apps/Bluetooth/
+2cf33d5 Automatic translation import
+
+   * packages/apps/Camera2/
+8627c94 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+607056c Automatic translation import
+
+   * packages/apps/Jelly/
+19b34ac Automatic translation import
+1e0f603 Automatic translation import
+
+   * packages/apps/Snap/
+b32e764 Automatic translation import
+
+   * packages/apps/Terminal/
+9f5d391 Automatic translation import
+
+====================
+     07-22-2017
+====================
+
+
+   * packages/apps/Jelly/
+b8270d7 Jelly: Allow to display pages in full screen mode
+
+====================
+     07-21-2017
+====================
+
+
+   * packages/apps/Jelly/
+54d8d10 Jelly: Remove unused variable in SearchBarController
+063d6a9 Jelly: Use proper popup background attr
+ca27881 Jelly: Add "search in page" feature
+
+====================
+     07-20-2017
+====================
+
+
+====================
+     07-19-2017
+====================
+
+
+   * hardware/qcom/fm/
+165ef42 FM: Use some sane colors
+
+====================
+     07-18-2017
+====================
+
+
+====================
+     07-17-2017
+====================
+
+
+====================
+     07-16-2017
+====================
+
+
+====================
+     07-15-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8996/
+f8fcd59 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/display-caf/msm8996/
+3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * hardware/qcom/media-caf/msm8996/
+0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+   * packages/apps/Jelly/
+4d40bf7 Jelly: Remove unneeded parameter type in addResult
+69f2dad Jelly: Remove redundant character escape
+55f3a05 Jelly: Make suggestion provider "None" translatable
+c3794c5 Hide Sheet Menu after clicking on an entry
+4e7e82e Jelly: Query an already ordered favorite list
+
+====================
+     07-14-2017
+====================
+
+
+   * packages/apps/Snap/
+5c51d47 Revert some permissions related changes
+
