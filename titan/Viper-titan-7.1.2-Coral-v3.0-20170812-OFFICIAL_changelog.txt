@@ -1,0 +1,282 @@
+====================
+     08-12-2017
+====================
+
+   * device/qcom/sepolicy/
+8f864d0  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * frameworks/base/
+72bc994  Fix QS when vpn is enabled  [Renan Queiroz]
+   * hardware/qcom/bt-caf/
+b60954a  libbt-qcom: Allow reading BT address from property  [Alberto97]
+   * packages/apps/CMParts/
+   * packages/apps/CellBroadcastReceiver/
+99eeaca  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * packages/apps/Contacts/
+9fd148c  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * packages/apps/Dialer/
+b2e5597  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * packages/apps/EmergencyInfo/
+3d6f123  Merge remote-tracking branch 'los/cm-14.1' into HEAD  [jhenrique09]
+   * packages/apps/Messaging/
+c8f236b  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * packages/apps/PhoneCommon/
+8f15acc  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * packages/apps/Settings/
+   * packages/apps/VPapers/
+   * packages/apps/Venom/
+   * packages/services/Telecomm/
+6425252  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/services/Telephony/
+bf2ca7e  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * vendor/cmsdk/
+   * vendor/viper/
+e47bbfa  Add Correios Celular (BR) APN  [Andersonmendes2016]
+
+====================
+     08-11-2017
+====================
+
+   * build/
+d87546a  Merge commit '2929be0a00f9296ab41eb9880261982eec66bfa0' into cm-14.1  [Birdman]
+   * device/motorola/msm8226-common/
+e63394e  Fixes for SDClang  [RenanQueiroz]
+   * device/motorola/titan/
+ffe0c5d  Merge "cm-14.1" into nougat  [RenanQueiroz]
+   * frameworks/native/
+7017dec  Merge commit '99f5e573c70798dd096a8dc554343afdc253febb' into HEAD  [Birdman]
+   * manifest/
+0e596dd  Track packages/resources/devicesettings  [jhenrique09]
+   * packages/apps/MusicFX/
+
+====================
+     08-10-2017
+====================
+
+   * packages/apps/Jelly/
+d76965a  Jelly: Improve incognito mode privacy  [Gabriele M]
+
+====================
+     08-09-2017
+====================
+
+   * packages/apps/AudioFX/
+   * packages/apps/Bluetooth/
+   * packages/apps/Camera2/
+   * packages/apps/CarrierConfig/
+ea0ad38  Fix up incorrect domestic roaming and non-roaming cases  [Alberto97]
+   * packages/apps/Gallery2/
+   * packages/apps/Snap/
+   * packages/apps/Terminal/
+   * packages/apps/UnifiedEmail/
+   * packages/resources/devicesettings/
+   * vendor/motorola/
+0c91324  shamu: update blobs from N8I11B factory image  [razorloves]
+
+====================
+     08-08-2017
+====================
+
+   * android/
+ad2d94d  manifest: android-7.1.2_r24 -> android-7.1.2_r29  [Dan Pasanen]
+   * external/skia/
+da4a326  Merge tag 'android-7.1.2_r29' into cm-14.1  [Dan Pasanen]
+   * frameworks/av/
+6529b27  Merge tag 'android-7.1.2_r29' into cm-14.1  [Dan Pasanen]
+   * frameworks/opt/net/wifi/
+1f8fc74  Merge tag 'android-7.1.2_r29' into cm-14.1  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8916/
+7fcca3e  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8937/
+9dbd062  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8952/
+34f4914  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8960/
+e248666  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8974/
+0d8579c  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8994/
+9dcddd7  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8996/
+5b12547  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8998/
+c519e1a  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio/default/
+a4f1bc5  Merge tag 'android-7.1.2_r29' into cm-14.1  [Dan Pasanen]
+   * packages/apps/FMRadio/
+   * packages/apps/OmniStyle/
+   * packages/apps/ViperOTA/
+   * packages/providers/ContactsProvider/
+   * packages/services/OmniJaws/
+   * system/bt/
+80cca31  Revert "Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1"  [Dan Pasanen]
+
+====================
+     08-07-2017
+====================
+
+====================
+     08-06-2017
+====================
+
+   * crowdin/
+5930c0e  Add VPapers  [jhenrique09]
+   * hardware/qcom/display-caf/apq8084/
+e2f4340  cec: Fix breakage due to API change  [Corinna Vinschen]
+   * hardware/qcom/media-caf/apq8084/
+02e5750  videopp: fix include paths for lineage  [Corinna Vinschen]
+   * prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber/
+562be18  Initial commit  [matthewdalex]
+   * prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber/
+22728a8  Initial commit  [matthewdalex]
+
+====================
+     08-05-2017
+====================
+
+   * hardware/qcom/fm/
+   * packages/apps/HTMLViewer/
+   * packages/apps/ManagedProvisioning/
+   * packages/apps/Tag/
+   * packages/apps/TvSettings/
+   * packages/inputmethods/LatinIME/
+   * packages/providers/CalendarProvider/
+   * packages/providers/DownloadProvider/
+
+====================
+     08-04-2017
+====================
+
+   * frameworks/opt/telephony/
+b1a8579  Telephony: Keep preferred SMS Sim  [Michael W]
+   * hardware/qcom/media-caf/msm8916/
+ec78924  Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916  [Michael Bestas]
+   * hardware/qcom/media-caf/msm8994/
+1afe59f  Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994  [Michael Bestas]
+   * packages/apps/Email/
+   * packages/inputmethods/LatinIME/
+
+====================
+     08-03-2017
+====================
+
+====================
+     08-02-2017
+====================
+
+   * packages/apps/ExactCalculator/
+5f11ad1  Pixel-ify  [jhenrique09]
+
+====================
+     08-01-2017
+====================
+
+   * development/
+57390a8  ColorEngine: Add more themes and also fix typo  [jhenrique09]
+   * device/qcom/common/
+c7bd414  power: Kill "Failed to acquire lock" log  [jhenrique09]
+   * frameworks/support/
+d31af31  ColorEngine: Add more themes and also fix typo  [jhenrique09]
+   * packages/apps/ContactsCommon/
+4956d45  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+
+====================
+     07-31-2017
+====================
+
+====================
+     07-30-2017
+====================
+
+====================
+     07-29-2017
+====================
+
+====================
+     07-28-2017
+====================
+
+   * external/chromium-webview/
+e205b2a  Update webview  [Luca Stefani]
+
+====================
+     07-27-2017
+====================
+
+   * system/netd/
+b2d5c79  SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.  [Dan Pasanen]
+
+====================
+     07-26-2017
+====================
+
+====================
+     07-25-2017
+====================
+
+====================
+     07-24-2017
+====================
+
+====================
+     07-23-2017
+====================
+
+   * packages/apps/Recorder/
+
+====================
+     07-22-2017
+====================
+
+====================
+     07-21-2017
+====================
+
+   * packages/services/ThemeInterfacer/
+019f9ef  JobService: Use a ContentObserver to check for force authorisation of packages  [jhenrique09]
+   * system/sepolicy/
+a483e5a  sepolicy: More tmpfs denial fixes  [jhenrique09]
+
+====================
+     07-20-2017
+====================
+
+   * frameworks/opt/setupwizard/
+e0795c7  Theme improvements  [jhenrique09]
+
+====================
+     07-19-2017
+====================
+
+   * packages/apps/Calendar/
+646143e  Calendar: Viper Color Engine  [jhenrique09]
+   * packages/services/Car/
+59d1c7d  Car: Viper Color Engine  [jhenrique09]
+
+====================
+     07-18-2017
+====================
+
+====================
+     07-17-2017
+====================
+
+====================
+     07-16-2017
+====================
+
+   * hardware/qcom/display-caf/msm8996/
+3005091  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD  [Luca Stefani]
+   * hardware/qcom/media-caf/msm8996/
+0273a64  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD  [Luca Stefani]
+
+====================
+     07-15-2017
+====================
+
+   * system/core/
+f43d9fc  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+
+====================
+     07-14-2017
+====================
+
