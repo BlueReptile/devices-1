@@ -1,0 +1,803 @@
+====================
+     08-12-2017
+====================
+
+   * device/lenovo/A6020/
+8fe07ff  fix more sync path comflicts  [BlueReptile]
+   * device/qcom/sepolicy/
+8f864d0  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * frameworks/base/
+72bc994  Fix QS when vpn is enabled  [Renan Queiroz]
+11e65c0  SystemUI: Fix battery meter view blacklist handling  [Andersonmendes2016]
+8244724  Merge tag 'android-7.1.2_r29' into nougat  [jhenrique09]
+615906d  Default 'persist.sys.timezone' property to GMT if not set on init.  [jhenrique09]
+e6fe507  QS Tile: increase DEFAULT_MAX_BOUND  [jhenrique09]
+dc7f2b2  SystemUI: add telephony-ext so that imports can be resolved  [jhenrique09]
+3562b13  Drop-down data switch through Cellular tile.  [jhenrique09]
+3c64151  Allow user to add/remove QS with one click  [jhenrique09]
+ea4dcf3  Revert "Fingerprints: Increase MAX_FAILED_ATTEMPTS to 10"  [jhenrique09]
+8bf18b9  Silence a memory leak warning from the static analyzer  [jhenrique09]
+a5cfcca  Add null check for Wi-Fi command  [jhenrique09]
+822a094  Fix static analyzer complaints  [jhenrique09]
+8e2ad53  base: Introduce three finger swipe for screenshot  [jhenrique09]
+47e7d11  Don't re-launch stopped activities while the device is sleeping  [jhenrique09]
+c537d9e  base: Introduce Accidental Touch  [jhenrique09]
+   * hardware/qcom/bt-caf/
+b60954a  libbt-qcom: Allow reading BT address from property  [Alberto97]
+   * packages/apps/CMParts/
+   * packages/apps/CellBroadcastReceiver/
+99eeaca  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * packages/apps/Contacts/
+9fd148c  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * packages/apps/Dialer/
+b2e5597  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * packages/apps/EmergencyInfo/
+3d6f123  Merge remote-tracking branch 'los/cm-14.1' into HEAD  [jhenrique09]
+   * packages/apps/Messaging/
+c8f236b  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * packages/apps/PhoneCommon/
+8f15acc  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * packages/apps/Settings/
+c498d11  GesturesSettings: Add preference for 3 finger screenshot  [jhenrique09]
+   * packages/apps/VPapers/
+   * packages/apps/Venom/
+   * packages/services/Telecomm/
+6425252  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/services/Telephony/
+bf2ca7e  Merge remote-tracking branch 'los/cm-14.1' into nougat  [Andersonmendes2016]
+   * vendor/cmsdk/
+   * vendor/viper/
+e47bbfa  Add Correios Celular (BR) APN  [Andersonmendes2016]
+9c0656a  Fix extract_utils when not using blob sections  [Andersonmendes2016]
+dc3e681  Add WOM Internet/MMS (CL) apn  [Andersonmendes2016]
+34f885f  qcom: Allow setting custom audio, display, and media HALs  [Andersonmendes2016]
+f90a495  Update VPapers and Lawnchair  [jhenrique09]
+766b97b  ColorEngine: Improve color picker dialog  [jhenrique09]
+6a65a6c  ColorEngine: Don't set system_warning_color  [jhenrique09]
+47b4c74  ColorEngine: Fix DocumentsUI  [jhenrique09]
+1556abe  ColorEngine: Show toast when a color selected  [jhenrique09]
+c0d8a22  ColorEngine: Introduce isDefaultNightMode function  [jhenrique09]
+9ca31a4  ColorPicker: Use HorizontalScrollView  [jhenrique09]
+cf503cf  [SQUASHED] ColorEngine: More changes  [jhenrique09]
+a585daf  [2/2] Color engine: Rename resources  [jhenrique09]
+cdf9a8a  Color engine: Bring up  [jhenrique09]
+b172324  vendor: Fix a user profile data denial  [jhenrique09]
+
+====================
+     08-11-2017
+====================
+
+   * build/
+d87546a  Merge commit '2929be0a00f9296ab41eb9880261982eec66bfa0' into cm-14.1  [Birdman]
+   * device/lenovo/A6020/
+fda126a  Removes qcom/common because it causes path sync error and changes the vendor to my vendor fork because of camera blobs problens  [BlueReptile]
+   * frameworks/native/
+7017dec  Merge commit '99f5e573c70798dd096a8dc554343afdc253febb' into HEAD  [Birdman]
+   * manifest/
+0e596dd  Track packages/resources/devicesettings  [jhenrique09]
+62fa56d  manifest: android-7.1.2_r24 -> android-7.1.2_r29  [Birdman]
+   * packages/apps/MusicFX/
+   * packages/apps/VPapers/
+   * packages/apps/Venom/
+   * vendor/lenovo/
+6edf539  Revert "A6020: update camera blobs to M'M" as they cause weird camera flash behavior  [BlueReptile]
+   * vendor/viper/
+f20c21e  VPapers: Use prebuilt  [jhenrique09]
+7ad39d3  Update Lawnchair  [jhenrique09]
+910a034  Bump to v3.0 Coral  [jhenrique09]
+8e218de  templates: Update to show usage for new extract_files features  [jhenrique09]
+bca5dad  extract_files: Add support for paths without system/  [jhenrique09]
+386e64b  extract_files: Add support for specifying blob sections  [jhenrique09]
+5154048  build: Update smali and baksmali to 2.2.1  [jhenrique09]
+40d579b  Revert "Revert "vendor: cm: sepolicy: Allow rw-access to system_app_data_file""  [jhenrique09]
+db1e6ec  extract_utils: Fix cleanup variables assigment  [jhenrique09]
+0e0c8a6  config: Set some default TWRP flags  [jhenrique09]
+a994cd1  templates: Remove empty cat << EOF  [jhenrique09]
+f02d529  sensitive_pn: add EU 116 Numbers  [jhenrique09]
+1d23fef  Revert "vendor: cm: sepolicy: Allow rw-access to system_app_data_file"  [jhenrique09]
+d4851e6  vendor: cm: sepolicy: Allow rw-access to system_app_data_file  [jhenrique09]
+9320eb8  overlay: Enable “Panic Detection” mode  [jhenrique09]
+db51846  apns: correct the mvno_match_data for MasMovil Spain  [jhenrique09]
+5724ade  sensitive_pn: Include France DOM (Overseas regions) codes  [jhenrique09]
+ef8f033  charger: Fix small battery capacity font  [jhenrique09]
+6a6700e  Update DeskClock  [jhenrique09]
+60bba17  Revert "Update one handed drawables to pixel blue to match system"  [jhenrique09]
+6648e88  repopick: Add 'reset' option  [jhenrique09]
+27c0173  kernel: Add savedefconfig target  [jhenrique09]
+07e51db  Update Turbo from July security release  [jhenrique09]
+07e1526  Theme improvements  [jhenrique09]
+
+====================
+     08-10-2017
+====================
+
+   * packages/apps/Jelly/
+d76965a  Jelly: Improve incognito mode privacy  [Gabriele M]
+6767c48  Jelly: Enable more HTML5 features  [Gabriele M]
+2e53eb0  Jelly: Don't crash on non-http downloads  [Gabriele M]
+3347ed4  Jelly: Avoid Url bar interraction when focused  [Gabriele M]
+f67c692  Jelly: The app should not close when search is active and back-button is pressed.  [Gabriele M]
+
+====================
+     08-09-2017
+====================
+
+   * packages/apps/AudioFX/
+   * packages/apps/Bluetooth/
+   * packages/apps/Camera2/
+   * packages/apps/CarrierConfig/
+ea0ad38  Fix up incorrect domestic roaming and non-roaming cases  [Alberto97]
+   * packages/apps/CellBroadcastReceiver/
+   * packages/apps/Contacts/
+   * packages/apps/Gallery2/
+   * packages/apps/Jelly/
+   * packages/apps/PhoneCommon/
+   * packages/apps/Snap/
+   * packages/apps/Terminal/
+   * packages/apps/UnifiedEmail/
+   * packages/resources/devicesettings/
+   * packages/services/Telephony/
+2b35fff  PhoneToggler: Update preferred network mode setting  [Gabriele M]
+
+====================
+     08-08-2017
+====================
+
+   * android/
+ad2d94d  manifest: android-7.1.2_r24 -> android-7.1.2_r29  [Dan Pasanen]
+   * build/
+2929be0  Merge tag 'android-7.1.2_r29' into cm-14.1  [Dan Pasanen]
+   * external/skia/
+da4a326  Merge tag 'android-7.1.2_r29' into cm-14.1  [Dan Pasanen]
+   * frameworks/av/
+6529b27  Merge tag 'android-7.1.2_r29' into cm-14.1  [Dan Pasanen]
+   * frameworks/base/
+11ac1dc  DozeService: Fallback to tilt sensor as pickup sensor  [jhenrique09]
+9d2e197  Revert "GC in heapDumpFinished to cleanup hprof fd"  [jhenrique09]
+161f22f  AppOps: Fix yet another deadlock  [jhenrique09]
+   * frameworks/native/
+99f5e57  Merge tag 'android-7.1.2_r29' into cm-14.1  [Dan Pasanen]
+   * frameworks/opt/net/wifi/
+1f8fc74  Merge tag 'android-7.1.2_r29' into cm-14.1  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8916/
+7fcca3e  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8937/
+9dbd062  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8952/
+34f4914  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8960/
+e248666  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8974/
+0d8579c  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8994/
+9dcddd7  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8996/
+5b12547  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio-caf/msm8998/
+c519e1a  Fix security vulnerability: Equalizer setParameter memory overflow  [Dan Pasanen]
+   * hardware/qcom/audio/default/
+a4f1bc5  Merge tag 'android-7.1.2_r29' into cm-14.1  [Dan Pasanen]
+   * packages/apps/Dialer/
+   * packages/apps/FMRadio/
+   * packages/apps/Jelly/
+f20c0a4  Jelly: Add Yandex search engine  [Harry Youd]
+   * packages/apps/Messaging/
+   * packages/apps/OmniStyle/
+   * packages/apps/VPapers/
+   * packages/apps/Venom/
+0dc13e9  ButtonsSettings: Add preference for Accidental Touch  [jhenrique09]
+   * packages/apps/ViperOTA/
+   * packages/providers/ContactsProvider/
+   * packages/services/OmniJaws/
+3b5946d  Use our api key here too Lmao  [jhenrique09]
+   * system/bt/
+80cca31  Revert "Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1"  [Dan Pasanen]
+
+====================
+     08-07-2017
+====================
+
+   * packages/apps/Settings/
+3a45227  ColorEngine: Fix icon color on suggestion  [jhenrique09]
+
+====================
+     08-06-2017
+====================
+
+   * crowdin/
+5930c0e  Add VPapers  [jhenrique09]
+   * hardware/qcom/display-caf/apq8084/
+e2f4340  cec: Fix breakage due to API change  [Corinna Vinschen]
+   * hardware/qcom/media-caf/apq8084/
+02e5750  videopp: fix include paths for lineage  [Corinna Vinschen]
+   * manifest/
+1641e04  Track reference    *s  [jhenrique09]
+   * packages/apps/VPapers/
+7e502b4  Cleanup strings  [jhenrique09]
+64b123d  Update API url  [jhenrique09]
+c5de7c4  Add ability to hide icon from launcher  [jhenrique09]
+57e51a3  More changes Remove firebase and google services Remove custom font Update drawables Update splash screen text Rename package Remove custom language preference Remove theme leftovers Update URL  [jhenrique09]
+d0a4913  Update build.gradle  [jhenrique09]
+22e5d4a  Bring VPapers  [jhenrique09]
+d178c48  Wallpaperboard library: Sync it with latest commits https://github.com/danimahardhika/wallpaperboard  [jhenrique09]
+
+====================
+     08-05-2017
+====================
+
+   * frameworks/base/
+d75cc9c  Disable dynamic navbar on default launcher  [jhenrique09]
+   * packages/apps/Venom/
+fc6481c  Remove Venom help dialog  [jhenrique09]
+adeec79  Refactor: Maintainers -> Official devices  [jhenrique09]
+   * packages/services/Telephony/
+cd2abbc  Fix ussd dialog theme  [jhenrique09]
+
+====================
+     08-04-2017
+====================
+
+   * frameworks/opt/telephony/
+b1a8579  Telephony: Keep preferred SMS Sim  [Michael W]
+   * hardware/qcom/fm/
+   * hardware/qcom/media-caf/msm8916/
+ec78924  Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916  [Michael Bestas]
+   * hardware/qcom/media-caf/msm8994/
+1afe59f  Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994  [Michael Bestas]
+   * packages/apps/AudioFX/
+   * packages/apps/Bluetooth/
+   * packages/apps/Camera2/
+   * packages/apps/CellBroadcastReceiver/
+   * packages/apps/Contacts/
+   * packages/apps/Dialer/
+   * packages/apps/Email/
+   * packages/apps/EmergencyInfo/
+   * packages/apps/Gallery2/
+   * packages/apps/HTMLViewer/
+   * packages/apps/Jelly/
+   * packages/apps/ManagedProvisioning/
+   * packages/apps/Messaging/
+   * packages/apps/MusicFX/
+19deb76  Fix "eq_dialog_title" string  [jhenrique09]
+   * packages/apps/PhoneCommon/
+   * packages/apps/Snap/
+   * packages/apps/Tag/
+   * packages/apps/TvSettings/
+   * packages/apps/UnifiedEmail/
+   * packages/inputmethods/LatinIME/
+   * packages/providers/CalendarProvider/
+   * packages/providers/DownloadProvider/
+   * packages/resources/devicesettings/
+   * packages/services/Telecomm/
+   * packages/services/Telephony/
+
+====================
+     08-03-2017
+====================
+
+   * crowdin/
+0a4e6da  Switch to gitlab  [jhenrique09]
+159b956  Rebase  [jhenrique09]
+   * device/qcom/sepolicy/
+415717e  sepolicy: Add qpnp-smbcharger battery supply contexts  [Rashed Abdel-Tawab]
+6ff8a5f  sepolicy: Add new dc_supply sysfs  [Rashed Abdel-Tawab]
+   * packages/apps/Dialer/
+a7ff337  Dialer: Provide upgrade path for removed lookup providers  [Gabriele M]
+
+====================
+     08-02-2017
+====================
+
+   * frameworks/base/
+1bb36a4  Drawer: Fix logo color  [jhenrique09]
+f196739  ColorEngine: Add more themes and also fix typo Remove white theme  [jhenrique09]
+a6ec7d1  config_lockDayNightMode -> true  [jhenrique09]
+e513e70  ColorEngine: call function when SystemUI is started  [jhenrique09]
+ddfc517  ColorEngine: Include common folder  [jhenrique09]
+b5ea3b8  Restart SystemUI: Fix protected broadcast  [jhenrique09]
+   * manifest/
+2bc9daa  manifest: Use ssh url for viper  [jhenrique09]
+   * packages/apps/Dialer/
+   * packages/apps/ExactCalculator/
+5f11ad1  Pixel-ify  [jhenrique09]
+   * packages/apps/FMRadio/
+   * packages/apps/Messaging/
+   * packages/apps/MusicFX/
+   * packages/apps/OmniStyle/
+   * packages/apps/Settings/
+9e824f2  Fix sim card icon color  [jhenrique09]
+20827e6  Revert "Settings: enable power save config of system apps [2/2]"  [jhenrique09]
+6609c56  MSIM: Fix user set DDS sub in hotswap cases.  [jhenrique09]
+48c5009  ColorEngine-ThemeChooser: Show apply theme dialog when back pressed  [jhenrique09]
+1fa97a6  Helpers: Cleanup  [jhenrique09]
+fd1ac41  ColorEngine: Set up common files and theme chooser  [jhenrique09]
+   * packages/apps/ViperOTA/
+   * packages/providers/ContactsProvider/
+   * packages/services/OmniJaws/
+   * vendor/viper/
+1b13a8f  Use Lawnchair  [jhenrique09]
+
+====================
+     08-01-2017
+====================
+
+   * build/
+69972b5  Squashed revert of TARGET_UNIFIED_DEVICE  [jhenrique09]
+   * crowdin/
+da5a8bf  Add more repos  [jhenrique09]
+   * development/
+57390a8  ColorEngine: Add more themes and also fix typo  [jhenrique09]
+   * device/qcom/common/
+c7bd414  power: Kill "Failed to acquire lock" log  [jhenrique09]
+   * frameworks/base/
+1665706  Restart SystemUI: Use old method  [jhenrique09]
+04ed145  SettingsDrawerActivity: Add show back icon option  [jhenrique09]
+96a3cae  GC in heapDumpFinished to cleanup hprof fd  [jhenrique09]
+34e3220  Revert "AsyncTask: Fix to remove canceled tasks from executor's queue."  [jhenrique09]
+411ecc7  Revert "base: enable power save config of system apps [1/2]"  [jhenrique09]
+3c69347  LocationTile: Improve strings  [jhenrique09]
+016e083  SystemUI: locked tasks should have a valid view  [jhenrique09]
+0ef5b79  AppOps: Prevent deadlock when making note of applications  [jhenrique09]
+   * frameworks/native/
+5d49a13  ColorEngine: Add more themes and also fix typo  [jhenrique09]
+   * frameworks/support/
+d31af31  ColorEngine: Add more themes and also fix typo  [jhenrique09]
+   * manifest/
+2ff72ef  Track device/qcom/common  [jhenrique09]
+da59659  cm.xml: sync caf 8998 hals  [jhenrique09]
+f0811e0  DeskClock and LatinIME: Stop tracking  [jhenrique09]
+   * packages/apps/CellBroadcastReceiver/
+61eacac  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/apps/Contacts/
+0728781  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/apps/ContactsCommon/
+4956d45  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/apps/Dialer/
+184e1f5  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/apps/ExactCalculator/
+17e73ca  ExactCalculator: Viper Color Engine  [jhenrique09]
+   * packages/apps/FMRadio/
+   * packages/apps/Gallery2/
+c88c572  Gallery2: Fix various issues and glitches  [Arne Coucheron]
+   * packages/apps/Messaging/
+c0e551d  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/apps/MusicFX/
+   * packages/apps/OmniStyle/
+   * packages/apps/PhoneCommon/
+5544e02  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/apps/Snap/
+a206d75  Snap: fix low resolution front camera switch icon  [Arne Coucheron]
+   * packages/apps/Venom/
+8563a9b  Venom: Remove theme preference  [jhenrique09]
+aa0af19  Buttons: Don't remove back category  [jhenrique09]
+0df2c6c  (2/2) Venom: allow to configure the long press back kill delay  [jhenrique09]
+54dca6f  PowerMenu: Add more options  [jhenrique09]
+9163a2f  Remove useless prefs  [jhenrique09]
+bc0216d  About Section: Rework  [jhenrique09]
+00f82e2  Theme improvements  [jhenrique09]
+   * packages/apps/ViperOTA/
+   * packages/providers/ContactsProvider/
+   * packages/services/OmniJaws/
+   * packages/services/Telephony/
+f688f7c  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * vendor/cmsdk/
+
+====================
+     07-31-2017
+====================
+
+   * device/qcom/sepolicy/
+08a5a42  sepolicy: Allow untrusted_apps to read usb power supply stats  [Rashed Abdel-Tawab]
+   * packages/apps/Gallery2/
+d74ca5a  Gallery2: Fix potential crash  [Arne Coucheron]
+7e1b2d2  Gallery2: Switch to navigationbar from support libs  [Arne Coucheron]
+82b6848  Gallery2: Fix can't parse documents uri  [Arne Coucheron]
+eceb1ed  Gallery2: Fix views overlap  [Arne Coucheron]
+8c7fe64  Gallery2: Support GIF animation  [Arne Coucheron]
+b923c25  Gallery2: Increase the size of the tiles when decoding images  [Arne Coucheron]
+ccaf2e4  Gallery2: Support the newly added media file types in MTP mode  [Arne Coucheron]
+ebce130  Gallery2: Fix use of uninitialized stack variables  [Arne Coucheron]
+1fbe342  Gallery2: Remove unused renderscript class  [Arne Coucheron]
+40fe6d2  Gallery2: Fix spelling error  [Arne Coucheron]
+5a0501d  Gallery2: Properly declare the own permissions  [Arne Coucheron]
+9c69a82  Gallery2: Remove more possible NPEs  [Arne Coucheron]
+4288cf9  Gallery2: Enable frames in the editor  [Arne Coucheron]
+09a950e  Gallery2: Remove slideshow option if there are only videos  [Arne Coucheron]
+75e883a  Gallery2: Remove 3D overscroll effect  [Arne Coucheron]
+4cbaf64  Gallery2: Disable dummy starting window  [Arne Coucheron]
+7aeaefc  Gallery2: Fix up audio effects dialog  [Arne Coucheron]
+cc80b1b  Gallery2: Everyone or no one  [Arne Coucheron]
+a0dc1b8  Gallery2: Replace hamburger menu with bottom bar  [Arne Coucheron]
+ae2d5c1  Gallery2: Change all share intents to chooser style  [Arne Coucheron]
+1b893a4  Gallery2: Update menu  [Arne Coucheron]
+b091264  Gallery2: Update theme  [Arne Coucheron]
+7eb847c  Gallery2: Move & improve CAF strings  [Arne Coucheron]
+81e24fe  Gallery2: Make sure no NPE happens  [Arne Coucheron]
+9c735ae  Gallery2: Remove invalid comment from manifest  [Arne Coucheron]
+5b0141c  Gallery2: Cleanup renderscript flags in Android.mk  [Arne Coucheron]
+108756a  Gallery2: Reduce logspam in video player  [Arne Coucheron]
+e0c0ac0  Gallery2: Store DATE_TAKEN as milliseconds  [Arne Coucheron]
+bb16314  Gallery2: Modify AOSP EL translations  [Arne Coucheron]
+3861e97  Gallery2: Remove CAF translations  [Arne Coucheron]
+3bf31b2  Gallery2: Add record time to details view  [Arne Coucheron]
+c1cf324  Gallery2: Fix crash of gallery on showing details  [Arne Coucheron]
+880d507  Gallery2: Fix crash when Bluetooth service is disabled  [Arne Coucheron]
+2c75f40  Gallery2: Try to open existing camera  [Arne Coucheron]
+db84f5b  Gallery2: New icon  [Arne Coucheron]
+5f5c892  Gallery2: Bump minsdk and targetsdk version  [Arne Coucheron]
+6587213  Gallery: FilterShowActivity: Fix loading spinner being show forever  [Arne Coucheron]
+55bf17f  Gallery: TileImageView: fix NPE  [Arne Coucheron]
+be9357b  FaceDetect: Catch more linker errors during initialization  [Arne Coucheron]
+8beb6f9  FaceDetect: Catch linker errors during initialization  [Arne Coucheron]
+ea5a309  Bump API to match dependencies.  [Arne Coucheron]
+1a3f292  Add missing includes.  [Arne Coucheron]
+5c74612  Cleanup warnings in jni.  [Arne Coucheron]
+b7d08f9  Fix misc-macro-parentheses warnings in Gallery2.  [Arne Coucheron]
+9110325  Float.NaN != ... always evaluates to true, use Float.isNaN.  [Arne Coucheron]
+69f87c4  Rename app back to Gallery  [Arne Coucheron]
+
+====================
+     07-30-2017
+====================
+
+   * frameworks/base/
+f783efd  (1/2) Base: allow to configure the long press back kill delay  [jhenrique09]
+6f5479c  BootReceiver: check console-ramoops-0  [jhenrique09]
+19fd5e3  PowerProfile: allow overriding default power profile  [jhenrique09]
+bb6d515  Color Engine: Set props  [jhenrique09]
+   * packages/apps/Jelly/
+083e503  Jelly: remove 'Mobile' from desktop user agent  [Alexandre Oliveira]
+   * packages/apps/Settings/
+59631cf  showSystemUIrestartDialog: Ability to customize dialog title and message  [jhenrique09]
+   * packages/apps/VPapers/
+9193e8e  Merge pull request #2 from Andersonmendes2016/7.x  [GitHub]
+93575a3  PT-BR Translation  [Andersonmendes2016]
+
+====================
+     07-29-2017
+====================
+
+   * build/
+8cea225  makefile: Simplify filename in final message  [jhenrique09]
+   * packages/apps/Dialer/
+f0fd78e  Dialer: Fix compilation warnings  [Michael Bestas]
+   * packages/apps/Snap/
+db73354  Revert "Revert "SnapdragonCamera: Adding PRIVILEGED true""  [Arne Coucheron]
+
+====================
+     07-28-2017
+====================
+
+   * external/chromium-webview/
+e205b2a  Update webview  [Luca Stefani]
+   * packages/apps/Camera2/
+   * packages/apps/CellBroadcastReceiver/
+   * packages/apps/ContactsCommon/
+fe66a97  Allow to edit the SIP field of contacts stored locally  [Gabriele M]
+   * packages/apps/Dialer/
+   * packages/apps/Email/
+   * packages/apps/Jelly/
+   * packages/apps/Messaging/
+   * packages/apps/Snap/
+bbb6ee1  Revert "SnapdragonCamera: Adding PRIVILEGED true"  [Michael W]
+   * packages/apps/TvSettings/
+   * system/bt/
+b30e393  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1  [Dan Pasanen]
+
+====================
+     07-27-2017
+====================
+
+   * system/netd/
+b2d5c79  SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.  [Dan Pasanen]
+
+====================
+     07-26-2017
+====================
+
+   * android/
+31a4f41  cm.xml: sync caf 8998 hals  [Rashed Abdel-Tawab]
+   * hardware/qcom/fm/
+   * packages/apps/Email/
+   * packages/apps/Jelly/
+   * packages/apps/Snap/
+   * packages/resources/devicesettings/
+
+====================
+     07-25-2017
+====================
+
+   * packages/apps/Dialer/
+f59ad0c  Dialer: Move padding from layout to spinner  [Luca Stefani]
+
+====================
+     07-24-2017
+====================
+
+   * packages/apps/Jelly/
+
+====================
+     07-23-2017
+====================
+
+   * hardware/qcom/fm/
+   * packages/apps/AudioFX/
+   * packages/apps/Bluetooth/
+   * packages/apps/Camera2/
+   * packages/apps/CellBroadcastReceiver/
+   * packages/apps/Contacts/
+   * packages/apps/ContactsCommon/
+   * packages/apps/Dialer/
+b70e599  BUGBASH-612: do not send phone numbers to non-ssl sites for reverse/forward/people lookups  [Abhisek Devkota]
+   * packages/apps/Jelly/
+   * packages/apps/PhoneCommon/
+   * packages/apps/Recorder/
+   * packages/apps/Snap/
+   * packages/apps/Terminal/
+   * packages/resources/devicesettings/
+   * packages/services/Telephony/
+
+====================
+     07-22-2017
+====================
+
+   * frameworks/base/
+813a957  Remove more Cclock traces  [jhenrique09]
+c5c700d  Revert "Handle application crash in new thread."  [jhenrique09]
+5ed08a8  OmniStyle: Add default header pack  [jhenrique09]
+1421d5a  Brightness control on footer  [jhenrique09]
+   * hardware/qcom/media-caf/msm8994/
+a21d861  Merge "mm-video-v4l2: Protect buffer lifecycle with lock"  [Gerrit - the friendly Code Review server]
+   * manifest/
+fe8332f  Switch to gitlab  [jhenrique09]
+068974e  Changes for ViperOS  [jhenrique09]
+   * packages/apps/EmergencyInfo/
+f707086  EmergencyInfo: Viper Color Engine  [jhenrique09]
+   * packages/apps/Jelly/
+b8270d7  Jelly: Allow to display pages in full screen mode  [Gabriele M]
+   * packages/apps/Settings/
+37ea80c  DevSettings: Remove kill_app_longpress_back from here  [jhenrique09]
+
+====================
+     07-21-2017
+====================
+
+   * build/
+306307b  Add raise_error param on GetBuildProp method Some devices may not have a specific parameter, so don't let the build fails  [jhenrique09]
+0aae3d4  Add hardware & software information to flash script  [jhenrique09]
+   * device/lenovo/A6020/
+b551cec  A6020: Add LenovoDoze package  [BlueReptile]
+   * frameworks/native/
+2702d8c  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/apps/CMParts/
+e8154ee  CMParts: Add UPDATE_POWER_MENU protected-broadcast  [jhenrique09]
+   * packages/apps/Jelly/
+54d8d10  Jelly: Remove unused variable in SearchBarController  [Luca Stefani]
+063d6a9  Jelly: Use proper popup background attr  [Luca Stefani]
+ca27881  Jelly: Add "search in page" feature  [Luca Stefani]
+   * packages/apps/MusicFX/
+e55145d  Revert "Use pixel icon"  [jhenrique09]
+77df83a  MusicFX: Viper Color Engine  [jhenrique09]
+   * packages/services/ThemeInterfacer/
+019f9ef  JobService: Use a ContentObserver to check for force authorisation of packages  [jhenrique09]
+   * system/sepolicy/
+a483e5a  sepolicy: More tmpfs denial fixes  [jhenrique09]
+5204b5e  Fix denials of tmpfs  [jhenrique09]
+fe9bc86  interfacer: Allow interfacer to find content_service  [jhenrique09]
+
+====================
+     07-20-2017
+====================
+
+   * frameworks/opt/setupwizard/
+e0795c7  Theme improvements  [jhenrique09]
+   * hardware/qcom/media-caf/msm8994/
+70174f0  mm-video-v4l2: venc: Protect buffer from being freed while accessing  [Gerrit - the friendly Code Review server]
+   * packages/apps/CellBroadcastReceiver/
+92f4492  CellBroadcastReceiver: Viper Color Engine  [jhenrique09]
+   * packages/apps/ContactsCommon/
+91b6217  Theme improvements  [jhenrique09]
+
+====================
+     07-19-2017
+====================
+
+   * build/
+04317f6  makefile: Typo  [Henrique Silva]
+   * frameworks/base/
+351d6a3  [1/2] Color engine: Rename resources  [jhenrique09]
+13a0280d  ColorEngine: Move to vendor  [jhenrique09]
+   * hardware/qcom/fm/
+165ef42  FM: Use some sane colors  [Arne Coucheron]
+   * hardware/qcom/media-caf/msm8994/
+2343434  mm-video-v4l2: Protect buffer lifecycle with lock  [Sanjay Singh]
+   * packages/apps/Calendar/
+646143e  Calendar: Viper Color Engine  [jhenrique09]
+   * packages/apps/Contacts/
+cf22097  Contacts:  Viper Color Engine  [jhenrique09]
+   * packages/apps/Dialer/
+c33bb69  Dialer: Viper Color Engine  [jhenrique09]
+   * packages/apps/Messaging/
+22b0b9a  Messaging: Viper Color Engine  [jhenrique09]
+   * packages/apps/Settings/
+aa7915a  Settings: Viper Color Engine  [jhenrique09]
+   * packages/apps/ViperOTA/
+9afd189  Icons: Fix accent  [jhenrique09]
+2cda6d3  ViperOTA: Viper Color Engine  [jhenrique09]
+   * packages/services/Car/
+59d1c7d  Car: Viper Color Engine  [jhenrique09]
+   * packages/services/Telecomm/
+6a42850  Fix icon color  [jhenrique09]
+f35d997  Telecomm: Viper Color Engine  [jhenrique09]
+   * packages/services/Telephony/
+9ec1169  Telephony: Viper Color Engine  [jhenrique09]
+
+====================
+     07-18-2017
+====================
+
+   * frameworks/base/
+b17affe  Fix dimension of headers  [JBCDroid2]
+ae7ca3a  More fixes on colors  [jhenrique09]
+66118b7  Connectivity: Fix format arguments  [jhenrique09]
+3192746  Fix build  [jhenrique09]
+5ff5702  ScreenCap : Add jpeg support  [jhenrique09]
+f2c767c  Hiding membar, memtext and fab on drag start  [jhenrique09]
+d9d681d  Fix keyguard prompt reason showing with fingerprint reboot enabled  [jhenrique09]
+   * hardware/qcom/media-caf/msm8916/
+508bb0e  mm-video-v4l2: Protect buffer lifecycle with lock  [Gerrit - the friendly Code Review server]
+   * packages/apps/Settings/
+d35ed2b  Ambient display: Fix switch flickering  [jhenrique09]
+6c3e227  Theming: More fixes  [jhenrique09]
+   * vendor/viper/
+e3cc1ab  envsetup: Fix derps  [jhenrique09]
+
+====================
+     07-17-2017
+====================
+
+   * android/
+7e460b7  Remove ahbottomnavigation  [Luca Stefani]
+   * manifest/
+7e460b7  Remove ahbottomnavigation  [Luca Stefani]
+   * packages/apps/CMParts/
+8c8ce7f  Theme improvements  [jhenrique09]
+   * packages/apps/Settings/
+0180580  OTA preference: Change title and summary  [jhenrique09]
+91268d5  Lockscreen quick unlock: Show an alert when enabled  [jhenrique09]
+   * packages/apps/Venom/
+2a18efe  Fix color on venom icon  [jhenrique09]
+e529ae6  Maintainer section: Rework * Grab from devices.json  [jhenrique09]
+2fc475d  Lockscreen blur: Fix  Missing summary  [jhenrique09]
+16544b6  Settings:Allow Device to set default value for hw keys light up[2/2]  [jhenrique09]
+5dbdab0  Settings: make hw keys light up user configurable [2/2]  [jhenrique09]
+
+====================
+     07-16-2017
+====================
+
+   * frameworks/base/
+2c73afa  This is our style [2/7]  [jhenrique09]
+b9fa7fa  [SQUASHED] Revert old theme engine  [jhenrique09]
+ecb45a0  Navigation bar: Remove CM leftovers  [jhenrique09]
+d6e6d4e  policy: refact navigation bar configs and defaults  [jhenrique09]
+   * frameworks/native/
+b4b7f41  This is our style [7/7]  [jhenrique09]
+   * hardware/qcom/audio-caf/msm8996/
+f8fcd59  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD  [Luca Stefani]
+   * hardware/qcom/display-caf/msm8996/
+3005091  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD  [Luca Stefani]
+   * hardware/qcom/media-caf/msm8996/
+0273a64  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD  [Luca Stefani]
+   * packages/apps/Settings/
+a31272c  Build okhttp and okio  [jhenrique09]
+55b1af3  This is our style [1/7]  [jhenrique09]
+
+====================
+     07-15-2017
+====================
+
+   * build/
+05e2087  core: Makefile: Correct package signature disable  [jhenrique09]
+237501c  core: assume non-release recoveries to skip signature check  [jhenrique09]
+bdd8c9e  core: use 0 compression when creating the target_files package  [jhenrique09]
+7050f0f  releasetools: silence binary info printed by blockimgdiff  [jhenrique09]
+c8687e8  Create 0 compression ratio jar files  [jhenrique09]
+   * development/
+7583cac  This is our style [3/7]  [BirdmanJ]
+   * frameworks/base/
+15a7a0e  Revert "Immersive Recents [1/2]"  [jhenrique09]
+85e325e  wifi_auth_password_wrong: Make translatable  [jhenrique09]
+12db354  Reporting FULL_WAKE_LOCK to battery stats.  [jhenrique09]
+830d373  Fix Android Services Library crash  [jhenrique09]
+d6b28e8  framework: shorten wait time for shutdown time optimization  [jhenrique09]
+c827dc5  Fix wrong array index bound in NotificationUsageStats  [jhenrique09]
+29129e6  SystemUI: Fix SystemUI Crash Issue  [jhenrique09]
+d1d2cca  PowerManagerService:Allow Device to set default value for hw keys light up[1/2]  [jhenrique09]
+96c8aad  Base: make button backlight light up user configurable [1/2]  [jhenrique09]
+afece4d  remove the lock-use for prunePrintService in case blocking main thread  [jhenrique09]
+9449721  Move screen on message to new thread  [jhenrique09]
+bd51019  FlashlightTile: Retry opening camera later on if it failed before  [jhenrique09]
+c61535a  aapt: enforce 0 compression  [jhenrique09]
+9e20d26  aapt: allow opting out of uncompressed aapt  [jhenrique09]
+3c8e657  fingerprint: Speed up wake-and-unlock scenario  [jhenrique09]
+39fdfe6  SystemUI: Fix Notification Background Color Issue  [jhenrique09]
+725d227  SoundPool: decrease binder call when calling SoundPool.play  [jhenrique09]
+e382a87  PowerManagerService: add a config to light up buttons only when pressed  [jhenrique09]
+f37d09f  SystemUI: Fix heads up tile off color  [jhenrique09]
+d7f941e  Added show volume panel tile to QS  [jhenrique09]
+4e47b10  SystemUI: add USB Tether tile  [jhenrique09]
+38b35bf  QS: add Sync tile (1/2)  [jhenrique09]
+5109679  SystemUI: Add heads up tile (1/2)  [jhenrique09]
+dd685cf  SystemUI: add caffeine qs tile (1/2)  [jhenrique09]
+b6225df  SystemUI: Readd AmbientDisplayTile.  [jhenrique09]
+0dbf84b  SystemUI: Add adb over network tile  [jhenrique09]
+   * frameworks/native/
+d461e7a  Surface: Use async lock/unlock in copyBlt  [Arne Coucheron]
+c8aefcf  Surface: Ensure synchronisation of copyBlt  [Arne Coucheron]
+a3b93a7  surfaceflinger: Validate setposition parameters  [Arne Coucheron]
+96d3138  sf: Fix GPU coordinates computation.  [Arne Coucheron]
+0adab82  sf: Limit co-ordinates difference fix for high res panel  [Arne Coucheron]
+db0e94b  surfaceflinger: Fix continuous SF dump.  [Arne Coucheron]
+   * frameworks/support/
+461724f  This is our style [4/7]  [BirdmanJ]
+   * packages/apps/Contacts/
+e126fde  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/apps/ContactsCommon/
+2e758e0  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/apps/Dialer/
+468f092  Make translatable  [jhenrique09]
+d6987c0  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/apps/FMRadio/
+e042534  Make translatable  [jhenrique09]
+   * packages/apps/Jelly/
+4d40bf7  Jelly: Remove unneeded parameter type in addResult  [Luca Stefani]
+69f2dad  Jelly: Remove redundant character escape  [Luca Stefani]
+55f3a05  Jelly: Make suggestion provider "None" translatable  [Luca Stefani]
+c3794c5  Hide Sheet Menu after clicking on an entry  [Luca Stefani]
+4e7e82e  Jelly: Query an already ordered favorite list  [Luca Stefani]
+   * packages/apps/Messaging/
+8fe0bcc  Cleanup  [jhenrique09]
+65c5989  Add 'new message' shortcut using the API introduced in sdk25  [jhenrique09]
+   * packages/apps/PhoneCommon/
+d9d064f  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/apps/Settings/
+9cc0808  Change internal shared storage icon/progress bar color  [jhenrique09]
+6d034cb  Add dynamic dashboard summary  [jhenrique09]
+fd0d59f  Correctly align cursor in DPI settings (smallest width)  [jhenrique09]
+f62689c  Correctly align cursor in renaming BT device  [jhenrique09]
+1df406c  Bring back some physical keyboard settings  [jhenrique09]
+   * packages/apps/Venom/
+166d6f3  Revert "Immersive Recents [2/2]"  [jhenrique09]
+1a91bec  Merge remote-tracking branch 'github/nougat' into HEAD  [jhenrique09]
+   * packages/providers/ContactsProvider/
+17996d8  Cleanup  [jhenrique09]
+   * packages/services/OmniJaws/
+814e367  Rename few strings to weather_conditions  [jhenrique09]
+d5006f4  LockClock: Import lock screen translations from LOS  [jhenrique09]
+   * packages/services/Telecomm/
+c370f6a  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * packages/services/Telephony/
+06096d3  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * system/core/
+f43d9fc  Merge remote-tracking branch 'los/cm-14.1' into nougat  [jhenrique09]
+   * vendor/cmsdk/
+   * vendor/viper/
+3d83b9f  qcom: Enable TARGET_USES_QCOM_MM_AUDIO  [jhenrique09]
+63c3908  repopick: don't bail on drafts  [jhenrique09]
+2e1046c  sensitive_pn: Enter full list of Indian MCC codes  [jhenrique09]
+4994efa  sensitive_pn: Enter full list of GB MCC codes  [jhenrique09]
+849cc74  sensitive_pn: Enter full list of US MCC codes  [jhenrique09]
+b36ce2f  Add LTE support for China Telecom Macau.  [jhenrique09]
+6ed1df0  Revert "cm: build custom tiles app"  [jhenrique09]
+5e012a7  qcom_utils: Cleanup supported QCOM_BOARD_PLATFORMS  [jhenrique09]
+b7120fa  build: qcom_target: Define MASTER_SIDE_CP_TARGET_LIST  [jhenrique09]
+ddfc5f6  Change devices repo name  [jhenrique09]
+
+====================
+     07-14-2017
+====================
+
+   * packages/apps/Snap/
+5c51d47  Revert some permissions related changes  [Arne Coucheron]
+
